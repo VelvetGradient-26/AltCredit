@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#ffffff","secondary-fixed-dim":"#bec6e0","secondary-container":"#dae2fd","outline-variant":"#bbcabf","secondary-fixed":"#dae2fd","error-container":"#ffdad6","surface-tint":"#006c49","on-secondary":"#ffffff","tertiary-fixed-dim":"#ffb95f","tertiary-fixed":"#ffddb8","surface-dim":"#cbdbf5","on-surface":"#0b1c30","primary-fixed-dim":"#4edea3","inverse-on-surface":"#eaf1ff","primary":"#006c49","on-secondary-container":"#5c647a","on-primary-fixed-variant":"#005236","on-error":"#ffffff","on-primary-container":"#00422b","surface-bright":"#f8f9ff","outline":"#6c7a71","background":"#f8f9ff","tertiary":"#855300","on-primary":"#ffffff","surface-variant":"#d3e4fe","error":"#ba1a1a","on-surface-variant":"#3c4a42","inverse-primary":"#4edea3","inverse-surface":"#213145","surface-container":"#e5eeff","on-tertiary":"#ffffff","on-secondary-fixed-variant":"#3f465c","surface":"#f8f9ff","on-background":"#0b1c30","tertiary-container":"#e29100","primary-container":"#10b981","on-tertiary-fixed":"#2a1700","on-tertiary-fixed-variant":"#653e00","surface-container-low":"#eff4ff","surface-container-highest":"#d3e4fe","on-primary-fixed":"#002113","on-secondary-fixed":"#131b2e","on-tertiary-container":"#523200","on-error-container":"#93000a","surface-container-high":"#dce9ff","primary-fixed":"#6ffbbe","secondary":"#565e74"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","gutter-mobile":"1rem","space-xl":"2.5rem","gutter":"1.5rem","margin-mobile":"1rem","margin":"2rem","space-lg":"1.5rem","space-md":"1rem","space-xs":"0.25rem"},fontFamily:{"body-md":["Inter"],"label-md":["Inter"],"label-sm":["Inter"],"display-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"display-md-mobile":["Plus Jakarta Sans"],"score-metric":["Plus Jakarta Sans"],"title-md":["Inter"],"body-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"]},fontSize:{"body-md":["15px",{lineHeight:"22px",letterSpacing:"0em",fontWeight:"400"}],"label-md":["13px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"600"}],"display-md":["44px",{lineHeight:"52px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-sm":["13px",{lineHeight:"18px",letterSpacing:"0.005em",fontWeight:"400"}],"display-md-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}],"score-metric":["64px",{lineHeight:"64px",letterSpacing:"-0.04em",fontWeight:"800"}],"title-md":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"0em",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-lg-mobile":["40px",{lineHeight:"48px",letterSpacing:"-0.025em",fontWeight:"700"}],"headline-lg-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.015em",fontWeight:"600"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-lg":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-low z-50 flex flex-col justify-between py-6 px-4 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col gap-6"><div class="flex items-center gap-3 px-3"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary font-display-md text-headline-sm font-bold shadow-sm">A</div><div class="flex flex-col"><span class="font-headline-sm text-title-md font-bold tracking-tight text-on-surface">ALTcredit</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Lender Portal</span></div></div><div class="p-3 bg-surface-container rounded-xl flex flex-col gap-2"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Capital Pool Allocation</span><span class="font-label-sm text-label-sm text-primary font-bold">42%</span></div><div class="w-full bg-surface-container-highest rounded-full h-1.5 overflow-hidden"><div class="bg-primary h-1.5 rounded-full" style="width: 42%"></div></div><div class="flex items-center justify-between font-label-sm text-label-sm"><span class="text-on-surface font-semibold">$4.2M</span><span class="text-on-surface-variant">$10M Cap</span></div></div><nav class="flex flex-col gap-1.5" data-active-classes="bg-primary text-on-primary font-title-md rounded-xl"><a class="flex items-center px-3.5 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-title-md text-body-sm" data-path="candidate-search-and-pipeline" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">group_search</span>Candidate Search &amp; Pipeline</a><a class="flex items-center justify-between px-3.5 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-title-md text-body-sm" data-path="active-offer-campaigns" href="#"><div class="flex items-center"><span class="material-symbols-outlined mr-3 text-[20px]">campaign</span>Active Offer Campaigns</div><span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">6</span></a><a class="flex items-center px-3.5 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-title-md text-body-sm" data-path="dispatched-offers-and-conversions" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">send_and_archive</span>Dispatched &amp; Conversions</a><a class="flex items-center px-3.5 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-title-md text-body-sm" data-path="underwriting-analytics" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">analytics</span>Underwriting Analytics</a></nav></div><div class="flex flex-col gap-3 px-2"><div class="p-3 bg-surface rounded-xl flex items-center justify-between shadow-[0_1px_4px_rgba(0,0,0,0.03)]"><div class="flex items-center gap-2.5 overflow-hidden"><div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container flex-shrink-0"><span class="material-symbols-outlined text-[18px]">domain</span></div><div class="flex flex-col min-w-0"><span class="font-label-md text-label-md text-on-surface truncate">Apex Horizon</span><span class="font-label-sm text-label-sm text-primary truncate">Verified MFI Tier 1</span></div></div><span class="material-symbols-outlined text-outline text-[18px]">verified_user</span></div><a class="flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl text-error hover:bg-error-container hover:text-on-error-container font-label-md text-label-md transition-colors" data-path="institution-login" href="#"><span class="material-symbols-outlined text-[18px]">logout</span>Institutional Logout</a></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-8"><div class="flex items-center gap-4 flex-1 max-w-lg"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full pl-10 pr-4 py-2 bg-surface-container-lowest rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" placeholder="Search applicants, tax IDs, risk brackets, or credit tokens..." type="text"/></div></div><div class="flex items-center gap-5"><div class="flex items-center gap-2 px-3 py-1.5 bg-surface-container rounded-full"><span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface font-medium">TrustLend Institutional Core</span></div><button class="relative p-2 rounded-full hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-error"></span></button><div class="h-6 w-px bg-outline-variant"></div><div class="flex items-center gap-3"><div class="flex flex-col text-right"><span class="font-label-md text-label-md text-on-surface">Julian Thorne</span><span class="font-label-sm text-label-sm text-on-surface-variant">Chief Risk Officer</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="relative pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full min-w-0 text-on-surface">
+<!-- Top Command & Perspective Switcher Bar -->
+<div class="w-full bg-surface-container-lowest px-8 py-5 shadow-sm">
+<div class="flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm">
+<span class="material-symbols-outlined text-[22px]">account_balance</span>
+</div>
+<div>
+<div class="flex items-center gap-2.5">
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">AltCredit Institutional Desk</span>
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm" id="institution-badge">Apex Horizon Capital</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2 mt-0.5">
+<span>Pool: <strong class="text-on-surface font-title-md">$4.2M / $10M (42%)</strong> Allocated</span>
+<span class="text-outline-variant">•</span>
+<span class="inline-flex items-center gap-1 text-primary font-medium">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+              FCRA § 1681 Blind Enclave Active
+            </span>
+</p>
+</div>
+</div>
+<!-- Quick View Modes / Interactive Tabs -->
+<div class="flex items-center gap-2 bg-surface-container-low p-1.5 rounded-xl">
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm flex items-center gap-2" id="tab-pipeline" onclick="switchMainView('pipeline')">
+<span class="material-symbols-outlined text-[18px]">table_rows</span>
+          Pipeline Table
+        </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md transition-all text-on-surface-variant hover:text-on-surface hover:bg-surface-container flex items-center gap-2" id="tab-dossier" onclick="openRiskDrawer('USR_017', 761, 'Prime Tier', '$3,850/mo', '14%', '28 mos')">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+          Risk Dossier Demo
+        </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md transition-all text-on-surface-variant hover:text-on-surface hover:bg-surface-container flex items-center gap-2" id="tab-dispatch" onclick="openDispatchModal('USR_017', 761)">
+<span class="material-symbols-outlined text-[18px]">send</span>
+          Dispatch Modal Demo
+        </button>
+<button class="px-4 py-2 rounded-lg font-label-md text-label-md transition-all text-on-surface-variant hover:text-on-surface hover:bg-surface-container flex items-center gap-2" id="tab-inst" onclick="toggleInstModal()">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+          Switch Tenant
+        </button>
+</div>
+</div>
+</div>
+<div class="px-8 py-6 space-y-6">
+<!-- Top Metrics KPI Row -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Qualified Candidate Pool</span>
+<div class="mt-2 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface">500</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center">
+<span class="material-symbols-outlined text-[16px]">trending_up</span> +12% this wk
+              </span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">groups</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Alternative models indexed</span>
+<span class="font-title-md text-on-surface font-semibold">100% anonymized</span>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Filtered Matches</span>
+<div class="mt-2 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-primary" id="filtered-count">184</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">of 500 active</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Acceptance probability</span>
+<span class="font-title-md text-primary font-semibold">88.4% fit score</span>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Dispatched Offers</span>
+<div class="mt-2 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface">42</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">31.4% Conv.</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">outbox</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Awaiting candidate review</span>
+<span class="font-title-md text-on-surface font-semibold">18 pendings</span>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Available Capital Underwriting</span>
+<div class="mt-2 flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface">$5.8M</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Remaining</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Max single offer threshold</span>
+<span class="font-title-md text-on-surface font-semibold">$35,000</span>
+</div>
+</div>
+</div>
+<!-- Main Dynamic Content Workspace (Split Sidebar + Candidate Table) -->
+<div class="grid grid-cols-12 gap-6 items-start">
+<!-- Left Sourcing & Underwriting Filter Panel -->
+<aside class="col-span-12 lg:col-span-4 xl:col-span-3 bg-surface-container-lowest p-6 rounded-2xl shadow-sm space-y-6">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">filter_alt</span>
+<h2 class="font-title-md text-title-md font-bold text-on-surface">Sourcing Rules</h2>
+</div>
+<button class="font-label-sm text-label-sm text-outline hover:text-on-surface transition-colors" onclick="resetFilters()">Reset</button>
+</div>
+<!-- Token Search Input -->
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Candidate Token ID</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[18px]">search</span>
+<input class="w-full pl-9 pr-3 py-2 bg-surface-container-low text-on-surface placeholder:text-outline rounded-xl font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="filter-search" oninput="applyFilters()" placeholder="e.g. USR_017 or #a3..." type="text"/>
+</div>
+</div>
+<!-- Credit Score Range Dual Slider -->
+<div class="space-y-3">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant uppercase tracking-wider">AltCredit Score Floor</span>
+<span class="font-title-md text-primary font-bold" id="score-readout">650 – 1000</span>
+</div>
+<input class="w-full accent-primary cursor-pointer" id="score-slider" max="850" min="400" oninput="updateScoreFilter(this.value)" type="range" value="650"/>
+<div class="flex justify-between font-label-sm text-label-sm text-outline">
+<span>400 (High Risk)</span>
+<span>650 (Med)</span>
+<span>850+ (Prime)</span>
+</div>
+</div>
+<!-- Risk Tier Filters -->
+<div class="space-y-2">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Qualifying Tiers</label>
+<div class="space-y-2">
+<label class="flex items-center justify-between p-2 rounded-xl hover:bg-surface-container-low cursor-pointer transition-colors">
+<div class="flex items-center gap-2.5">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="applyFilters()" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Prime Tier (750+)</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">Low Risk</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-xl hover:bg-surface-container-low cursor-pointer transition-colors">
+<div class="flex items-center gap-2.5">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="applyFilters()" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Near-Prime (650-749)</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Moderate</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-xl hover:bg-surface-container-low cursor-pointer transition-colors">
+<div class="flex items-center gap-2.5">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="applyFilters()" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Sub-Prime (550-649)</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Watchlist</span>
+</label>
+</div>
+</div>
+<!-- Employment & Income -->
+<div class="space-y-4">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Employment Persona</label>
+<div class="flex flex-wrap gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm">All Types</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-sm text-label-sm">Gig Platform</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-sm text-label-sm">Contractor</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-sm text-label-sm">Salaried</button>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Min Inflow</span>
+<span class="font-title-md text-on-surface font-semibold" id="income-readout">$2,500/mo</span>
+</div>
+<input class="w-full accent-primary cursor-pointer" max="8000" min="1000" oninput="document.getElementById('income-readout').textContent = '$' + Number(this.value).toLocaleString() + '/mo'" step="250" type="range" value="2500"/>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Min Track Record</span>
+<span class="font-title-md text-on-surface font-semibold" id="tenure-readout">12+ Months</span>
+</div>
+<input class="w-full accent-primary cursor-pointer" max="36" min="3" oninput="document.getElementById('tenure-readout').textContent = this.value + '+ Months'" step="1" type="range" value="12"/>
+</div>
+</div>
+<!-- Safeguards & Hard Rules -->
+<div class="space-y-2.5 pt-2">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Mandatory Underwriting Guards</label>
+<label class="flex items-center gap-2.5 p-2 rounded-xl bg-surface-container-low cursor-pointer">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Emergency Buffer (≥60 Days)</span>
+</label>
+<label class="flex items-center gap-2.5 p-2 rounded-xl bg-surface-container-low cursor-pointer">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Clean 24mo Delinquency</span>
+</label>
+<label class="flex items-center gap-2.5 p-2 rounded-xl bg-surface-container-low cursor-pointer">
+<input checked="" class="w-4 h-4 rounded text-primary accent-primary" type="checkbox"/>
+<span class="font-label-sm text-label-sm text-on-surface">Telco &amp; Utility Autopay ≥ 85%</span>
+</label>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary font-title-md text-title-md rounded-xl hover:opacity-95 shadow-sm transition-all flex items-center justify-center gap-2" onclick="applyFilters()">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+          Apply Filters (184 Matches)
+        </button>
+</aside>
+<!-- Right Candidate Anonymized Data Pipeline Table -->
+<section class="col-span-12 lg:col-span-8 xl:col-span-9 bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden flex flex-col">
+<!-- Table Toolbar & Bulk Operations -->
+<div class="p-6 bg-surface-container-low flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-lowest shadow-sm">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" id="select-all" onchange="toggleSelectAll(this)" type="checkbox"/>
+<label class="font-label-sm text-label-sm text-on-surface cursor-pointer select-none" for="select-all">Select All Displayed</label>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium" id="selected-counter">2 Candidates Selected</span>
+</div>
+<div class="flex items-center gap-3">
+<button class="px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:opacity-95 shadow-sm transition-all flex items-center gap-2" onclick="bulkPushOffer()">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+              Create Bulk Push Campaign (<span id="bulk-btn-count">2</span>)
+            </button>
+<button class="p-2 rounded-xl bg-surface-container-lowest text-on-surface-variant hover:text-on-surface shadow-sm transition-colors" onclick="exportAuditLedger()">
+<span class="material-symbols-outlined text-[20px]">download</span>
+</button>
+</div>
+</div>
+<!-- Master Table View -->
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-3.5 px-4 w-12 text-center"></th>
+<th class="py-3.5 px-4">Candidate ID</th>
+<th class="py-3.5 px-4">AltCredit Score</th>
+<th class="py-3.5 px-4">Cash Inflow &amp; DTI</th>
+<th class="py-3.5 px-4">Tenure</th>
+<th class="py-3.5 px-4">Discipline</th>
+<th class="py-3.5 px-4 text-right">Underwrite Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container" id="candidate-rows">
+<!-- Candidate Row 1 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-4 px-4 text-center">
+<input checked="" class="row-checkbox w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="updateSelectedCount()" type="checkbox"/>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-title-md font-semibold text-on-surface">USR_017</span>
+<button class="text-outline hover:text-primary transition-colors" onclick="copyToClipboard('USR_017', this)" title="Copy Anonymized ID">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-mono">#a3a71f63</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm font-bold text-primary">761</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">Prime</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Top 8% of pool</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md font-semibold text-on-surface">$3,850<span class="text-outline text-label-sm">/mo</span></div>
+<span class="font-label-sm text-label-sm text-primary">DTI: 14% (Ultra-Healthy)</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md text-on-surface font-medium">28 mos</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Gig Platform</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 text-primary font-medium">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>99% On-time</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">0 Delinquency in 24m</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openRiskDrawer('USR_017', 761, 'Prime Tier', '$3,850/mo', '14%', '28 mos')">
+<span class="material-symbols-outlined text-[16px]">assessment</span>
+                      Evaluate
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary hover:opacity-90 font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openDispatchModal('USR_017', 761)">
+<span class="material-symbols-outlined text-[16px]">send</span>
+                      Push Offer
+                    </button>
+</div>
+</td>
+</tr>
+<!-- Candidate Row 2 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-4 px-4 text-center">
+<input checked="" class="row-checkbox w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="updateSelectedCount()" type="checkbox"/>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-title-md font-semibold text-on-surface">USR_042</span>
+<button class="text-outline hover:text-primary transition-colors" onclick="copyToClipboard('USR_042', this)" title="Copy Anonymized ID">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-mono">#b8801d99</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm font-bold text-on-surface">724</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Near-Prime</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Top 19% of pool</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md font-semibold text-on-surface">$4,200<span class="text-outline text-label-sm">/mo</span></div>
+<span class="font-label-sm text-label-sm text-primary">DTI: 18% (Stable)</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md text-on-surface font-medium">41 mos</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Independent Contractor</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 text-primary font-medium">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>96% On-time</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">0 Delinquency in 24m</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openRiskDrawer('USR_042', 724, 'Near-Prime Tier', '$4,200/mo', '18%', '41 mos')">
+<span class="material-symbols-outlined text-[16px]">assessment</span>
+                      Evaluate
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary hover:opacity-90 font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openDispatchModal('USR_042', 724)">
+<span class="material-symbols-outlined text-[16px]">send</span>
+                      Push Offer
+                    </button>
+</div>
+</td>
+</tr>
+<!-- Candidate Row 3 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-4 px-4 text-center">
+<input class="row-checkbox w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="updateSelectedCount()" type="checkbox"/>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-title-md font-semibold text-on-surface">USR_089</span>
+<button class="text-outline hover:text-primary transition-colors" onclick="copyToClipboard('USR_089', this)" title="Copy Anonymized ID">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-mono">#c4412e12</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm font-bold text-on-surface">688</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Near-Prime</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Top 32% of pool</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md font-semibold text-on-surface">$2,950<span class="text-outline text-label-sm">/mo</span></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">DTI: 22% (Normal)</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md text-on-surface font-medium">19 mos</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Freelance Design</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 text-primary font-medium">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>92% On-time</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">0 Delinquency in 24m</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openRiskDrawer('USR_089', 688, 'Near-Prime Tier', '$2,950/mo', '22%', '19 mos')">
+<span class="material-symbols-outlined text-[16px]">assessment</span>
+                      Evaluate
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary hover:opacity-90 font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openDispatchModal('USR_089', 688)">
+<span class="material-symbols-outlined text-[16px]">send</span>
+                      Push Offer
+                    </button>
+</div>
+</td>
+</tr>
+<!-- Candidate Row 4 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-4 px-4 text-center">
+<input class="row-checkbox w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="updateSelectedCount()" type="checkbox"/>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-title-md font-semibold text-on-surface">USR_103</span>
+<button class="text-outline hover:text-primary transition-colors" onclick="copyToClipboard('USR_103', this)" title="Copy Anonymized ID">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-mono">#f09912aa</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm font-bold text-tertiary">615</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Sub-Prime</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Moderate Risk</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md font-semibold text-on-surface">$2,400<span class="text-outline text-label-sm">/mo</span></div>
+<span class="font-label-sm text-label-sm text-tertiary">DTI: 31% (Elevated)</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md text-on-surface font-medium">14 mos</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Courier / Rideshare</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 text-tertiary font-medium">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span>84% On-time</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">1 late (30d) in 18m</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openRiskDrawer('USR_103', 615, 'Sub-Prime Tier', '$2,400/mo', '31%', '14 mos')">
+<span class="material-symbols-outlined text-[16px]">assessment</span>
+                      Evaluate
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary hover:opacity-90 font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openDispatchModal('USR_103', 615)">
+<span class="material-symbols-outlined text-[16px]">send</span>
+                      Push Offer
+                    </button>
+</div>
+</td>
+</tr>
+<!-- Candidate Row 5 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-4 px-4 text-center">
+<input class="row-checkbox w-4 h-4 rounded text-primary accent-primary cursor-pointer" onchange="updateSelectedCount()" type="checkbox"/>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-title-md font-semibold text-on-surface">USR_156</span>
+<button class="text-outline hover:text-primary transition-colors" onclick="copyToClipboard('USR_156', this)" title="Copy Anonymized ID">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+</button>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-mono">#901bc093</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm font-bold text-primary">780</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">Prime</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Top 3% of pool</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md font-semibold text-on-surface">$5,600<span class="text-outline text-label-sm">/mo</span></div>
+<span class="font-label-sm text-label-sm text-primary">DTI: 11% (Elite)</span>
+</td>
+<td class="py-4 px-4">
+<div class="font-title-md text-on-surface font-medium">53 mos</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Senior Tech Contractor</span>
+</td>
+<td class="py-4 px-4">
+<div class="flex items-center gap-1.5 text-primary font-medium">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>100% On-time</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Flawless record</span>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="flex items-center justify-end gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openRiskDrawer('USR_156', 780, 'Prime Tier', '$5,600/mo', '11%', '53 mos')">
+<span class="material-symbols-outlined text-[16px]">assessment</span>
+                      Evaluate
+                    </button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary hover:opacity-90 font-label-sm text-label-sm transition-colors flex items-center gap-1" onclick="openDispatchModal('USR_156', 780)">
+<span class="material-symbols-outlined text-[16px]">send</span>
+                      Push Offer
+                    </button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Pagination Footer -->
+<div class="p-4 bg-surface-container-low flex flex-wrap items-center justify-between gap-4">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Showing <strong class="text-on-surface">1 – 5</strong> of 184 filtered underwriting profiles</span>
+<div class="flex items-center gap-1.5">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors disabled:opacity-50" disabled="">Previous</button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm">1</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors">2</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors">3</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors">...</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors">37</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm transition-colors">Next</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- RISK DOSSIER DRAWER (Slide-over component) -->
+<div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 transition-opacity hidden" id="risk-drawer-backdrop" onclick="closeRiskDrawer()"></div>
+<aside class="fixed right-0 top-0 bottom-0 w-full max-w-xl bg-surface-container-lowest shadow-2xl z-50 transform translate-x-full transition-transform duration-300 overflow-y-auto flex flex-col justify-between" id="risk-drawer">
+<div>
+<!-- Drawer Header -->
+<div class="p-6 bg-surface-container-low flex items-start justify-between">
+<div>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">Risk Dossier</span>
+<span class="px-2.5 py-0.5 rounded-lg bg-primary-fixed text-on-primary-fixed font-title-md font-bold" id="drawer-user-id">USR_017</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5 mt-1">
+<span class="material-symbols-outlined text-primary text-[16px]">verified_user</span>
+            PII Masked • Real-Time Scoring Engine
+          </p>
+</div>
+<button class="p-2 rounded-full hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" onclick="closeRiskDrawer()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Core Score Dial Visualization -->
+<div class="p-6 space-y-6">
+<div class="p-6 rounded-2xl bg-surface-container-low flex items-center justify-between">
+<div class="space-y-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">AltCredit Score Metric</span>
+<div class="flex items-baseline gap-2">
+<span class="font-score-metric text-score-metric font-extrabold text-primary" id="drawer-score">761</span>
+<span class="font-title-md text-title-md text-outline">/ 1000</span>
+</div>
+<div class="inline-flex px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md" id="drawer-tier-chip">
+              Prime Advantage
+            </div>
+</div>
+<!-- Score Dial SVG -->
+<div class="relative w-28 h-28 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-highest" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-primary transition-all duration-1000" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="76, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm text-outline">Risk Factor</span>
+<span class="font-title-md text-title-md font-bold text-on-surface">Low</span>
+</div>
+</div>
+</div>
+<!-- 4-Pillar Score Breakdown -->
+<div class="space-y-4">
+<h3 class="font-title-md text-title-md font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">donut_large</span>
+            4-Pillar Underwriting Weights
+          </h3>
+<div class="space-y-3 font-body-sm text-body-sm">
+<!-- Pillar 1 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low space-y-1.5">
+<div class="flex justify-between font-label-md text-label-md">
+<span class="text-on-surface">Lifestyle &amp; Residence Stability</span>
+<span class="text-primary font-bold">230 / 350 pts (66%)</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 66%"></div>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low space-y-1.5">
+<div class="flex justify-between font-label-md text-label-md">
+<span class="text-on-surface">Spending Behavior &amp; Outflow Discipline</span>
+<span class="text-primary font-bold">235 / 350 pts (67%)</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 67%"></div>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low space-y-1.5">
+<div class="flex justify-between font-label-md text-label-md">
+<span class="text-on-surface">Repayment Discipline &amp; Bill Autopay</span>
+<span class="text-primary font-bold">480 / 570 pts (84%)</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 84%"></div>
+</div>
+</div>
+<!-- Pillar 4 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low space-y-1.5">
+<div class="flex justify-between font-label-md text-label-md">
+<span class="text-on-surface">Risk Mitigations &amp; Buffer Surplus</span>
+<span class="text-primary font-bold">+30 Net Bonus Pts</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2">
+<div class="bg-primary-container h-2 rounded-full" style="width: 90%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Explainable AI (XAI) Driver Ledger -->
+<div class="space-y-3">
+<h3 class="font-title-md text-title-md font-bold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">psychology</span>
+            XAI Credit Decision Drivers
+          </h3>
+<div class="space-y-2 font-body-sm text-body-sm">
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">add_circle</span>
+<p class="text-on-surface"><strong class="text-primary">+150 pts:</strong> 28 continuous months verified freelancing and platform inflow consistency.</p>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">add_circle</span>
+<p class="text-on-surface"><strong class="text-primary">+80 pts:</strong> 140 days liquid emergency reserve buffer maintained in depository accounts.</p>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">add_circle</span>
+<p class="text-on-surface"><strong class="text-primary">+40 pts:</strong> 99.2% utility and telecommunication autopay success record.</p>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary text-[18px] mt-0.5">warning</span>
+<p class="text-on-surface"><strong class="text-tertiary">-15 pts:</strong> Discretionary entertainment / dining outflow spike recorded in Q4.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Drawer Footer Action -->
+<div class="p-6 bg-surface-container-low flex items-center justify-between gap-4">
+<button class="px-5 py-2.5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" onclick="closeRiskDrawer()">
+        Dismiss
+      </button>
+<button class="flex-1 py-2.5 rounded-xl bg-primary text-on-primary font-title-md text-title-md hover:opacity-95 shadow-sm transition-all flex items-center justify-center gap-2" onclick="openDispatchFromDrawer()">
+<span class="material-symbols-outlined text-[18px]">send</span>
+        Dispatch Pre-Approved Offer
+      </button>
+</div>
+</aside>
+<!-- PUSH OFFER CAMPAIGN MODAL -->
+<div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 transition-opacity hidden" id="dispatch-modal-backdrop" onclick="closeDispatchModal()"></div>
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden" id="dispatch-modal">
+<div class="bg-surface-container-lowest w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[921px]">
+<!-- Modal Header -->
+<div class="p-6 bg-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Product Underwriting Conduit</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface flex items-center gap-2 mt-0.5">
+<span>Dispatch Offer to</span>
+<span class="text-primary" id="dispatch-modal-user">USR_017</span>
+</h3>
+</div>
+<button class="p-2 rounded-full hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" onclick="closeDispatchModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Modal Body -->
+<div class="p-6 space-y-5 overflow-y-auto">
+<!-- Success Alert banner (Hidden by default, triggered on dispatch) -->
+<div class="hidden p-4 rounded-xl bg-secondary-container text-on-secondary-container font-body-sm text-body-sm flex items-start gap-3" id="dispatch-success-banner">
+<span class="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+<div>
+<span class="font-title-md font-bold block">Offer Dispatched Successfully!</span>
+<span>Pre-approval notification sent to Candidate Secure Vault. Identity remains unmasked until contract finalization.</span>
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Select Pre-Approved Credit Product</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<label class="p-4 rounded-xl bg-surface-container-low cursor-pointer flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-title-md font-bold text-on-surface block">Prime Line</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Min Score: 750</span>
+</div>
+<input checked="" class="accent-primary w-4 h-4" name="credit-product" type="radio"/>
+</div>
+<span class="mt-3 font-title-md font-bold text-primary">10.50% APR</span>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low cursor-pointer flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-title-md font-bold text-on-surface block">Standard Flex</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Min Score: 650</span>
+</div>
+<input class="accent-primary w-4 h-4" name="credit-product" type="radio"/>
+</div>
+<span class="mt-3 font-title-md font-bold text-on-surface">18.00% APR</span>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low cursor-pointer flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-title-md font-bold text-on-surface block">Micro-Cap Loan</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Min Score: 550</span>
+</div>
+<input class="accent-primary w-4 h-4" name="credit-product" type="radio"/>
+</div>
+<span class="mt-3 font-title-md font-bold text-tertiary">17.00% PA</span>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low cursor-pointer flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-title-md font-bold text-on-surface block">Secured Starter</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Min Score: 350</span>
+</div>
+<input class="accent-primary w-4 h-4" name="credit-product" type="radio"/>
+</div>
+<span class="mt-3 font-title-md font-bold text-on-surface">12.00% APR</span>
+</label>
+</div>
+</div>
+<!-- Loan Terms Customizer -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Approved Credit Limit</label>
+<input class="w-full px-4 py-2.5 bg-surface-container-low rounded-xl text-on-surface font-title-md font-semibold focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" type="text" value="$10,000"/>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Special APR Override</label>
+<input class="w-full px-4 py-2.5 bg-surface-container-low rounded-xl text-on-surface font-title-md font-semibold focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" type="text" value="9.99% APR Promo"/>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Term Validity Duration</label>
+<select class="w-full px-4 py-2.5 bg-surface-container-low rounded-xl text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-sm">
+<option>14 Days (Standard)</option>
+<option>30 Days (Extended)</option>
+<option>48 Hours (Expedited Flash)</option>
+</select>
+</div>
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Lender Internal Audit Ref</label>
+<input class="w-full px-4 py-2.5 bg-surface-container-low text-outline font-mono text-body-sm rounded-xl" readonly="" type="text" value="APX-2026-Q1-MFI-017"/>
+</div>
+</div>
+</div>
+<!-- Modal Footer -->
+<div class="p-6 bg-surface-container-low flex items-center justify-end gap-3">
+<button class="px-5 py-2.5 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors" onclick="closeDispatchModal()">
+          Cancel
+        </button>
+<button class="px-6 py-2.5 rounded-xl bg-primary text-on-primary font-title-md text-title-md hover:opacity-95 shadow-sm transition-all flex items-center gap-2" id="send-dispatch-btn" onclick="executeDispatch()">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+          Send Pre-Approved Offer
+        </button>
+</div>
+</div>
+</div>
+<!-- INSTITUTION SWITCHER MODAL -->
+<div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 transition-opacity hidden" id="inst-modal-backdrop" onclick="toggleInstModal()"></div>
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden" id="inst-modal">
+<div class="bg-surface-container-lowest w-full max-w-md rounded-2xl shadow-2xl p-6 space-y-5">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Institutional Tenant</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Switch underwriting desks &amp; allocation book</p>
+</div>
+<button class="p-1 rounded-full hover:bg-surface-container text-on-surface-variant" onclick="toggleInstModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="space-y-2">
+<button class="w-full p-3 rounded-xl bg-surface-container-low hover:bg-surface-container flex items-center justify-between text-left transition-colors" onclick="setInstitution('Apex Horizon Capital', 'Verified MFI Tier 1')">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center font-bold">AH</div>
+<div>
+<span class="font-title-md text-title-md font-semibold text-on-surface block">Apex Horizon Capital</span>
+<span class="font-label-sm text-label-sm text-primary">Pool: $10M Cap (Active)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]">check</span>
+</button>
+<button class="w-full p-3 rounded-xl bg-surface-container-low hover:bg-surface-container flex items-center justify-between text-left transition-colors" onclick="setInstitution('HDFC Microfinance', 'Commercial Bank Enclave')">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-secondary text-on-secondary flex items-center justify-center font-bold">HD</div>
+<div>
+<span class="font-title-md text-title-md font-semibold text-on-surface block">HDFC Microfinance</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pool: $25M Allocation</span>
+</div>
+</div>
+</button>
+<button class="w-full p-3 rounded-xl bg-surface-container-low hover:bg-surface-container flex items-center justify-between text-left transition-colors" onclick="setInstitution('Fintech Lending Co', 'Neo-Bank Tier 2')">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center font-bold">FL</div>
+<div>
+<span class="font-title-md text-title-md font-semibold text-on-surface block">Fintech Lending Co</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pool: $5M Instant Lines</span>
+</div>
+</div>
+</button>
+<button class="w-full p-3 rounded-xl bg-surface-container-low hover:bg-surface-container flex items-center justify-between text-left transition-colors" onclick="setInstitution('Neobank Credit Team', 'Alternative Risk Desk')">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-inverse-surface text-inverse-on-surface flex items-center justify-center font-bold">NB</div>
+<div>
+<span class="font-title-md text-title-md font-semibold text-on-surface block">Neobank Credit Team</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pool: $15M Digital Pool</span>
+</div>
+</div>
+</button>
+</div>
+</div>
+</div>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-6 right-8 bg-inverse-surface text-inverse-on-surface px-5 py-3 rounded-xl shadow-xl flex items-center gap-3 z-50 transform translate-y-20 opacity-0 transition-all pointer-events-none" id="toast">
+<span class="material-symbols-outlined text-primary-fixed text-[20px]">info</span>
+<span class="font-body-sm text-body-sm font-medium" id="toast-message">Notification message</span>
+</div>
+</div>
+<script>
+  let activeCandidate = 'USR_017';
+
+  function showToast(msg) {
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toast-message');
+    toastMsg.textContent = msg;
+    toast.classList.remove('translate-y-20', 'opacity-0');
+    setTimeout(() => {
+      toast.classList.add('translate-y-20', 'opacity-0');
+    }, 2800);
+  }
+
+  function copyToClipboard(text, btnElement) {
+    navigator.clipboard?.writeText(text);
+    showToast('Copied token ID: ' + text);
+    if (btnElement) {
+      const orig = btnElement.innerHTML;
+      btnElement.innerHTML = '<span class="material-symbols-outlined text-[16px] text-primary">check</span>';
+      setTimeout(() => { btnElement.innerHTML = orig; }, 1500);
+    }
+  }
+
+  function updateSelectedCount() {
+    const checkboxes = document.querySelectorAll('.row-checkbox:checked');
+    const count = checkboxes.length;
+    document.getElementById('selected-counter').textContent = count + ' Candidates Selected';
+    document.getElementById('bulk-btn-count').textContent = count;
+  }
+
+  function toggleSelectAll(master) {
+    const checkboxes = document.querySelectorAll('.row-checkbox');
+    checkboxes.forEach(cb => cb.checked = master.checked);
+    updateSelectedCount();
+  }
+
+  function updateScoreFilter(val) {
+    document.getElementById('score-readout').textContent = val + ' – 1000';
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const query = document.getElementById('filter-search').value.toLowerCase();
+    const rows = document.querySelectorAll('#candidate-rows tr');
+    let visible = 0;
+    rows.forEach(r => {
+      const txt = r.textContent.toLowerCase();
+      if (!query || txt.includes(query)) {
+        r.style.display = '';
+        visible++;
+      } else {
+        r.style.display = 'none';
+      }
+    });
+    document.getElementById('filtered-count').textContent = visible > 0 ? (visible * 37) : '0';
+  }
+
+  function resetFilters() {
+    document.getElementById('filter-search').value = '';
+    document.getElementById('score-slider').value = 650;
+    document.getElementById('score-readout').textContent = '650 – 1000';
+    applyFilters();
+    showToast('Filter parameters restored to default');
+  }
+
+  // Risk Drawer Controls
+  function openRiskDrawer(userId, score, tier, inflow, dti, tenure) {
+    activeCandidate = userId;
+    document.getElementById('drawer-user-id').textContent = userId;
+    document.getElementById('drawer-score').textContent = score;
+    document.getElementById('drawer-tier-chip').textContent = tier;
+    
+    document.getElementById('risk-drawer-backdrop').classList.remove('hidden');
+    document.getElementById('risk-drawer').classList.remove('translate-x-full');
+  }
+
+  function closeRiskDrawer() {
+    document.getElementById('risk-drawer').classList.add('translate-x-full');
+    setTimeout(() => {
+      document.getElementById('risk-drawer-backdrop').classList.add('hidden');
+    }, 200);
+  }
+
+  function openDispatchFromDrawer() {
+    closeRiskDrawer();
+    setTimeout(() => {
+      openDispatchModal(activeCandidate, 761);
+    }, 250);
+  }
+
+  // Dispatch Campaign Modal Controls
+  function openDispatchModal(userId, score) {
+    activeCandidate = userId;
+    document.getElementById('dispatch-modal-user').textContent = userId;
+    document.getElementById('dispatch-success-banner').classList.add('hidden');
+    document.getElementById('send-dispatch-btn').classList.remove('hidden');
+    
+    document.getElementById('dispatch-modal-backdrop').classList.remove('hidden');
+    document.getElementById('dispatch-modal').classList.remove('hidden');
+  }
+
+  function closeDispatchModal() {
+    document.getElementById('dispatch-modal-backdrop').classList.add('hidden');
+    document.getElementById('dispatch-modal').classList.add('hidden');
+  }
+
+  function executeDispatch() {
+    const btn = document.getElementById('send-dispatch-btn');
+    btn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin">refresh</span> Dispatching...';
+    setTimeout(() => {
+      btn.classList.add('hidden');
+      document.getElementById('dispatch-success-banner').classList.remove('hidden');
+      showToast('Term sheet dispatched to token enclave ' + activeCandidate);
+    }, 900);
+  }
+
+  function bulkPushOffer() {
+    const checked = document.querySelectorAll('.row-checkbox:checked').length;
+    if (checked === 0) {
+      showToast('Please select candidates first');
+      return;
+    }
+    openDispatchModal('Batch of ' + checked + ' Candidates', 750);
+  }
+
+  function exportAuditLedger() {
+    showToast('Exporting cryptographically sealed underwriting audit trail...');
+  }
+
+  // Institutional Tenant Switcher
+  function toggleInstModal() {
+    const modal = document.getElementById('inst-modal');
+    const backdrop = document.getElementById('inst-modal-backdrop');
+    if (modal.classList.contains('hidden')) {
+      modal.classList.remove('hidden');
+      backdrop.classList.remove('hidden');
+    } else {
+      modal.classList.add('hidden');
+      backdrop.classList.add('hidden');
+    }
+  }
+
+  function setInstitution(name, role) {
+    document.getElementById('institution-badge').textContent = name;
+    toggleInstModal();
+    showToast('Switched portal tenant context to ' + name);
+  }
+
+  function switchMainView(mode) {
+    if (mode === 'pipeline') {
+      showToast('Pipeline Table Active');
+    }
+  }
+</script></main></div></body></html>

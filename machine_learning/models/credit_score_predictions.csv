@@ -1,0 +1,1101 @@
+age,education_level,employment_status,monthly_income,city_tier,months_at_job,housing,rent_on_time_months,digital_payment_rate,education,monthly_spend,essential_pct,cashflow_volatility,savings_days,on_time_rate,dti,credit_util,delinq_90plus,delinq_60plus,delinq_30plus,positive_habits,risk_flags,actual_outcome,probability_of_default,predicted_outcome,credit_score,risk_tier
+20,Bachelor's,Employed,8720.0,2,21,rent,9,0.38,bachelor,3677.0,0.74,0.03,192,0.86,0.29,0.34,0,0,0,3,1,0,0.06593271,0,934,Prime / Low Risk
+26,High School,Employed,2151.0,3,7,none,0,0.47,highschool,1355.0,0.53,0.18,240,0.6900000000000001,0.23,0.54,0,0,0,2,3,1,0.63573676,1,364,High Risk / Poor
+20,Bachelor's,Employed,8157.0,2,36,rent,16,0.57,bachelor,5012.0,0.58,0.18,118,0.6,0.47,0.61,0,0,0,3,1,1,0.9014234,1,99,High Risk / Poor
+26,High School,Employed,10683.0,2,36,rent,6,0.67,highschool,2537.0,0.49,0.04,268,0.99,0.15,0.01,0,0,0,3,0,0,0.0053887474,0,995,Prime / Low Risk
+25,High School,Employed,7798.0,2,17,rent,16,0.43,highschool,4129.0,0.64,0.09,132,0.7,0.38,0.57,0,0,0,2,1,1,0.5396065,1,460,High Risk / Poor
+25,Diploma,Employed,8075.0,3,59,rent,9,0.61,cert,4993.0,0.49,0.15,124,0.65,0.5,0.51,0,0,0,3,0,1,0.8671644,1,133,High Risk / Poor
+23,Diploma,Self-Employed,7364.0,2,5,owner,1,0.46,cert,2402.0,0.56,0.08,176,0.84,0.35,0.25,0,1,0,2,0,0,0.17772122,0,822,Prime / Low Risk
+22,Bachelor's,Unemployed,1869.0,3,0,rent,24,0.47,bachelor,300.0,0.78,0.1,48,0.75,0.36,0.29,0,0,0,2,0,1,0.35282916,0,647,Sub-Prime / Fair
+22,Bachelor's,Employed,8656.0,2,45,rent,15,0.75,bachelor,2761.0,0.61,0.02,168,0.93,0.22,0.16,0,0,0,3,0,0,0.01990676,0,980,Prime / Low Risk
+25,Bachelor's,Employed,7457.0,2,18,rent,17,0.52,bachelor,3991.0,0.55,0.1,155,0.65,0.32,0.53,0,0,0,2,1,0,0.54652226,1,453,High Risk / Poor
+26,Diploma,Employed,9078.0,2,56,none,2,0.42,cert,3192.0,0.64,0.02,241,0.97,0.33,0.21,0,0,0,3,1,0,0.038539194,0,961,Prime / Low Risk
+24,High School,Student,3173.0,3,9,rent,23,0.45,highschool,1491.0,0.69,0.07,59,0.7,0.41,0.45,0,0,0,3,1,1,0.3416989,0,658,Near-Prime / Medium Risk
+22,Bachelor's,Self-Employed,12848.0,3,30,owner,4,0.41,bachelor,3293.0,0.6,0.15,267,0.82,0.24,0.28,0,0,0,3,0,1,0.056329638,0,944,Prime / Low Risk
+23,Master's,Employed,9472.0,2,38,rent,16,0.35,master,5170.0,0.48,0.1,135,0.83,0.26,0.36,0,0,0,2,1,0,0.10442583,0,896,Prime / Low Risk
+24,Bachelor's,Employed,8483.0,2,14,rent,6,0.69,bachelor,2271.0,0.68,0.04,196,0.86,0.31,0.35,0,0,0,2,1,0,0.071134344,0,929,Prime / Low Risk
+24,High School,Student,3624.0,3,10,rent,17,0.49,highschool,540.0,0.67,0.05,157,0.85,0.21,0.25,0,0,0,2,1,0,0.119255945,0,881,Prime / Low Risk
+22,Diploma,Student,3013.0,2,7,owner,3,0.32,cert,1711.0,0.66,0.12,28,0.62,0.41,0.62,0,0,0,1,2,1,0.8382413,1,162,High Risk / Poor
+23,Diploma,Employed,6870.0,3,24,rent,21,0.47,cert,4405.0,0.59,0.2,71,0.67,0.42,0.49,0,0,0,3,1,1,0.6116269,1,388,High Risk / Poor
+23,High School,Student,2383.0,2,0,rent,21,0.73,highschool,1129.0,0.51,0.11,34,0.67,0.51,0.44,0,0,0,1,1,0,0.6791398,1,321,High Risk / Poor
+24,Diploma,Employed,2082.0,1,53,rent,21,0.64,cert,1353.0,0.56,0.2,240,0.95,0.37,0.65,0,0,0,2,0,1,0.33976668,0,660,Near-Prime / Medium Risk
+25,Bachelor's,Self-Employed,6065.0,2,6,rent,18,0.59,bachelor,2533.0,0.67,0.16,105,0.89,0.18,0.3,0,0,0,2,0,0,0.0953158,0,905,Prime / Low Risk
+26,Diploma,Employed,8554.0,2,31,rent,10,0.63,cert,2769.0,0.74,0.05,184,0.85,0.2,0.19,0,0,0,2,1,1,0.017295329,0,983,Prime / Low Risk
+24,Master's,Student,3044.0,2,9,rent,11,0.38,master,1423.0,0.7,0.1,104,0.81,0.3,0.37,0,0,0,3,1,0,0.24134529,0,759,Prime / Low Risk
+24,Master's,Employed,7696.0,1,60,owner,3,0.49,master,2207.0,0.59,0.04,228,0.95,0.3,0.27,0,0,0,3,1,0,0.069162846,0,931,Prime / Low Risk
+24,Bachelor's,Self-Employed,10718.0,1,42,rent,11,0.56,bachelor,5277.0,0.61,0.15,124,0.68,0.44,0.38,0,0,0,3,1,1,0.4892864,0,511,High Risk / Poor
+20,Bachelor's,Employed,9404.0,3,24,owner,2,0.32,bachelor,2353.0,0.51,0.02,258,0.94,0.24,0.12,0,0,0,3,0,0,0.06349318,0,937,Prime / Low Risk
+22,Bachelor's,Student,2509.0,2,9,rent,7,0.33,bachelor,474.0,0.49,0.06,38,0.88,0.17,0.24,0,0,0,1,1,0,0.13185105,0,868,Prime / Low Risk
+25,Bachelor's,Employed,7251.0,2,32,rent,12,0.48,bachelor,2373.0,0.49,0.06,166,0.89,0.27,0.26,0,0,0,3,0,0,0.05880871,0,941,Prime / Low Risk
+25,Master's,Employed,9042.0,3,7,owner,2,0.3,master,3077.0,0.38,0.09,219,0.9,0.11,0.29,0,0,0,3,0,0,0.03644745,0,964,Prime / Low Risk
+20,Bachelor's,Employed,6765.0,1,42,rent,16,0.53,bachelor,2905.0,0.7,0.09,118,0.87,0.21,0.22,0,0,0,3,1,0,0.04939831,0,951,Prime / Low Risk
+23,High School,Student,3425.0,2,4,rent,14,0.44,highschool,971.0,0.68,0.08,101,0.78,0.29,0.41,0,0,0,3,1,1,0.2269232,0,773,Prime / Low Risk
+24,Master's,Self-Employed,7228.0,2,22,rent,22,0.37,master,3602.0,0.45,0.19,138,0.69,0.39,0.47,0,0,0,2,0,1,0.5389614,1,461,High Risk / Poor
+23,Bachelor's,Student,3654.0,1,3,owner,1,0.75,bachelor,1466.0,0.6,0.06,73,0.96,0.19,0.25,0,0,0,2,1,0,0.09032677,0,910,Prime / Low Risk
+20,High School,Unemployed,2534.0,2,1,rent,6,0.63,highschool,1372.0,0.46,0.15,94,0.62,0.52,0.5,0,0,0,3,0,1,0.86705947,1,133,High Risk / Poor
+26,Bachelor's,Employed,5662.0,2,13,rent,7,0.44,bachelor,2336.0,0.65,0.1,121,0.73,0.33,0.39,0,0,0,3,1,1,0.45701888,0,543,High Risk / Poor
+25,Bachelor's,Employed,7850.0,2,46,rent,6,0.8,bachelor,3916.0,0.69,0.16,79,0.63,0.47,0.59,0,0,0,2,0,1,0.88084006,1,119,High Risk / Poor
+23,Diploma,Self-Employed,7437.0,2,15,owner,2,0.44,cert,1452.0,0.49,0.17,171,0.77,0.26,0.37,0,0,0,2,0,0,0.23424254,0,766,Prime / Low Risk
+26,Bachelor's,Employed,8897.0,2,60,owner,1,0.39,bachelor,1783.0,0.56,0.07,282,0.98,0.23,0.19,0,0,0,2,0,0,0.019196466,0,981,Prime / Low Risk
+23,Bachelor's,Employed,8594.0,1,58,owner,2,0.49,bachelor,4642.0,0.54,0.1,163,0.71,0.28,0.38,0,0,0,3,0,1,0.45106667,0,549,High Risk / Poor
+20,Bachelor's,Employed,6784.0,2,42,rent,10,0.55,bachelor,2297.0,0.48,0.08,168,0.8,0.34,0.35,0,0,0,1,0,0,0.29516658,0,705,Near-Prime / Medium Risk
+21,High School,Employed,8792.0,3,8,owner,0,0.62,none,7912.0,0.75,0.29,90,0.85,0.55,0.44,0,0,0,1,2,0,0.5143097,1,486,High Risk / Poor
+24,Bachelor's,Self-Employed,9422.0,3,31,owner,3,0.51,bachelor,3088.0,0.58,0.13,212,0.85,0.21,0.4,0,0,0,2,0,0,0.16972965,0,830,Prime / Low Risk
+22,Master's,Self-Employed,9836.0,1,31,owner,4,0.38,master,5026.0,0.54,0.23,150,0.58,0.42,0.65,0,0,0,3,1,1,0.86632353,1,134,High Risk / Poor
+20,Master's,Employed,10215.0,2,47,rent,7,0.47,master,3794.0,0.55,0.07,207,1.0,0.22,0.23,0,0,0,2,0,0,0.060715113,0,939,Prime / Low Risk
+20,Bachelor's,Employed,8185.0,1,35,rent,17,0.69,bachelor,1765.0,0.55,0.05,254,0.93,0.2,0.23,0,0,0,3,0,0,0.034665618,0,965,Prime / Low Risk
+20,Bachelor's,Employed,8900.0,3,39,none,2,0.41,bachelor,4198.0,0.47,0.05,191,0.92,0.22,0.32,0,0,0,3,0,0,0.061632525,0,938,Prime / Low Risk
+23,Bachelor's,Self-Employed,6221.0,3,6,owner,1,0.48,bachelor,2420.0,0.53,0.13,153,0.79,0.24,0.36,0,0,0,2,0,0,0.18225954,0,818,Prime / Low Risk
+23,Diploma,Self-Employed,8623.0,2,12,rent,7,0.52,cert,4668.0,0.56,0.17,76,0.7,0.26,0.46,0,0,0,2,0,0,0.38428226,0,616,Sub-Prime / Fair
+20,Bachelor's,Employed,6039.0,3,18,owner,1,0.51,bachelor,2281.0,0.59,0.12,98,0.84,0.28,0.33,0,0,0,2,0,0,0.15870455,0,841,Prime / Low Risk
+23,Diploma,Employed,10777.0,3,39,owner,1,0.62,cert,2614.0,0.4,0.06,249,0.94,0.18,0.26,0,0,0,3,0,0,0.040180914,0,960,Prime / Low Risk
+20,Bachelor's,Employed,8324.0,2,46,rent,16,0.5,bachelor,4208.0,0.57,0.07,148,0.74,0.26,0.39,0,0,0,3,0,1,0.31545243,0,685,Near-Prime / Medium Risk
+22,Bachelor's,Employed,8397.0,3,49,rent,12,0.69,bachelor,3635.0,0.39,0.09,213,0.84,0.25,0.46,0,0,0,3,2,1,0.1191383,0,881,Prime / Low Risk
+26,Master's,Employed,9071.0,1,33,none,0,0.69,master,3396.0,0.52,0.03,205,0.95,0.22,0.13,0,0,0,3,0,0,0.013569386,0,986,Prime / Low Risk
+22,Bachelor's,Unemployed,2183.0,1,3,rent,5,0.33,bachelor,1319.0,0.65,0.17,11,0.67,0.43,0.42,0,0,0,0,0,1,0.65350264,1,346,High Risk / Poor
+21,Diploma,Employed,7492.0,2,12,rent,24,0.57,cert,4576.0,0.65,0.16,64,0.62,0.44,0.58,0,1,0,1,0,1,0.7856877,1,214,High Risk / Poor
+22,Diploma,Student,2936.0,1,7,rent,23,0.48,cert,2001.0,0.51,0.17,57,0.58,0.49,0.64,0,0,0,1,1,1,0.9124777,1,88,High Risk / Poor
+23,High School,Employed,8677.0,3,6,rent,21,0.63,highschool,3308.0,0.7,0.07,255,0.95,0.18,0.28,0,0,0,2,1,0,0.055708446,0,944,Prime / Low Risk
+25,Bachelor's,Employed,6750.0,3,57,owner,4,0.58,bachelor,3498.0,0.67,0.13,199,0.72,0.37,0.52,0,0,0,1,1,1,0.666315,1,334,High Risk / Poor
+24,Diploma,Employed,7821.0,2,11,rent,22,0.69,cert,1416.0,0.48,0.03,174,1.0,0.18,0.13,0,0,0,3,0,0,0.01613596,0,984,Prime / Low Risk
+22,Bachelor's,Student,3238.0,3,8,none,4,0.4,bachelor,1445.0,0.74,0.08,54,0.76,0.31,0.35,0,0,0,1,0,0,0.20929898,0,791,Prime / Low Risk
+23,High School,Self-Employed,7185.0,1,47,rent,22,0.63,highschool,3534.0,0.78,0.13,131,0.84,0.19,0.19,0,0,0,2,1,0,0.035260104,0,965,Prime / Low Risk
+20,Master's,Student,2516.0,1,9,none,2,0.55,master,1490.0,0.73,0.13,64,0.65,0.33,0.59,0,0,0,2,2,1,0.7396827,1,260,High Risk / Poor
+24,Bachelor's,Employed,10551.0,2,31,none,2,0.49,bachelor,3656.0,0.74,0.1,210,0.82,0.28,0.41,0,0,0,3,1,0,0.20140024,0,799,Prime / Low Risk
+26,High School,Employed,7525.0,3,56,owner,0,0.55,none,5794.0,0.31,0.29,360,0.5700000000000001,0.5700000000000001,0.64,0,0,0,2,3,1,0.944542,1,55,High Risk / Poor
+25,Diploma,Employed,6583.0,1,8,rent,13,0.45,cert,3811.0,0.66,0.15,122,0.65,0.42,0.58,0,0,0,2,0,1,0.7153683,1,285,High Risk / Poor
+23,High School,Employed,4798.0,2,20,none,1,0.55,highschool,1183.0,0.66,0.04,184,0.88,0.23,0.32,0,0,0,2,0,0,0.04981146,0,950,Prime / Low Risk
+21,High School,Student,3210.0,1,9,rent,24,0.55,highschool,1446.0,0.55,0.05,71,0.78,0.32,0.41,0,0,0,1,1,1,0.19125214,0,809,Prime / Low Risk
+22,Master's,Employed,7363.0,3,20,owner,3,0.65,master,3611.0,0.45,0.09,205,0.83,0.23,0.32,0,0,0,3,1,0,0.12614267,0,874,Prime / Low Risk
+26,Master's,Student,5556.0,2,6,rent,6,0.51,master,1093.0,0.56,0.05,141,0.93,0.23,0.25,0,0,0,3,0,0,0.06939916,0,931,Prime / Low Risk
+23,Master's,Student,2645.0,1,5,rent,7,0.56,master,1434.0,0.55,0.03,46,0.85,0.38,0.3,0,0,0,2,0,1,0.12342336,0,877,Prime / Low Risk
+20,Master's,Student,3012.0,2,11,none,0,0.69,master,924.0,0.58,0.05,130,0.85,0.27,0.14,0,0,0,2,1,0,0.049276702,0,951,Prime / Low Risk
+24,Diploma,Employed,7792.0,3,12,rent,15,0.72,cert,2628.0,0.66,0.06,208,0.82,0.28,0.31,0,0,0,3,0,0,0.15220188,0,848,Prime / Low Risk
+26,Master's,Unemployed,2074.0,1,2,rent,20,0.53,master,1118.0,0.76,0.19,69,0.72,0.48,0.34,0,0,0,2,1,0,0.4410534,0,559,Sub-Prime / Fair
+23,High School,Employed,7664.0,3,59,rent,4,0.43,highschool,2458.0,0.65,0.04,145,0.85,0.3,0.32,0,0,0,2,0,0,0.115764424,0,884,Prime / Low Risk
+20,Master's,Employed,7064.0,1,6,rent,14,0.55,master,2286.0,0.57,0.06,181,0.88,0.21,0.22,0,0,0,2,0,0,0.045568414,0,954,Prime / Low Risk
+26,PhD,Employed,7349.0,2,58,owner,2,0.39,phd,1935.0,0.51,0.08,218,0.83,0.27,0.33,0,0,0,3,1,0,0.105718784,0,894,Prime / Low Risk
+22,Bachelor's,Self-Employed,10274.0,2,38,rent,21,0.3,bachelor,2953.0,0.39,0.11,168,0.84,0.14,0.36,0,0,0,3,0,0,0.039991137,0,960,Prime / Low Risk
+26,Master's,Student,4700.0,2,9,none,2,0.42,master,1553.0,0.48,0.06,52,0.77,0.36,0.43,0,0,0,3,0,1,0.4279301,0,572,Sub-Prime / Fair
+24,High School,Employed,8686.0,2,55,none,1,0.49,highschool,3812.0,0.57,0.04,198,0.91,0.18,0.26,0,1,0,3,0,0,0.04183347,0,958,Prime / Low Risk
+20,Bachelor's,Employed,7940.0,2,7,owner,1,0.55,bachelor,2891.0,0.6,0.13,181,0.75,0.33,0.47,0,0,0,2,0,1,0.48355117,0,516,High Risk / Poor
+24,High School,Employed,8409.0,2,40,none,0,0.47,highschool,6306.0,0.38,0.14,120,0.95,0.72,0.41,0,0,0,0,0,0,0.39991778,0,600,Sub-Prime / Fair
+21,Diploma,Employed,9949.0,1,42,owner,4,0.54,cert,2917.0,0.48,0.08,231,0.85,0.28,0.47,0,0,0,2,1,0,0.18211903,0,818,Prime / Low Risk
+21,High School,Unemployed,3791.0,3,2,owner,4,0.71,highschool,1767.0,0.56,0.13,116,0.78,0.37,0.38,0,0,0,1,1,1,0.35525557,0,645,Sub-Prime / Fair
+20,Master's,Employed,7612.0,3,12,rent,7,0.54,master,4731.0,0.69,0.1,146,0.85,0.32,0.28,0,0,0,3,0,1,0.1669116,0,833,Prime / Low Risk
+23,Diploma,Self-Employed,12009.0,2,59,owner,0,0.41,cert,3867.0,0.43,0.16,193,0.82,0.24,0.24,0,0,0,2,0,0,0.09987717,0,900,Prime / Low Risk
+24,Bachelor's,Unemployed,3558.0,3,2,none,1,0.37,bachelor,1803.0,0.46,0.19,11,0.56,0.57,0.75,0,0,0,2,1,1,0.9475287,1,52,High Risk / Poor
+22,High School,Self-Employed,10604.0,3,49,none,4,0.55,highschool,4804.0,0.61,0.18,126,0.8,0.2,0.26,0,0,0,2,2,0,0.11671311,0,883,Prime / Low Risk
+20,Bachelor's,Self-Employed,5064.0,2,33,rent,6,0.71,bachelor,1729.0,0.64,0.17,132,0.71,0.28,0.46,0,0,0,3,1,0,0.48387137,0,516,High Risk / Poor
+22,Bachelor's,Employed,8835.0,3,35,owner,2,0.63,bachelor,4074.0,0.65,0.08,132,0.7,0.34,0.46,0,0,0,3,0,0,0.37470877,0,625,Sub-Prime / Fair
+22,Bachelor's,Self-Employed,2838.0,2,9,owner,0,0.3,bachelor,1567.0,0.62,0.18,121,0.74,0.38,0.44,0,0,0,3,0,0,0.55953425,1,440,High Risk / Poor
+24,PhD,Self-Employed,9265.0,3,15,owner,0,0.33,phd,4025.0,0.48,0.23,188,0.76,0.25,0.39,0,0,0,3,0,0,0.40978593,0,590,Sub-Prime / Fair
+23,High School,Self-Employed,9518.0,3,36,owner,1,0.5,highschool,4769.0,0.6,0.15,168,0.77,0.3,0.41,0,0,0,2,0,1,0.25147754,0,749,Near-Prime / Medium Risk
+22,High School,Student,3633.0,3,0,rent,13,0.66,highschool,1413.0,0.7,0.12,41,0.62,0.57,0.5,0,0,0,0,2,1,0.91442305,1,86,High Risk / Poor
+26,Diploma,Student,5099.0,1,4,owner,4,0.48,cert,2507.0,0.64,0.09,67,0.72,0.29,0.48,0,0,0,3,0,1,0.4909799,0,509,High Risk / Poor
+22,Master's,Self-Employed,10008.0,2,26,rent,19,0.48,master,3691.0,0.55,0.19,223,0.86,0.27,0.26,0,0,0,3,0,0,0.120587185,0,879,Prime / Low Risk
+23,Diploma,Unemployed,1666.0,2,5,owner,3,0.45,cert,1243.0,0.74,0.23,11,0.67,0.54,0.55,0,0,0,1,2,1,0.8476794,1,152,High Risk / Poor
+26,Bachelor's,Employed,7749.0,2,48,rent,24,0.62,bachelor,2116.0,0.43,0.08,179,0.73,0.37,0.46,0,0,0,2,0,0,0.33699638,0,663,Near-Prime / Medium Risk
+25,High School,Employed,8280.0,2,43,rent,23,0.3,highschool,4106.0,0.56,0.07,178,0.78,0.22,0.42,0,0,0,3,1,0,0.16441236,0,836,Prime / Low Risk
+20,Bachelor's,Unemployed,2449.0,3,5,rent,16,0.33,bachelor,1271.0,0.78,0.14,83,0.76,0.39,0.49,0,0,0,2,0,0,0.47204718,0,528,High Risk / Poor
+23,Bachelor's,Employed,7644.0,3,35,rent,4,0.57,bachelor,2875.0,0.51,0.07,160,0.81,0.32,0.25,0,0,0,3,0,0,0.19987993,0,800,Prime / Low Risk
+23,Diploma,Employed,8646.0,1,39,rent,6,0.71,cert,3825.0,0.71,0.13,176,0.68,0.31,0.43,0,0,0,2,0,1,0.42020017,0,580,Sub-Prime / Fair
+26,Master's,Student,4506.0,2,7,rent,21,0.31,master,1212.0,0.61,0.04,153,0.81,0.22,0.31,0,0,0,2,1,0,0.10699922,0,893,Prime / Low Risk
+23,Bachelor's,Student,4042.0,2,10,rent,8,0.59,bachelor,2467.0,0.63,0.2,52,0.61,0.42,0.58,0,0,0,1,1,1,0.86047906,1,140,High Risk / Poor
+20,Diploma,Student,2312.0,1,8,none,4,0.31,cert,1715.0,0.74,0.11,0,0.69,0.46,0.36,0,0,0,2,0,1,0.6209974,1,379,High Risk / Poor
+21,Master's,Employed,9046.0,2,48,rent,19,0.52,master,2580.0,0.6,0.09,283,0.87,0.22,0.39,0,0,0,1,0,0,0.15241097,0,848,Prime / Low Risk
+20,Master's,Employed,8262.0,1,33,rent,7,0.53,master,3790.0,0.66,0.04,206,0.78,0.29,0.41,0,0,0,2,0,1,0.252543,0,747,Near-Prime / Medium Risk
+21,Bachelor's,Employed,8727.0,2,15,rent,10,0.74,bachelor,4195.0,0.61,0.08,208,0.79,0.32,0.21,0,0,0,1,1,1,0.16186677,0,838,Prime / Low Risk
+23,Bachelor's,Student,4407.0,1,0,rent,7,0.3,bachelor,1912.0,0.66,0.05,53,0.81,0.29,0.48,0,0,0,2,1,0,0.33446276,0,666,Near-Prime / Medium Risk
+23,Bachelor's,Employed,8351.0,2,55,rent,17,0.62,bachelor,2660.0,0.53,0.07,234,0.81,0.31,0.29,0,0,0,3,1,0,0.13032965,0,870,Prime / Low Risk
+24,Diploma,Student,4210.0,1,7,rent,6,0.3,cert,750.0,0.54,0.05,84,1.0,0.1,0.08,0,0,0,1,0,0,0.010647893,0,989,Prime / Low Risk
+24,Bachelor's,Student,2977.0,3,6,rent,9,0.49,bachelor,1383.0,0.68,0.08,60,0.77,0.29,0.41,0,0,0,2,0,0,0.29931417,0,701,Near-Prime / Medium Risk
+26,High School,Employed,8532.0,2,16,rent,4,0.43,highschool,1995.0,0.54,0.04,173,0.91,0.13,0.23,0,0,0,3,0,0,0.013347259,0,987,Prime / Low Risk
+20,High School,Employed,6419.0,2,23,rent,4,0.47,none,5071.0,0.53,0.26,15,0.84,0.64,0.21,0,0,0,1,3,1,0.33645812,0,664,Near-Prime / Medium Risk
+21,Diploma,Self-Employed,8339.0,2,23,rent,14,0.59,cert,4665.0,0.58,0.19,61,0.56,0.51,0.56,0,0,0,1,1,1,0.9086011,1,91,High Risk / Poor
+22,Master's,Student,3004.0,3,6,rent,19,0.44,master,1502.0,0.76,0.04,56,0.82,0.36,0.38,0,0,0,2,1,1,0.18807654,0,812,Prime / Low Risk
+26,Diploma,Employed,8841.0,3,17,owner,2,0.55,cert,6150.0,0.71,0.19,96,0.57,0.48,0.67,0,0,0,2,2,1,0.95575726,1,44,High Risk / Poor
+24,Bachelor's,Employed,7213.0,3,9,rent,10,0.58,bachelor,855.0,0.55,0.05,232,0.92,0.22,0.19,0,0,0,3,0,0,0.027506556,0,972,Prime / Low Risk
+24,Master's,Employed,6062.0,2,10,rent,5,0.49,master,2663.0,0.76,0.08,186,0.78,0.32,0.44,0,0,0,2,0,0,0.26974684,0,730,Near-Prime / Medium Risk
+21,High School,Student,3111.0,2,3,rent,7,0.64,highschool,1318.0,0.5,0.11,91,0.62,0.38,0.51,0,0,0,1,1,0,0.78024185,1,220,High Risk / Poor
+25,Bachelor's,Student,4917.0,2,1,rent,22,0.42,bachelor,1476.0,0.64,0.05,120,0.92,0.14,0.28,0,0,0,2,0,0,0.062148724,0,938,Prime / Low Risk
+24,Bachelor's,Employed,7762.0,3,13,rent,8,0.55,bachelor,3137.0,0.69,0.09,163,0.91,0.17,0.14,0,0,0,3,0,0,0.034813106,0,965,Prime / Low Risk
+26,High School,Student,3528.0,2,5,rent,5,0.46,highschool,1663.0,0.55,0.1,85,0.71,0.36,0.55,0,0,0,1,1,0,0.5639452,1,436,High Risk / Poor
+25,PhD,Student,3890.0,2,20,rent,1,0.6900000000000001,phd,816.0,0.6000000000000001,0.18,120,0.68,0.19,0.18,0,0,0,2,2,0,0.13338362,0,867,Prime / Low Risk
+26,Bachelor's,Self-Employed,9421.0,3,51,rent,16,0.41,bachelor,6688.0,0.59,0.24,30,0.9,0.12,0.79,0,0,0,0,3,0,0.2759824,0,724,Near-Prime / Medium Risk
+25,Master's,Employed,7727.0,1,40,rent,18,0.69,master,3583.0,0.59,0.06,143,0.91,0.26,0.23,0,0,0,3,0,0,0.035399493,0,965,Prime / Low Risk
+21,Master's,Employed,6100.0,1,17,owner,1,0.48,master,938.0,0.59,0.05,237,0.94,0.33,0.17,0,0,0,3,1,0,0.06082876,0,939,Prime / Low Risk
+24,High School,Employed,6931.0,1,29,none,0,0.93,highschool,3396.0,0.8300000000000001,0.24,60,0.63,0.54,0.48,0,0,0,3,1,1,0.85901165,1,141,High Risk / Poor
+23,Bachelor's,Student,3357.0,2,0,rent,24,0.69,bachelor,2424.0,0.82,0.18,0,0.56,0.43,0.76,0,0,1,0,1,1,0.8652642,1,135,High Risk / Poor
+23,Bachelor's,Employed,4766.0,2,36,owner,2,0.41,bachelor,2615.0,0.63,0.1,168,0.8,0.25,0.32,0,0,0,2,0,0,0.12658226,0,873,Prime / Low Risk
+24,Bachelor's,Employed,7155.0,2,7,rent,20,0.36,bachelor,2051.0,0.68,0.05,127,0.98,0.16,0.3,0,0,0,2,0,0,0.051474873,0,949,Prime / Low Risk
+23,High School,Self-Employed,8373.0,3,24,rent,9,0.3,highschool,3192.0,0.48,0.19,149,0.8,0.21,0.27,0,0,0,3,1,1,0.14604676,0,854,Prime / Low Risk
+24,Master's,Self-Employed,8505.0,3,20,rent,23,0.36,master,3272.0,0.54,0.19,154,0.74,0.27,0.39,0,0,0,1,0,0,0.45601055,0,544,High Risk / Poor
+24,Master's,Student,4966.0,3,4,rent,24,0.62,master,2508.0,0.61,0.19,79,0.77,0.3,0.41,0,0,0,1,0,1,0.39390987,0,606,Sub-Prime / Fair
+22,Bachelor's,Employed,7493.0,2,30,rent,4,0.45,bachelor,2531.0,0.72,0.04,236,0.9,0.24,0.22,0,0,0,2,1,0,0.037224412,0,963,Prime / Low Risk
+26,High School,Student,4481.0,2,8,owner,0,0.56,highschool,2293.0,0.59,0.13,73,0.65,0.39,0.48,0,0,0,2,0,0,0.7160001,1,284,High Risk / Poor
+20,High School,Student,2013.0,3,12,rent,14,0.62,highschool,643.0,0.62,0.17,62,0.74,0.37,0.41,0,0,0,1,0,1,0.46266526,0,537,High Risk / Poor
+20,Bachelor's,Student,2995.0,2,10,rent,14,0.46,bachelor,1400.0,0.54,0.14,40,0.56,0.54,0.61,0,0,0,1,2,1,0.93396175,1,66,High Risk / Poor
+20,Bachelor's,Self-Employed,8290.0,2,34,rent,12,0.35,bachelor,2847.0,0.79,0.1,136,0.7,0.31,0.38,0,0,0,2,1,1,0.45932573,0,541,High Risk / Poor
+20,Bachelor's,Employed,7729.0,1,53,rent,12,0.48,bachelor,2516.0,0.62,0.04,215,0.9,0.31,0.27,0,0,0,3,0,0,0.09771872,0,902,Prime / Low Risk
+25,Master's,Unemployed,3582.0,3,2,rent,23,0.43,master,1539.0,0.6,0.11,85,0.86,0.25,0.18,0,0,0,2,1,0,0.041062243,0,959,Prime / Low Risk
+23,Master's,Employed,4559.0,2,22,rent,4,0.57,master,1826.0,0.53,0.05,109,0.89,0.31,0.3,0,0,0,3,1,0,0.0703617,0,930,Prime / Low Risk
+21,High School,Employed,7219.0,2,35,rent,20,0.38,highschool,4415.0,0.78,0.16,59,0.65,0.47,0.53,0,0,0,2,1,1,0.7943033,1,206,High Risk / Poor
+22,High School,Student,5335.0,1,12,owner,0,0.8,highschool,2567.0,0.64,0.07,114,0.76,0.27,0.35,0,0,0,3,0,0,0.1921864,0,808,Prime / Low Risk
+25,Bachelor's,Self-Employed,9000.0,2,17,none,3,0.44,bachelor,3455.0,0.51,0.13,216,0.85,0.22,0.21,0,0,0,2,0,0,0.052676782,0,947,Prime / Low Risk
+24,Master's,Self-Employed,5318.0,3,5,rent,18,0.43,master,2166.0,0.66,0.11,229,0.85,0.22,0.36,0,0,0,3,0,0,0.12797669,0,872,Prime / Low Risk
+22,High School,Employed,3941.0,2,27,owner,0,0.68,none,3310.0,0.75,0.04,30,0.91,0.47,0.66,0,0,0,2,3,1,0.4611935,0,539,High Risk / Poor
+20,Bachelor's,Student,2614.0,1,10,rent,17,0.68,bachelor,872.0,0.67,0.09,44,0.93,0.16,0.05,0,0,0,1,0,0,0.03992041,0,960,Prime / Low Risk
+23,Diploma,Unemployed,2497.0,3,5,owner,1,0.47,cert,1755.0,0.75,0.12,101,0.82,0.28,0.27,0,0,0,3,1,0,0.16734815,0,833,Prime / Low Risk
+24,High School,Student,2891.0,3,15,owner,0,0.75,highschool,2428.0,0.34,0.11,90,0.63,0.43,0.03,0,0,0,3,2,0,0.28572527,0,714,Near-Prime / Medium Risk
+24,Bachelor's,Self-Employed,10903.0,3,36,owner,2,0.41,bachelor,3968.0,0.51,0.15,270,0.83,0.26,0.29,0,0,0,3,1,0,0.060912386,0,939,Prime / Low Risk
+24,Bachelor's,Employed,8885.0,3,32,owner,2,0.3,bachelor,3002.0,0.68,0.08,258,0.77,0.23,0.45,0,0,0,3,1,1,0.1635304,0,836,Prime / Low Risk
+20,Master's,Employed,7710.0,2,53,rent,5,0.32,master,2285.0,0.54,0.08,187,0.81,0.33,0.37,0,0,0,2,1,0,0.2714978,0,729,Near-Prime / Medium Risk
+23,Diploma,Employed,8624.0,2,6,rent,16,0.77,cert,5192.0,0.43,0.09,143,0.82,0.2,0.4,0,0,0,3,0,0,0.13731721,0,863,Prime / Low Risk
+25,Bachelor's,Self-Employed,7881.0,2,32,rent,21,0.56,bachelor,3370.0,0.64,0.16,125,0.9,0.16,0.17,0,0,0,3,1,0,0.02334959,0,977,Prime / Low Risk
+24,Bachelor's,Employed,10877.0,3,21,owner,3,0.44,bachelor,3908.0,0.48,0.09,213,0.76,0.32,0.53,0,0,0,3,0,1,0.49670005,0,503,High Risk / Poor
+23,Bachelor's,Unemployed,1200.0,3,6,rent,9,0.4,bachelor,526.0,0.72,0.18,54,0.69,0.41,0.44,0,0,0,0,0,0,0.5462472,1,454,High Risk / Poor
+22,Bachelor's,Self-Employed,6790.0,1,32,rent,24,0.64,bachelor,2949.0,0.76,0.14,120,0.76,0.23,0.4,0,0,0,2,1,1,0.2752731,0,725,Near-Prime / Medium Risk
+20,Bachelor's,Employed,7692.0,2,22,rent,22,0.62,bachelor,2603.0,0.68,0.02,98,0.98,0.15,0.18,0,0,0,2,1,0,0.012516475,0,987,Prime / Low Risk
+25,High School,Employed,10065.0,3,54,none,1,0.52,highschool,2740.0,0.59,0.08,270,0.94,0.19,0.26,0,0,0,2,0,0,0.030305903,0,970,Prime / Low Risk
+22,Bachelor's,Student,1335.0,2,3,none,2,0.41,bachelor,568.0,0.68,0.15,28,0.64,0.47,0.53,0,0,0,2,0,1,0.8213698,1,179,High Risk / Poor
+24,Bachelor's,Self-Employed,9108.0,2,34,owner,3,0.38,bachelor,4154.0,0.42,0.18,206,0.69,0.26,0.44,0,0,0,3,1,0,0.33543515,0,665,Near-Prime / Medium Risk
+26,Master's,Employed,6481.0,1,11,none,1,0.47,master,3251.0,0.72,0.06,118,0.72,0.36,0.49,0,0,0,3,2,1,0.4808015,0,519,High Risk / Poor
+21,Bachelor's,Employed,9807.0,3,31,owner,0,0.43,bachelor,3927.0,0.61,0.11,193,0.77,0.29,0.41,0,1,0,3,1,0,0.3546378,0,645,Sub-Prime / Fair
+21,Master's,Student,2606.0,2,4,rent,12,0.62,master,1246.0,0.75,0.04,59,0.92,0.27,0.23,0,0,0,2,0,0,0.041628186,0,958,Prime / Low Risk
+25,Bachelor's,Employed,5334.0,1,14,rent,7,0.34,bachelor,1226.0,0.41,0.27,90,0.72,0.6900000000000001,0.71,0,0,0,2,2,1,0.8069024,1,193,High Risk / Poor
+23,Bachelor's,Employed,9740.0,3,27,owner,1,0.62,bachelor,2367.0,0.47,0.02,264,1.0,0.19,0.1,0,0,0,3,1,0,0.032678183,0,967,Prime / Low Risk
+26,Master's,Employed,8456.0,3,27,rent,4,0.53,master,2990.0,0.45,0.09,160,0.76,0.3,0.45,0,0,0,3,0,0,0.37055886,0,629,Sub-Prime / Fair
+26,High School,Employed,7728.0,1,53,owner,3,0.63,highschool,3773.0,0.74,0.1,129,0.71,0.31,0.34,0,0,0,2,1,0,0.29053825,0,709,Near-Prime / Medium Risk
+22,Bachelor's,Student,2446.0,3,0,none,4,0.35,bachelor,1514.0,0.65,0.07,37,0.75,0.35,0.44,0,0,0,1,1,1,0.43090418,0,569,Sub-Prime / Fair
+21,Bachelor's,Self-Employed,8509.0,3,44,rent,4,0.3,bachelor,3234.0,0.73,0.12,157,0.88,0.27,0.17,0,0,0,3,0,1,0.03544339,0,965,Prime / Low Risk
+25,PhD,Employed,8966.0,3,16,rent,6,0.42,phd,3369.0,0.64,0.09,168,0.7,0.21,0.42,0,0,0,1,0,0,0.33464953,0,665,Near-Prime / Medium Risk
+22,Bachelor's,Unemployed,2742.0,3,2,none,4,0.66,bachelor,951.0,0.71,0.16,73,0.58,0.41,0.68,0,0,0,2,1,1,0.7962193,1,204,High Risk / Poor
+20,Bachelor's,Employed,5632.0,1,38,none,4,0.83,bachelor,2738.0,0.49,0.14,128,0.67,0.32,0.39,0,0,0,3,1,0,0.48417172,0,516,High Risk / Poor
+25,Master's,Employed,7680.0,2,48,owner,1,0.48,master,3332.0,0.42,0.06,186,0.77,0.26,0.42,0,0,0,3,0,1,0.19790636,0,802,Prime / Low Risk
+22,Master's,Unemployed,2587.0,3,6,rent,18,0.46,master,1353.0,0.66,0.15,72,0.59,0.46,0.56,0,0,0,1,0,1,0.71955955,1,280,High Risk / Poor
+21,Diploma,Student,4143.0,2,10,rent,14,0.58,cert,1172.0,0.5,0.06,65,0.95,0.22,0.18,0,0,0,3,0,0,0.02496586,0,975,Prime / Low Risk
+24,Master's,Self-Employed,9187.0,1,13,owner,2,0.69,master,2374.0,0.56,0.14,238,0.81,0.25,0.4,0,0,0,2,0,0,0.273787,0,726,Near-Prime / Medium Risk
+21,PhD,Employed,8132.0,3,45,rent,8,0.74,phd,4173.0,0.61,0.07,138,0.72,0.33,0.52,0,0,0,3,0,0,0.4781707,0,522,High Risk / Poor
+26,Diploma,Student,4029.0,2,0,rent,9,0.31,cert,1696.0,0.62,0.07,90,0.81,0.25,0.37,0,0,0,2,1,0,0.30752423,0,692,Near-Prime / Medium Risk
+24,Bachelor's,Student,4314.0,2,10,none,1,0.49,bachelor,639.0,0.71,0.05,122,0.86,0.16,0.32,0,0,0,3,0,0,0.12904906,0,871,Prime / Low Risk
+23,Master's,Student,3690.0,2,0,rent,6,0.3,master,1652.0,0.52,0.08,71,0.86,0.23,0.34,0,0,0,2,0,0,0.15252589,0,847,Prime / Low Risk
+26,Master's,Unemployed,3041.0,2,5,rent,11,0.66,master,2143.0,0.75,0.15,47,0.8,0.41,0.3,0,0,0,1,1,0,0.24857563,0,751,Prime / Low Risk
+22,Bachelor's,Student,3827.0,1,10,rent,21,0.75,bachelor,2120.0,0.73,0.12,131,0.75,0.29,0.48,0,0,0,3,0,1,0.43200022,0,568,Sub-Prime / Fair
+25,High School,Student,2848.0,2,0,rent,5,0.48,highschool,1440.0,0.67,0.07,0,0.62,0.45,0.5,0,0,0,2,1,0,0.7345739,1,265,High Risk / Poor
+20,High School,Self-Employed,7190.0,2,10,rent,10,0.45,highschool,1337.0,0.58,0.14,152,0.81,0.31,0.28,0,0,0,1,0,0,0.17443778,0,826,Prime / Low Risk
+20,Bachelor's,Self-Employed,8503.0,2,51,rent,8,0.45,bachelor,2919.0,0.64,0.11,147,0.89,0.18,0.08,0,0,0,3,0,0,0.021205185,0,979,Prime / Low Risk
+24,Bachelor's,Student,4137.0,2,0,rent,8,0.39,bachelor,2454.0,0.36,0.08,94,0.85,0.19,0.27,0,0,0,3,1,0,0.118349515,0,882,Prime / Low Risk
+26,Diploma,Student,5468.0,2,11,rent,24,0.44,cert,2571.0,0.56,0.07,119,0.73,0.29,0.4,0,0,0,3,1,0,0.28861293,0,711,Near-Prime / Medium Risk
+21,Bachelor's,Student,2715.0,2,9,rent,8,0.53,bachelor,1181.0,0.64,0.1,27,0.64,0.47,0.53,0,0,0,2,0,1,0.78822225,1,212,High Risk / Poor
+20,Bachelor's,Employed,7736.0,3,58,owner,0,0.6900000000000001,bachelor,4100.0,0.66,0.11,90,0.78,0.4,0.08,0,0,0,1,2,0,0.18344788,0,817,Prime / Low Risk
+25,Bachelor's,Employed,8440.0,2,14,rent,5,0.5,bachelor,3646.0,0.61,0.06,99,0.79,0.27,0.5,0,0,0,3,1,0,0.26763216,0,732,Near-Prime / Medium Risk
+25,Bachelor's,Self-Employed,8889.0,3,45,rent,10,0.39,bachelor,3148.0,0.47,0.12,142,0.86,0.27,0.31,0,0,0,3,1,0,0.08934088,0,911,Prime / Low Risk
+26,Bachelor's,Employed,7621.0,3,23,rent,16,0.58,bachelor,2570.0,0.75,0.04,177,0.91,0.21,0.23,0,0,0,2,0,0,0.039920826,0,960,Prime / Low Risk
+24,Bachelor's,Employed,8056.0,2,28,rent,5,0.44,bachelor,3938.0,0.58,0.06,116,0.75,0.26,0.29,0,0,0,2,1,0,0.15284267,0,847,Prime / Low Risk
+23,PhD,Student,1826.0,3,5,owner,0,0.46,phd,1040.0,0.3,0.28,45,0.91,0.29,0.14,0,0,0,1,0,0,0.0784349,0,922,Prime / Low Risk
+22,Bachelor's,Employed,5896.0,3,20,owner,2,0.6,bachelor,2369.0,0.47,0.08,197,0.89,0.26,0.28,0,0,0,2,0,0,0.06490225,0,935,Prime / Low Risk
+20,High School,Student,2142.0,2,12,rent,10,0.82,highschool,1021.0,0.8,0.08,34,0.9,0.35,0.35,0,0,0,3,0,0,0.123452045,0,877,Prime / Low Risk
+24,Master's,Employed,7785.0,1,60,owner,0,0.99,master,4048.0,0.77,0.14,0,0.56,0.44,0.6900000000000001,0,0,0,1,2,1,0.84940207,1,151,High Risk / Poor
+21,Bachelor's,Self-Employed,8750.0,3,49,owner,3,0.53,bachelor,4517.0,0.5,0.15,149,0.72,0.26,0.52,0,0,0,2,1,0,0.46060094,0,539,High Risk / Poor
+21,Diploma,Employed,7307.0,1,10,rent,6,0.72,cert,2287.0,0.69,0.06,180,0.83,0.22,0.38,0,0,0,3,0,0,0.14478068,0,855,Prime / Low Risk
+24,Diploma,Student,4805.0,3,3,none,0,0.3,cert,4084.0,0.51,0.09,15,0.56,0.07,0.01,0,0,0,1,1,0,0.075028315,0,925,Prime / Low Risk
+23,Bachelor's,Employed,6137.0,3,8,owner,4,0.41,bachelor,1271.0,0.43,0.02,157,0.89,0.26,0.26,0,0,0,2,0,0,0.09150428,0,908,Prime / Low Risk
+23,High School,Unemployed,3353.0,2,3,rent,4,0.65,highschool,1932.0,0.51,0.17,100,0.62,0.47,0.55,0,0,0,3,1,1,0.9073414,1,93,High Risk / Poor
+22,Bachelor's,Unemployed,2754.0,1,5,owner,0,0.41,bachelor,1441.0,0.68,0.12,82,0.71,0.44,0.5,0,0,0,1,1,1,0.6217881,1,378,High Risk / Poor
+24,Master's,Employed,8122.0,2,11,rent,13,0.63,master,3492.0,0.7,0.05,214,0.86,0.24,0.37,0,0,0,3,0,0,0.096227214,0,904,Prime / Low Risk
+22,Diploma,Employed,8673.0,3,7,rent,17,0.55,cert,5036.0,0.56,0.12,99,0.71,0.41,0.41,0,0,0,3,0,1,0.36807296,0,632,Sub-Prime / Fair
+21,Diploma,Employed,7744.0,2,56,owner,4,0.35,cert,4945.0,0.73,0.14,38,0.62,0.39,0.51,0,0,0,2,1,0,0.8109389,1,189,High Risk / Poor
+21,Master's,Employed,8322.0,3,24,rent,5,0.55,master,4209.0,0.61,0.13,202,0.64,0.4,0.62,1,1,0,2,0,0,0.81386113,1,186,High Risk / Poor
+26,Master's,Employed,7285.0,1,29,rent,9,0.49,master,4250.0,0.66,0.16,156,0.67,0.39,0.43,0,0,0,3,0,1,0.5663331,1,434,High Risk / Poor
+20,High School,Employed,7321.0,1,29,rent,11,0.61,highschool,3740.0,0.6,0.12,159,0.77,0.27,0.52,0,0,0,2,0,0,0.48791215,0,512,High Risk / Poor
+23,Bachelor's,Employed,9633.0,2,28,rent,15,0.4,bachelor,2900.0,0.6,0.06,276,0.85,0.34,0.32,0,0,0,2,0,0,0.10336529,0,897,Prime / Low Risk
+26,Diploma,Employed,11868.0,3,26,rent,23,0.52,cert,4372.0,0.67,0.04,256,0.88,0.2,0.31,0,0,0,3,0,1,0.034860402,0,965,Prime / Low Risk
+25,High School,Employed,10708.0,2,54,rent,4,0.55,highschool,5633.0,0.62,0.11,163,0.73,0.3,0.51,0,0,0,2,2,1,0.53403944,1,466,High Risk / Poor
+26,Bachelor's,Student,3247.0,1,5,none,3,0.83,bachelor,1469.0,0.62,0.12,134,0.8,0.38,0.31,0,0,0,2,1,0,0.22886437,0,771,Prime / Low Risk
+20,Master's,Student,2396.0,2,10,rent,9,0.32,master,1835.0,0.58,0.23,29,0.56,0.53,0.72,0,0,0,0,3,1,0.9763417,1,24,High Risk / Poor
+26,Bachelor's,Unemployed,3022.0,2,0,rent,16,0.35,bachelor,1586.0,0.59,0.16,48,0.72,0.47,0.29,0,0,0,1,0,0,0.42362967,0,576,Sub-Prime / Fair
+23,Diploma,Employed,9377.0,2,46,rent,23,0.66,cert,4065.0,0.63,0.07,203,0.78,0.29,0.35,0,0,0,3,1,0,0.1560671,0,844,Prime / Low Risk
+21,Bachelor's,Employed,9840.0,2,7,rent,9,0.6,bachelor,4803.0,0.65,0.13,232,0.67,0.35,0.53,0,0,0,3,0,1,0.81629485,1,184,High Risk / Poor
+25,PhD,Employed,10013.0,3,33,owner,4,0.55,phd,1575.0,0.51,0.06,242,0.88,0.22,0.38,0,0,0,2,0,0,0.12241119,0,878,Prime / Low Risk
+22,Bachelor's,Employed,9330.0,3,54,owner,0,0.51,bachelor,2738.0,0.62,0.07,255,0.88,0.22,0.25,0,0,0,2,1,0,0.03450271,0,965,Prime / Low Risk
+23,Bachelor's,Student,1797.0,3,1,rent,4,0.36,bachelor,1167.0,0.61,0.2,46,0.73,0.38,0.43,0,0,0,2,0,1,0.57294345,1,427,High Risk / Poor
+21,Diploma,Student,3827.0,2,6,rent,5,0.62,cert,1599.0,0.73,0.05,102,0.9,0.27,0.14,0,0,0,3,1,0,0.023958884,0,976,Prime / Low Risk
+20,PhD,Self-Employed,8835.0,3,16,rent,24,0.32,phd,2568.0,0.5,0.18,198,0.8,0.26,0.27,0,0,0,2,1,1,0.13450298,0,865,Prime / Low Risk
+24,Bachelor's,Self-Employed,6069.0,3,3,rent,6,0.4,bachelor,3378.0,0.52,0.21,91,0.62,0.38,0.55,0,0,0,3,2,1,0.8743742,1,126,High Risk / Poor
+24,High School,Employed,8303.0,3,24,rent,7,0.61,highschool,3125.0,0.43,0.05,166,0.86,0.24,0.36,0,0,0,3,0,0,0.0471072,0,953,Prime / Low Risk
+24,Bachelor's,Employed,4806.0,3,6,rent,5,0.35,bachelor,686.0,0.7,0.05,227,0.93,0.18,0.12,0,0,0,3,0,0,0.034723435,0,965,Prime / Low Risk
+25,Bachelor's,Student,3574.0,2,0,rent,13,0.43,bachelor,362.0,0.4,0.02,124,0.99,0.23,0.05,0,0,0,3,1,0,0.035160832,0,965,Prime / Low Risk
+25,Bachelor's,Unemployed,3008.0,1,5,rent,20,0.56,bachelor,1386.0,0.65,0.11,91,0.82,0.36,0.4,0,0,0,2,2,1,0.21008477,0,790,Prime / Low Risk
+25,High School,Employed,5833.0,2,35,rent,21,0.66,highschool,2784.0,0.76,0.1,130,0.78,0.3,0.37,0,0,0,3,1,0,0.27125615,0,729,Near-Prime / Medium Risk
+22,Bachelor's,Self-Employed,9741.0,2,34,owner,2,0.52,bachelor,5086.0,0.41,0.14,156,0.68,0.38,0.53,0,0,0,3,0,1,0.69403845,1,306,High Risk / Poor
+23,Master's,Student,4036.0,3,9,none,0,0.49,master,1014.0,0.47,0.08,139,0.84,0.24,0.28,0,0,0,3,0,0,0.12050492,0,879,Prime / Low Risk
+21,Master's,Unemployed,3516.0,1,1,none,1,0.59,master,1874.0,0.68,0.17,0,0.68,0.51,0.57,0,0,0,1,2,1,0.8105391,1,189,High Risk / Poor
+22,Bachelor's,Employed,7863.0,2,25,rent,7,0.52,bachelor,2285.0,0.62,0.08,137,0.82,0.28,0.22,0,0,0,3,0,0,0.14351515,0,856,Prime / Low Risk
+25,Diploma,Student,4393.0,3,2,rent,15,0.3,cert,2300.0,0.56,0.12,131,0.72,0.41,0.43,0,0,0,2,1,0,0.43643433,0,564,Sub-Prime / Fair
+24,Bachelor's,Self-Employed,5329.0,1,55,rent,19,0.62,bachelor,2116.0,0.71,0.19,113,0.85,0.29,0.41,0,0,0,3,1,0,0.18042359,0,820,Prime / Low Risk
+21,Master's,Self-Employed,7797.0,2,29,rent,8,0.59,master,3219.0,0.56,0.14,191,0.78,0.17,0.3,0,0,0,3,1,0,0.13832855,0,862,Prime / Low Risk
+23,Bachelor's,Self-Employed,8154.0,3,13,none,2,0.58,bachelor,4370.0,0.49,0.16,145,0.69,0.4,0.44,0,0,0,2,1,1,0.40589464,0,594,Sub-Prime / Fair
+20,Bachelor's,Student,2517.0,2,1,owner,0,0.53,bachelor,644.0,0.6,0.05,74,0.84,0.34,0.3,0,0,0,3,0,0,0.1902974,0,810,Prime / Low Risk
+20,Bachelor's,Unemployed,2266.0,2,1,rent,16,0.47,bachelor,1177.0,0.65,0.22,25,0.57,0.48,0.6,0,1,0,2,2,0,0.9081571,1,92,High Risk / Poor
+20,High School,Student,1806.0,2,10,rent,4,0.3,highschool,1272.0,0.56,0.13,71,0.68,0.42,0.47,0,0,0,3,1,0,0.5316714,1,468,High Risk / Poor
+26,Master's,Employed,8787.0,3,32,none,3,0.57,master,2677.0,0.42,0.05,190,0.81,0.31,0.55,0,0,0,3,1,0,0.18475384,0,815,Prime / Low Risk
+23,Master's,Student,3189.0,2,5,rent,18,0.3,master,1391.0,0.46,0.06,76,0.84,0.24,0.4,0,0,0,3,1,0,0.11717038,0,883,Prime / Low Risk
+24,Bachelor's,Unemployed,3617.0,1,3,rent,12,0.44,bachelor,1532.0,0.52,0.13,68,0.91,0.39,0.12,0,0,0,2,1,0,0.0739104,0,926,Prime / Low Risk
+23,Master's,Employed,8540.0,2,13,rent,13,0.5,master,2517.0,0.64,0.07,184,0.86,0.25,0.28,0,0,0,3,1,0,0.07721252,0,923,Prime / Low Risk
+21,Master's,Employed,9603.0,3,59,owner,2,0.5,master,3498.0,0.73,0.04,125,0.7,0.34,0.49,0,1,0,3,0,0,0.5231913,1,477,High Risk / Poor
+23,High School,Employed,1941.0,1,53,rent,4,0.99,highschool,1611.0,0.63,0.21,15,0.84,0.14,0.37,0,0,0,2,2,0,0.121522605,0,878,Prime / Low Risk
+22,Bachelor's,Self-Employed,10283.0,3,41,rent,4,0.3,bachelor,2336.0,0.41,0.11,222,0.75,0.41,0.27,0,0,0,2,0,1,0.29601175,0,704,Near-Prime / Medium Risk
+24,Diploma,Unemployed,2988.0,2,3,rent,16,0.3,cert,2574.0,0.7,0.26,26,0.56,0.62,0.7,0,0,0,2,2,1,0.9317422,1,68,High Risk / Poor
+26,High School,Employed,8471.0,1,33,owner,0,0.66,highschool,3026.0,0.72,0.1,175,0.84,0.26,0.39,0,0,0,3,0,0,0.15021013,0,850,Prime / Low Risk
+24,High School,Self-Employed,10894.0,3,60,rent,17,0.56,highschool,2880.0,0.58,0.19,230,0.75,0.37,0.43,0,0,0,3,0,0,0.54605526,1,454,High Risk / Poor
+26,Master's,Employed,6759.0,2,9,owner,1,0.3,master,2276.0,0.56,0.06,153,1.0,0.11,0.24,0,0,0,2,0,0,0.025252575,0,975,Prime / Low Risk
+22,Bachelor's,Student,3484.0,2,7,none,0,0.6,bachelor,1112.0,0.72,0.06,115,0.85,0.18,0.26,0,0,0,2,0,0,0.113187544,0,887,Prime / Low Risk
+26,Bachelor's,Unemployed,4205.0,1,3,none,2,0.62,bachelor,1647.0,0.6,0.13,78,0.72,0.42,0.47,0,0,0,2,0,0,0.5454089,1,455,High Risk / Poor
+24,Bachelor's,Employed,9924.0,3,42,none,3,0.73,bachelor,1873.0,0.4,0.07,266,0.9,0.08,0.25,0,0,0,3,0,0,0.017359633,0,983,Prime / Low Risk
+22,Bachelor's,Employed,7329.0,2,59,rent,7,0.39,bachelor,4873.0,0.6,0.15,121,0.69,0.45,0.56,0,0,0,3,0,0,0.714651,1,285,High Risk / Poor
+26,Diploma,Employed,8109.0,2,44,rent,7,0.43,cert,2291.0,0.51,0.11,241,0.81,0.27,0.41,0,0,0,1,0,0,0.31172734,0,688,Near-Prime / Medium Risk
+25,Bachelor's,Self-Employed,9709.0,2,45,none,3,0.44,bachelor,3692.0,0.66,0.18,153,0.61,0.41,0.59,0,1,0,3,0,1,0.82086825,1,179,High Risk / Poor
+24,Bachelor's,Unemployed,2653.0,2,0,rent,16,0.63,bachelor,1963.0,0.69,0.15,52,0.69,0.41,0.44,0,0,0,1,0,0,0.45691615,0,543,High Risk / Poor
+25,Bachelor's,Student,5133.0,2,11,rent,7,0.39,bachelor,2019.0,0.6,0.11,98,0.77,0.25,0.28,0,0,0,0,1,0,0.17213215,0,828,Prime / Low Risk
+25,Diploma,Student,3046.0,2,6,rent,13,0.54,cert,1718.0,0.75,0.08,48,0.73,0.34,0.37,0,0,0,2,0,0,0.3832334,0,617,Sub-Prime / Fair
+20,Bachelor's,Employed,8527.0,1,14,owner,3,0.55,bachelor,3524.0,0.64,0.07,176,0.86,0.24,0.3,0,0,0,1,0,0,0.08974613,0,910,Prime / Low Risk
+21,Master's,Employed,8632.0,2,14,owner,2,0.3,master,3975.0,0.76,0.07,202,0.86,0.23,0.23,0,0,0,2,0,0,0.047299787,0,953,Prime / Low Risk
+22,High School,Student,3284.0,2,0,rent,4,0.54,highschool,1409.0,0.72,0.09,60,0.73,0.36,0.5,0,0,0,2,0,1,0.56526816,1,435,High Risk / Poor
+23,Bachelor's,Employed,8541.0,2,47,rent,18,0.6,bachelor,2940.0,0.54,0.08,236,0.87,0.22,0.27,0,0,0,2,1,0,0.065408856,0,935,Prime / Low Risk
+21,PhD,Student,3425.0,1,26,owner,0,0.6900000000000001,phd,3048.0,0.84,0.19,240,0.78,0.37,0.5,0,0,0,1,3,1,0.631216,1,369,High Risk / Poor
+21,Bachelor's,Self-Employed,8514.0,2,20,owner,2,0.42,bachelor,3595.0,0.6,0.16,169,0.81,0.22,0.33,0,0,0,1,0,0,0.13447465,0,866,Prime / Low Risk
+23,High School,Employed,6489.0,3,19,none,0,0.86,none,5450.0,0.8200000000000001,0.22,90,1.0,0.46,0.49,0,0,0,0,2,0,0.42477578,0,575,Sub-Prime / Fair
+22,Bachelor's,Employed,7209.0,2,47,rent,11,0.46,bachelor,2083.0,0.58,0.06,161,0.87,0.23,0.36,0,0,0,2,0,0,0.10436255,0,896,Prime / Low Risk
+23,Master's,Employed,7606.0,2,32,rent,20,0.86,master,2765.0,0.54,0.1,159,0.73,0.34,0.49,0,0,0,3,0,0,0.40909618,0,591,Sub-Prime / Fair
+24,Diploma,Self-Employed,8675.0,1,34,rent,10,0.34,cert,4893.0,0.74,0.18,108,0.72,0.36,0.52,0,0,0,2,0,1,0.6058727,1,394,High Risk / Poor
+20,Diploma,Student,2255.0,2,3,none,2,0.66,cert,1344.0,0.65,0.11,43,0.76,0.26,0.3,0,0,0,3,0,0,0.30862796,0,691,Near-Prime / Medium Risk
+25,Bachelor's,Self-Employed,8448.0,1,22,rent,17,0.6,bachelor,3205.0,0.67,0.18,202,0.79,0.28,0.37,0,0,0,2,2,1,0.2557226,0,744,Near-Prime / Medium Risk
+22,High School,Employed,11629.0,3,42,rent,16,0.67,none,3139.0,0.66,0.09,90,0.85,0.5,0.12,0,0,0,0,1,0,0.09608981,0,904,Prime / Low Risk
+24,Diploma,Student,4409.0,2,4,none,2,0.79,cert,2045.0,0.71,0.13,55,0.56,0.55,0.64,0,0,0,2,3,0,0.9686515,1,31,High Risk / Poor
+21,High School,Unemployed,2316.0,3,0,rent,19,0.53,highschool,1981.0,0.63,0.3,15,0.56,0.61,0.73,0,0,0,1,3,1,0.89841616,1,102,High Risk / Poor
+23,Bachelor's,Self-Employed,11851.0,3,43,rent,18,0.58,bachelor,1580.0,0.56,0.11,237,0.95,0.14,0.27,0,0,0,3,2,1,0.020307066,0,980,Prime / Low Risk
+21,Bachelor's,Self-Employed,6518.0,1,57,rent,18,0.61,bachelor,2386.0,0.73,0.12,95,0.8,0.17,0.28,0,0,0,3,0,1,0.11439693,0,886,Prime / Low Risk
+20,High School,Student,3893.0,2,8,rent,15,0.51,highschool,1466.0,0.6,0.09,114,0.82,0.31,0.4,0,0,0,2,1,0,0.23833922,0,762,Prime / Low Risk
+25,High School,Employed,9479.0,1,29,rent,14,0.49,highschool,5274.0,0.59,0.04,171,0.94,0.27,0.26,0,0,0,3,0,0,0.035987828,0,964,Prime / Low Risk
+26,Bachelor's,Student,4580.0,2,11,rent,11,0.39,bachelor,3697.0,0.72,0.21,25,0.67,0.43,0.55,0,0,0,2,1,0,0.80764157,1,192,High Risk / Poor
+23,Bachelor's,Student,4139.0,3,2,none,2,0.33,bachelor,2602.0,0.68,0.06,66,0.77,0.29,0.31,0,0,0,2,1,0,0.20999055,0,790,Prime / Low Risk
+20,High School,Employed,6971.0,1,32,rent,21,0.52,highschool,2827.0,0.64,0.02,180,0.87,0.22,0.2,0,0,0,2,1,0,0.0313703,0,969,Prime / Low Risk
+23,Bachelor's,Student,4404.0,2,12,owner,4,0.44,bachelor,2281.0,0.65,0.13,71,0.71,0.37,0.52,0,0,0,1,0,0,0.6745562,1,325,High Risk / Poor
+26,High School,Self-Employed,10658.0,1,4,rent,21,0.67,highschool,5968.0,0.52,0.09,180,0.84,0.75,0.55,0,0,0,1,1,1,0.6599553,1,340,High Risk / Poor
+23,Diploma,Employed,12946.0,1,27,rent,19,0.76,cert,2921.0,0.46,0.1,279,0.77,0.3,0.35,0,0,0,3,0,0,0.18182872,0,818,Prime / Low Risk
+22,Bachelor's,Self-Employed,6766.0,3,57,owner,1,0.4,bachelor,1672.0,0.45,0.1,209,0.88,0.18,0.27,0,0,0,2,0,0,0.07816894,0,922,Prime / Low Risk
+24,Master's,Employed,7658.0,2,44,rent,14,0.34,master,2447.0,0.78,0.09,211,0.85,0.22,0.31,0,0,0,2,0,0,0.08774054,0,912,Prime / Low Risk
+23,Bachelor's,Employed,8381.0,2,57,rent,13,0.38,bachelor,5557.0,0.59,0.18,81,0.67,0.49,0.57,0,0,0,1,0,1,0.8522907,1,148,High Risk / Poor
+24,Bachelor's,Employed,6907.0,3,28,owner,1,0.57,bachelor,2648.0,0.79,0.02,158,1.0,0.08,0.2,0,0,0,3,1,0,0.010246827,0,990,Prime / Low Risk
+23,Master's,Self-Employed,9351.0,3,48,none,2,0.36,master,3740.0,0.58,0.11,167,0.71,0.38,0.4,0,0,0,3,1,1,0.33067226,0,669,Near-Prime / Medium Risk
+26,Bachelor's,Self-Employed,6695.0,2,26,rent,15,0.39,bachelor,3170.0,0.45,0.19,62,0.64,0.28,0.54,0,0,0,2,0,1,0.6338478,1,366,High Risk / Poor
+26,High School,Employed,8500.0,2,37,rent,13,0.59,highschool,4158.0,0.78,0.12,131,0.74,0.32,0.4,0,0,0,2,1,1,0.42768595,0,572,Sub-Prime / Fair
+24,Bachelor's,Unemployed,2176.0,2,3,none,1,0.5,bachelor,1554.0,0.61,0.3,26,0.56,0.72,0.74,0,0,0,1,2,1,0.94030344,1,60,High Risk / Poor
+26,PhD,Self-Employed,10267.0,2,58,owner,0,0.76,phd,7392.0,0.77,0.03,30,0.74,0.64,0.75,0,0,0,1,2,1,0.6919262,1,308,High Risk / Poor
+25,High School,Self-Employed,6899.0,2,34,rent,4,0.5,highschool,3041.0,0.6,0.19,132,0.66,0.44,0.54,0,0,0,2,0,0,0.77863944,1,221,High Risk / Poor
+25,Bachelor's,Student,3613.0,2,1,rent,19,0.59,bachelor,1217.0,0.64,0.05,93,0.88,0.22,0.24,0,0,0,3,1,0,0.10771529,0,892,Prime / Low Risk
+26,Bachelor's,Student,3941.0,3,10,none,0,0.58,bachelor,1730.0,0.68,0.08,116,0.73,0.27,0.47,0,0,0,2,0,0,0.37139407,0,629,Sub-Prime / Fair
+23,Bachelor's,Employed,6118.0,2,26,rent,16,0.42,bachelor,3093.0,0.58,0.18,92,0.62,0.51,0.56,0,0,1,3,2,1,0.9232476,1,77,High Risk / Poor
+24,Diploma,Employed,7960.0,2,21,none,2,0.64,cert,3689.0,0.65,0.05,148,0.79,0.3,0.4,0,0,0,2,1,0,0.19208588,0,808,Prime / Low Risk
+20,Diploma,Employed,10214.0,3,32,none,0,0.88,cert,6843.0,0.59,0.1,360,0.72,0.52,0.55,0,0,0,3,0,1,0.6721715,1,328,High Risk / Poor
+25,Diploma,Self-Employed,9152.0,2,5,none,4,0.41,cert,2347.0,0.67,0.13,234,0.89,0.17,0.26,0,0,0,3,0,0,0.09064072,0,909,Prime / Low Risk
+26,Diploma,Employed,7956.0,1,50,owner,4,0.66,cert,2044.0,0.65,0.03,206,0.96,0.31,0.19,0,0,0,2,0,1,0.016004918,0,984,Prime / Low Risk
+20,Master's,Employed,6125.0,3,60,rent,17,0.52,master,3143.0,0.66,0.08,156,0.8,0.28,0.37,0,0,0,2,0,0,0.29358616,0,706,Near-Prime / Medium Risk
+21,Bachelor's,Employed,5345.0,3,17,rent,22,0.61,bachelor,1606.0,0.67,0.02,187,0.93,0.1,0.14,0,0,0,2,1,0,0.010792572,0,989,Prime / Low Risk
+23,Bachelor's,Self-Employed,10585.0,1,36,rent,6,0.52,bachelor,2562.0,0.54,0.16,191,0.81,0.2,0.27,0,0,0,2,1,0,0.10767459,0,892,Prime / Low Risk
+24,Bachelor's,Employed,7575.0,2,44,rent,11,0.64,bachelor,2219.0,0.42,0.02,180,1.0,0.08,0.22,0,0,0,3,1,0,0.011743272,0,988,Prime / Low Risk
+24,High School,Self-Employed,5209.0,2,43,rent,20,0.39,highschool,2862.0,0.73,0.14,100,0.72,0.25,0.46,0,0,0,2,2,0,0.31547213,0,685,Near-Prime / Medium Risk
+26,High School,Student,3635.0,2,11,rent,21,0.47,highschool,2068.0,0.7,0.1,81,0.83,0.31,0.25,0,0,0,1,1,0,0.09363411,0,906,Prime / Low Risk
+22,High School,Employed,9219.0,3,16,none,2,0.43,highschool,2194.0,0.56,0.13,203,0.83,0.33,0.31,0,0,0,3,0,0,0.13930607,0,861,Prime / Low Risk
+23,High School,Self-Employed,2227.0,2,25,rent,23,0.67,highschool,1294.0,0.75,0.12,40,0.79,0.34,0.41,0,0,0,1,1,0,0.3774258,0,623,Sub-Prime / Fair
+25,Bachelor's,Employed,8955.0,1,45,rent,11,0.73,bachelor,3027.0,0.57,0.11,233,0.94,0.13,0.28,0,0,0,3,1,0,0.028278487,0,972,Prime / Low Risk
+21,Diploma,Employed,10326.0,3,16,rent,6,0.58,cert,5117.0,0.49,0.06,173,0.8,0.32,0.33,0,0,0,3,1,1,0.16554591,0,834,Prime / Low Risk
+25,Master's,Employed,9173.0,2,11,none,3,0.43,master,2885.0,0.48,0.07,161,0.88,0.31,0.22,0,0,0,3,1,0,0.038630866,0,961,Prime / Low Risk
+21,Bachelor's,Self-Employed,10053.0,3,49,rent,19,0.58,bachelor,3960.0,0.75,0.15,204,0.8,0.22,0.33,0,0,0,2,2,0,0.15873569,0,841,Prime / Low Risk
+24,Bachelor's,Employed,5296.0,2,23,rent,19,0.6,bachelor,3159.0,0.71,0.1,66,0.73,0.4,0.65,0,0,0,2,1,0,0.572618,1,427,High Risk / Poor
+23,High School,Employed,9964.0,1,36,owner,1,0.49,highschool,3467.0,0.44,0.12,223,0.74,0.35,0.57,0,0,0,2,1,0,0.6185084,1,381,High Risk / Poor
+22,Bachelor's,Employed,6759.0,2,13,rent,17,0.45,bachelor,4209.0,0.43,0.1,86,0.74,0.37,0.53,0,0,0,1,2,1,0.47253418,0,527,High Risk / Poor
+20,Diploma,Self-Employed,9016.0,2,28,rent,11,0.52,cert,4261.0,0.65,0.24,127,0.61,0.47,0.63,0,0,0,3,2,1,0.9565881,1,43,High Risk / Poor
+25,Master's,Employed,7930.0,1,20,rent,18,0.78,master,2283.0,0.64,0.08,187,0.91,0.25,0.26,0,0,0,2,0,0,0.07191171,0,928,Prime / Low Risk
+20,Master's,Employed,8718.0,3,30,owner,1,0.66,master,3627.0,0.57,0.05,276,0.95,0.18,0.21,0,0,0,3,0,0,0.018313047,0,982,Prime / Low Risk
+20,Bachelor's,Unemployed,2109.0,2,1,rent,17,0.49,bachelor,556.0,0.68,0.04,92,0.93,0.24,0.1,0,0,0,3,0,0,0.044124316,0,956,Prime / Low Risk
+22,Bachelor's,Student,3700.0,1,0,rent,5,0.6,bachelor,2013.0,0.6,0.12,34,0.74,0.34,0.32,0,0,0,2,2,0,0.4099665,0,590,Sub-Prime / Fair
+24,Bachelor's,Self-Employed,10416.0,2,38,rent,21,0.6,bachelor,2370.0,0.53,0.16,307,0.83,0.17,0.37,0,0,0,2,0,1,0.10652262,0,893,Prime / Low Risk
+26,Bachelor's,Employed,7884.0,1,26,rent,4,0.3,bachelor,4060.0,0.47,0.17,70,0.61,0.41,0.58,0,0,0,2,0,1,0.82175523,1,178,High Risk / Poor
+20,Master's,Employed,8348.0,1,53,owner,0,0.48,master,3975.0,0.46,0.08,165,0.75,0.33,0.39,0,0,0,1,0,0,0.40239593,0,598,Sub-Prime / Fair
+22,Master's,Employed,7709.0,1,35,rent,18,0.66,master,4380.0,0.55,0.14,153,0.72,0.19,0.42,0,0,0,1,2,0,0.25730714,0,743,Near-Prime / Medium Risk
+25,Bachelor's,Student,2591.0,2,4,none,4,0.46,bachelor,934.0,0.35,0.11,73,0.83,0.25,0.36,0,0,0,0,1,0,0.124716654,0,875,Prime / Low Risk
+21,Bachelor's,Self-Employed,4643.0,3,21,rent,9,0.34,bachelor,1783.0,0.7,0.12,113,0.8,0.32,0.24,0,0,0,2,1,0,0.15752786,0,842,Prime / Low Risk
+20,Master's,Student,3245.0,2,1,rent,23,0.44,master,789.0,0.6,0.1,68,0.86,0.27,0.22,0,0,0,1,0,0,0.060934883,0,939,Prime / Low Risk
+26,Master's,Employed,7386.0,3,42,rent,13,0.38,master,3766.0,0.68,0.1,138,0.68,0.33,0.51,0,0,0,3,2,0,0.5064039,1,494,High Risk / Poor
+21,Master's,Student,1891.0,2,0,owner,0,0.44,master,627.0,0.59,0.08,81,0.82,0.37,0.35,0,0,0,2,0,1,0.31520143,0,685,Near-Prime / Medium Risk
+22,PhD,Student,2339.0,2,12,rent,9,0.6,phd,1316.0,0.81,0.2,72,0.56,0.57,0.77,0,0,0,1,3,1,0.958652,1,41,High Risk / Poor
+20,Master's,Employed,9679.0,2,54,owner,3,0.54,master,3766.0,0.61,0.07,196,0.91,0.16,0.15,0,0,0,3,0,0,0.026788909,0,973,Prime / Low Risk
+20,Bachelor's,Employed,7645.0,1,37,owner,3,0.77,bachelor,2978.0,0.52,0.06,185,0.89,0.2,0.31,0,0,0,2,0,0,0.058864173,0,941,Prime / Low Risk
+22,Diploma,Employed,7849.0,2,18,rent,13,0.4,cert,2510.0,0.51,0.07,180,0.77,0.33,0.35,0,0,0,2,2,1,0.25044048,0,750,Prime / Low Risk
+26,Master's,Employed,6862.0,3,43,rent,8,0.45,master,3093.0,0.58,0.08,141,0.87,0.18,0.37,0,0,0,2,0,0,0.102147534,0,898,Prime / Low Risk
+26,Bachelor's,Self-Employed,9908.0,1,35,owner,2,0.48,bachelor,3563.0,0.69,0.2,170,0.63,0.43,0.58,0,0,0,2,2,1,0.61932397,1,381,High Risk / Poor
+21,Bachelor's,Student,4716.0,3,3,rent,9,0.44,bachelor,1807.0,0.64,0.1,165,0.75,0.39,0.25,0,0,0,3,1,1,0.27951002,0,720,Near-Prime / Medium Risk
+24,Bachelor's,Unemployed,3640.0,2,3,owner,3,0.68,bachelor,2419.0,0.65,0.13,86,0.82,0.32,0.3,0,0,0,2,0,0,0.32025987,0,680,Near-Prime / Medium Risk
+23,High School,Self-Employed,11686.0,1,36,owner,0,0.87,highschool,7362.0,0.65,0.03,60,0.56,0.24,0.61,0,0,0,1,3,0,0.14157294,0,858,Prime / Low Risk
+20,Diploma,Employed,9292.0,2,57,rent,10,0.6,cert,3283.0,0.53,0.04,167,0.98,0.09,0.27,0,0,0,2,0,0,0.020314366,0,980,Prime / Low Risk
+21,Master's,Student,5017.0,3,11,rent,22,0.3,master,2404.0,0.66,0.07,133,0.78,0.3,0.39,0,0,0,3,1,0,0.22713456,0,773,Prime / Low Risk
+25,Bachelor's,Employed,8437.0,2,35,rent,11,0.7,bachelor,2668.0,0.39,0.13,104,0.62,0.48,0.59,0,0,0,3,0,1,0.9195953,1,80,High Risk / Poor
+22,Diploma,Self-Employed,4970.0,1,16,none,0,0.91,cert,4224.0,0.72,0.21,60,0.73,0.52,0.3,0,0,0,0,2,0,0.74508643,1,255,High Risk / Poor
+26,Bachelor's,Employed,9412.0,2,23,owner,1,0.59,bachelor,4572.0,0.57,0.11,205,0.61,0.41,0.43,0,0,0,3,0,1,0.5684136,1,432,High Risk / Poor
+26,Bachelor's,Employed,8697.0,3,14,rent,11,0.51,bachelor,3357.0,0.56,0.09,187,0.63,0.47,0.54,0,0,0,3,0,0,0.73129517,1,269,High Risk / Poor
+25,High School,Employed,9629.0,3,13,owner,1,0.65,highschool,2843.0,0.36,0.07,257,1.0,0.18,0.19,0,0,0,2,1,0,0.02025065,0,980,Prime / Low Risk
+22,High School,Unemployed,2404.0,1,1,rent,21,0.47,highschool,2047.0,0.62,0.2,50,0.59,0.54,0.51,0,0,0,0,2,0,0.873973,1,126,High Risk / Poor
+20,Master's,Student,3513.0,1,6,none,3,0.53,master,1425.0,0.58,0.11,101,0.68,0.37,0.42,0,0,0,3,0,1,0.5098023,1,490,High Risk / Poor
+23,Bachelor's,Employed,9028.0,3,33,rent,6,0.5,bachelor,2601.0,0.67,0.02,143,0.94,0.12,0.22,0,0,0,3,0,0,0.017590474,0,982,Prime / Low Risk
+20,High School,Self-Employed,10715.0,2,37,owner,0,0.63,highschool,4116.0,0.66,0.18,204,0.74,0.3,0.34,0,0,0,3,0,1,0.32118315,0,679,Near-Prime / Medium Risk
+21,Master's,Self-Employed,9736.0,1,22,owner,4,0.41,master,3022.0,0.51,0.13,226,0.81,0.27,0.31,0,0,0,3,2,0,0.1950626,0,805,Prime / Low Risk
+21,Diploma,Employed,6937.0,1,32,owner,3,0.57,cert,5747.0,0.6,0.23,22,0.56,0.62,0.8,0,0,0,2,3,1,0.95069045,1,49,High Risk / Poor
+20,High School,Employed,7159.0,2,26,owner,3,0.6,highschool,3231.0,0.67,0.12,142,0.84,0.26,0.19,0,0,0,3,1,0,0.06817975,0,932,Prime / Low Risk
+25,High School,Employed,8356.0,2,34,owner,2,0.9,highschool,3727.0,0.46,0.08,205,0.83,0.2,0.37,0,0,0,2,0,0,0.087504126,0,912,Prime / Low Risk
+21,Bachelor's,Employed,7354.0,3,44,none,1,0.45,bachelor,3315.0,0.57,0.1,148,0.8,0.29,0.3,0,0,0,2,0,0,0.1863433,0,814,Prime / Low Risk
+21,Diploma,Employed,8206.0,2,28,rent,19,0.62,cert,2793.0,0.63,0.03,186,0.97,0.23,0.32,0,0,0,3,1,1,0.031178718,0,969,Prime / Low Risk
+20,Bachelor's,Employed,7022.0,2,9,owner,0,0.51,bachelor,1924.0,0.6,0.03,212,0.86,0.31,0.39,0,0,0,2,0,0,0.2367289,0,763,Prime / Low Risk
+26,Bachelor's,Student,4340.0,1,2,rent,12,0.64,bachelor,2903.0,0.62,0.21,23,0.56,0.56,0.55,0,0,0,0,2,1,0.967581,1,32,High Risk / Poor
+22,Diploma,Employed,9725.0,2,56,owner,4,0.35,cert,5226.0,0.6,0.15,122,0.56,0.5,0.63,0,1,0,2,2,1,0.96534,1,35,High Risk / Poor
+26,High School,Self-Employed,10196.0,1,19,owner,1,0.57,highschool,5669.0,0.65,0.18,96,0.65,0.4,0.36,0,0,0,1,1,1,0.39323786,0,607,Sub-Prime / Fair
+21,Master's,Student,3848.0,2,3,none,4,0.39,master,2443.0,0.64,0.15,49,0.63,0.43,0.46,0,0,0,1,1,0,0.56569993,1,434,High Risk / Poor
+26,High School,Employed,9890.0,3,34,rent,9,0.58,highschool,3693.0,0.72,0.08,208,0.92,0.11,0.25,0,0,0,3,0,0,0.021866689,0,978,Prime / Low Risk
+24,Bachelor's,Employed,7665.0,2,51,rent,6,0.71,bachelor,3605.0,0.73,0.02,176,0.84,0.35,0.28,0,0,0,3,0,0,0.15943362,0,841,Prime / Low Risk
+21,Bachelor's,Employed,9011.0,3,17,rent,7,0.41,bachelor,3652.0,0.73,0.11,200,0.78,0.31,0.36,0,0,0,2,1,0,0.17689751,0,823,Prime / Low Risk
+24,Master's,Unemployed,3001.0,1,2,rent,23,0.68,master,1868.0,0.54,0.16,19,0.67,0.4,0.66,0,0,0,2,1,1,0.708656,1,291,High Risk / Poor
+25,High School,Employed,7358.0,1,58,rent,19,0.54,highschool,3055.0,0.5,0.11,153,0.77,0.28,0.42,0,0,0,3,2,0,0.28789446,0,712,Near-Prime / Medium Risk
+21,Master's,Employed,7036.0,1,42,owner,2,0.57,master,3147.0,0.57,0.1,173,0.95,0.18,0.17,0,0,0,3,0,0,0.018083386,0,982,Prime / Low Risk
+22,High School,Employed,9248.0,1,44,owner,2,0.44,highschool,3892.0,0.59,0.09,155,0.75,0.38,0.43,0,0,0,2,0,0,0.44518515,0,555,Sub-Prime / Fair
+21,Master's,Student,2553.0,3,9,rent,15,0.63,master,1680.0,0.63,0.08,49,0.68,0.42,0.47,0,0,0,1,0,1,0.45336425,0,547,High Risk / Poor
+25,Bachelor's,Self-Employed,6063.0,1,58,owner,0,0.62,bachelor,1908.0,0.61,0.13,155,0.89,0.16,0.23,0,0,0,1,1,0,0.052397486,0,948,Prime / Low Risk
+21,Bachelor's,Self-Employed,7265.0,2,31,rent,23,0.41,bachelor,3269.0,0.47,0.3,240,0.67,0.09,0.21,0,0,0,2,1,1,0.12894545,0,871,Prime / Low Risk
+21,Bachelor's,Student,2280.0,3,1,none,2,0.49,bachelor,713.0,0.58,0.02,46,0.93,0.22,0.08,0,0,0,2,2,0,0.06346065,0,937,Prime / Low Risk
+22,Bachelor's,Employed,5381.0,1,36,none,0,0.84,bachelor,2206.0,0.38,0.2,45,0.74,0.24,0.45,0,0,0,3,3,0,0.44779098,0,552,Sub-Prime / Fair
+26,High School,Employed,4627.0,1,53,none,0,0.9,highschool,1203.0,0.72,0.06,120,0.56,0.17,0.12,0,0,0,3,1,0,0.09278437,0,907,Prime / Low Risk
+25,Master's,Unemployed,2818.0,2,1,rent,14,0.58,master,1478.0,0.69,0.21,61,0.62,0.49,0.61,0,0,0,1,2,1,0.91860044,1,81,High Risk / Poor
+23,Master's,Student,3696.0,1,6,none,3,0.53,master,2116.0,0.49,0.14,34,0.65,0.48,0.41,0,0,0,1,0,1,0.79155284,1,208,High Risk / Poor
+21,Master's,Employed,8552.0,2,48,rent,14,0.59,master,2240.0,0.55,0.1,207,0.77,0.29,0.36,0,0,0,3,0,0,0.37235814,0,628,Sub-Prime / Fair
+22,PhD,Student,3350.0,3,23,owner,0,0.9,phd,1239.0,0.54,0.02,60,0.81,0.33,0.19,0,0,0,1,2,0,0.20028146,0,800,Prime / Low Risk
+20,Master's,Student,5154.0,2,12,rent,18,0.76,master,3089.0,0.74,0.15,79,0.71,0.3,0.36,0,0,0,2,0,0,0.3500095,0,650,Near-Prime / Medium Risk
+21,Master's,Employed,1695.0,3,35,owner,0,0.77,master,830.0,0.59,0.21,90,0.65,0.25,0.15,0,0,0,1,0,0,0.14448504,0,856,Prime / Low Risk
+21,Diploma,Employed,8639.0,3,28,rent,22,0.41,cert,5927.0,0.68,0.17,78,0.78,0.29,0.4,0,0,0,2,0,1,0.2565239,0,743,Near-Prime / Medium Risk
+23,High School,Unemployed,2671.0,2,6,none,0,0.6,highschool,1103.0,0.77,0.12,62,0.86,0.27,0.26,0,0,0,1,0,0,0.0706447,0,929,Prime / Low Risk
+22,High School,Employed,9521.0,2,54,owner,3,0.44,highschool,3108.0,0.61,0.1,210,0.82,0.28,0.36,0,0,1,1,0,1,0.19473808,0,805,Prime / Low Risk
+26,Master's,Student,4690.0,2,4,rent,9,0.44,master,1630.0,0.49,0.1,105,0.75,0.26,0.31,0,0,0,3,0,0,0.24069393,0,759,Prime / Low Risk
+24,Bachelor's,Student,3844.0,1,6,none,4,0.54,bachelor,2049.0,0.62,0.12,43,0.65,0.43,0.43,0,0,0,1,1,1,0.5591721,1,441,High Risk / Poor
+23,Master's,Student,4594.0,3,4,owner,3,0.58,master,2802.0,0.62,0.12,103,0.71,0.31,0.38,0,0,0,3,0,0,0.4461867,0,554,Sub-Prime / Fair
+24,Bachelor's,Employed,9376.0,2,17,owner,0,0.42,bachelor,2665.0,0.73,0.06,285,0.87,0.29,0.3,0,0,0,2,0,1,0.0733484,0,927,Prime / Low Risk
+20,Bachelor's,Student,3025.0,2,3,rent,5,0.36,bachelor,1020.0,0.55,0.02,64,0.93,0.15,0.17,0,0,0,3,1,0,0.018638404,0,981,Prime / Low Risk
+23,Bachelor's,Self-Employed,9024.0,2,9,owner,2,0.55,bachelor,2344.0,0.51,0.22,237,0.7,0.33,0.45,0,0,0,2,1,0,0.6174401,1,383,High Risk / Poor
+22,Bachelor's,Employed,7149.0,3,34,none,4,0.78,bachelor,3352.0,0.64,0.09,159,0.88,0.27,0.32,0,0,0,1,1,0,0.07716663,0,923,Prime / Low Risk
+22,High School,Student,3130.0,2,2,rent,17,0.3,highschool,2213.0,0.72,0.14,25,0.64,0.44,0.51,0,0,0,2,0,1,0.7093505,1,291,High Risk / Poor
+21,Master's,Employed,7417.0,3,17,rent,8,0.3,master,2916.0,0.63,0.07,176,0.88,0.25,0.26,0,0,0,3,1,0,0.051107287,0,949,Prime / Low Risk
+21,Master's,Employed,8171.0,1,46,owner,1,0.52,master,1313.0,0.62,0.04,255,0.97,0.12,0.28,0,0,0,3,0,0,0.018077938,0,982,Prime / Low Risk
+26,Master's,Self-Employed,8899.0,2,23,rent,11,0.62,master,3687.0,0.57,0.16,180,0.83,0.33,0.31,0,0,0,0,1,0,0.17268527,0,827,Prime / Low Risk
+21,Bachelor's,Self-Employed,7560.0,2,28,owner,0,0.37,bachelor,4722.0,0.41,0.25,82,0.58,0.42,0.53,0,0,0,2,0,1,0.85552603,1,144,High Risk / Poor
+23,Master's,Employed,5325.0,1,39,rent,19,0.4,master,1810.0,0.51,0.23,15,0.6000000000000001,0.09,0.76,0,0,0,0,2,1,0.5467572,1,453,High Risk / Poor
+24,Diploma,Employed,8975.0,2,42,rent,24,0.65,cert,3388.0,0.59,0.02,194,0.79,0.31,0.25,0,0,0,2,0,0,0.16088636,0,839,Prime / Low Risk
+22,High School,Employed,5709.0,2,42,none,0,0.52,highschool,1805.0,0.68,0.08,170,0.81,0.26,0.35,0,0,0,3,1,0,0.11947501,0,881,Prime / Low Risk
+20,Master's,Employed,7920.0,2,17,rent,17,0.61,master,2692.0,0.34,0.18,0,1.0,0.21,0.55,0,0,0,2,2,0,0.26128554,0,739,Near-Prime / Medium Risk
+21,Bachelor's,Employed,8157.0,3,40,rent,14,0.39,bachelor,3185.0,0.6,0.15,185,0.66,0.37,0.53,0,0,0,1,0,1,0.7462809,1,254,High Risk / Poor
+26,Diploma,Employed,11935.0,2,55,owner,0,0.61,cert,3976.0,0.48,0.04,304,0.81,0.33,0.17,1,0,0,3,1,0,0.07148711,0,929,Prime / Low Risk
+22,Bachelor's,Employed,1632.0,2,19,none,0,0.54,bachelor,913.0,0.66,0.06,45,0.78,0.63,0.6900000000000001,0,0,0,1,0,1,0.7374625,1,263,High Risk / Poor
+24,Diploma,Employed,8604.0,3,13,rent,7,0.52,cert,3026.0,0.57,0.02,181,0.87,0.29,0.37,0,0,0,3,0,0,0.17562298,0,824,Prime / Low Risk
+20,Master's,Student,4309.0,3,4,none,4,0.52,master,1989.0,0.64,0.16,117,0.68,0.35,0.57,0,0,0,3,0,0,0.7141768,1,286,High Risk / Poor
+20,Bachelor's,Employed,6474.0,2,10,rent,7,0.59,bachelor,2611.0,0.67,0.1,129,0.68,0.39,0.55,0,1,0,1,0,1,0.724594,1,275,High Risk / Poor
+23,High School,Employed,8178.0,3,54,rent,18,0.3,highschool,2046.0,0.48,0.08,179,0.87,0.19,0.24,0,0,0,2,0,0,0.048872072,0,951,Prime / Low Risk
+22,Bachelor's,Employed,6974.0,3,53,rent,18,0.54,bachelor,2115.0,0.45,0.03,193,1.0,0.05,0.11,0,0,0,3,0,0,0.0065405536,0,993,Prime / Low Risk
+24,Diploma,Student,1200.0,2,0,owner,2,0.46,cert,501.0,0.61,0.11,61,0.69,0.35,0.38,0,0,0,3,0,1,0.5231558,1,477,High Risk / Poor
+26,High School,Self-Employed,8966.0,1,38,none,1,0.58,highschool,3668.0,0.58,0.13,140,0.76,0.34,0.38,0,0,0,3,1,1,0.49463144,0,505,High Risk / Poor
+20,Master's,Employed,9555.0,1,60,none,0,0.56,master,6401.0,0.52,0.17,15,0.6000000000000001,0.33,0.56,0,0,0,1,0,1,0.8088971,1,191,High Risk / Poor
+26,Bachelor's,Student,5360.0,2,12,owner,0,0.51,bachelor,2339.0,0.37,0.14,74,0.86,0.22,0.19,0,0,0,1,1,0,0.04111018,0,959,Prime / Low Risk
+26,Bachelor's,Self-Employed,4690.0,2,54,rent,12,0.54,bachelor,1138.0,0.55,0.14,176,0.86,0.17,0.27,0,0,0,3,1,1,0.057065558,0,943,Prime / Low Risk
+25,High School,Student,2658.0,2,4,rent,16,0.47,highschool,923.0,0.55,0.05,56,0.76,0.31,0.38,0,0,0,2,0,0,0.35971215,0,640,Sub-Prime / Fair
+26,High School,Student,4068.0,2,0,rent,9,0.59,highschool,2105.0,0.78,0.07,105,0.87,0.28,0.16,0,0,0,3,1,0,0.06304849,0,937,Prime / Low Risk
+22,High School,Employed,8025.0,2,13,owner,3,0.7,highschool,5374.0,0.51,0.16,102,0.67,0.39,0.51,0,0,0,2,1,0,0.6942171,1,306,High Risk / Poor
+25,Bachelor's,Employed,8289.0,2,21,rent,20,0.73,bachelor,1631.0,0.63,0.02,242,0.93,0.19,0.23,0,0,0,3,0,0,0.06686715,0,933,Prime / Low Risk
+20,Master's,Employed,6642.0,2,48,owner,0,0.3,master,3734.0,0.76,0.13,69,0.63,0.26,0.39,0,0,0,3,0,0,0.5470287,1,453,High Risk / Poor
+22,High School,Self-Employed,9507.0,2,16,rent,16,0.4,highschool,3480.0,0.61,0.1,198,0.77,0.37,0.29,0,0,0,3,1,0,0.24025828,0,760,Prime / Low Risk
+23,Diploma,Employed,7579.0,3,6,owner,1,0.35,cert,2617.0,0.5,0.12,255,0.78,0.28,0.47,0,0,0,3,0,0,0.22291702,0,777,Prime / Low Risk
+24,Bachelor's,Student,5168.0,2,10,rent,22,0.38,bachelor,2595.0,0.67,0.12,46,0.74,0.38,0.44,0,0,0,1,1,1,0.47336766,0,527,High Risk / Poor
+25,Bachelor's,Self-Employed,8199.0,2,46,none,1,0.38,bachelor,2881.0,0.45,0.15,111,0.73,0.33,0.41,0,0,0,2,0,1,0.5339102,1,466,High Risk / Poor
+20,High School,Student,1200.0,2,8,rent,18,0.61,highschool,380.0,0.8,0.15,42,0.56,0.44,0.59,0,0,0,2,1,1,0.8450085,1,155,High Risk / Poor
+21,Bachelor's,Unemployed,1402.0,1,0,owner,4,0.63,bachelor,540.0,0.53,0.12,13,0.77,0.38,0.31,0,0,0,2,0,0,0.48643306,0,514,High Risk / Poor
+20,Bachelor's,Employed,6843.0,2,54,rent,4,0.53,bachelor,4221.0,0.57,0.14,135,0.73,0.29,0.48,0,0,0,2,1,0,0.54125416,1,459,High Risk / Poor
+21,Bachelor's,Employed,11076.0,2,39,owner,2,0.47,bachelor,6025.0,0.68,0.15,199,0.69,0.42,0.53,0,0,0,2,1,0,0.5770165,1,423,High Risk / Poor
+22,High School,Employed,6461.0,3,9,rent,2,0.63,none,4910.0,0.63,0.12,15,0.6900000000000001,0.37,0.05,0,0,0,0,3,0,0.32644537,0,674,Near-Prime / Medium Risk
+25,High School,Employed,9344.0,2,40,owner,2,0.67,highschool,2889.0,0.39,0.12,274,0.85,0.28,0.26,0,0,0,3,0,0,0.07441906,0,926,Prime / Low Risk
+21,Master's,Unemployed,1958.0,3,5,rent,6,0.32,master,1063.0,0.66,0.26,5,0.56,0.59,0.64,0,0,0,1,3,1,0.9222497,1,78,High Risk / Poor
+25,Bachelor's,Employed,10650.0,1,30,owner,1,0.7,bachelor,3920.0,0.47,0.07,191,1.0,0.14,0.0,0,0,0,3,0,0,0.006639254,0,993,Prime / Low Risk
+22,Master's,Employed,9032.0,2,36,owner,0,0.66,master,2778.0,0.59,0.07,272,0.92,0.24,0.11,0,0,0,3,0,0,0.01732695,0,983,Prime / Low Risk
+23,High School,Student,4640.0,2,11,owner,2,0.68,highschool,2259.0,0.59,0.14,68,0.66,0.39,0.52,0,1,0,2,2,1,0.75756866,1,242,High Risk / Poor
+20,Bachelor's,Self-Employed,5620.0,3,49,rent,18,0.53,bachelor,3085.0,0.62,0.19,116,0.65,0.38,0.48,0,0,0,2,0,1,0.647984,1,352,High Risk / Poor
+24,Bachelor's,Student,4269.0,3,0,rent,21,0.44,bachelor,1663.0,0.74,0.06,97,0.74,0.35,0.21,0,0,0,2,0,1,0.3070355,0,693,Near-Prime / Medium Risk
+24,Master's,Employed,6685.0,3,1,none,0,0.63,master,3075.0,0.51,0.18,180,0.6000000000000001,0.52,0.27,0,0,0,2,2,0,0.7759788,1,224,High Risk / Poor
+23,High School,Employed,4467.0,2,32,rent,5,0.89,highschool,1831.0,0.56,0.23,240,0.89,0.18,0.54,0,0,0,2,3,0,0.3584998,0,642,Sub-Prime / Fair
+23,Diploma,Employed,4365.0,1,26,none,0,0.94,cert,2575.0,0.6900000000000001,0.23,30,0.64,0.63,0.23,0,0,0,2,3,1,0.7716016,1,228,High Risk / Poor
+20,Master's,Employed,9177.0,1,51,rent,14,0.77,master,3007.0,0.54,0.07,177,1.0,0.12,0.08,0,0,0,3,1,0,0.007851348,0,992,Prime / Low Risk
+25,Master's,Student,4241.0,3,10,owner,2,0.3,master,2288.0,0.54,0.06,71,0.77,0.31,0.28,0,0,0,2,0,0,0.17758094,0,822,Prime / Low Risk
+25,Bachelor's,Employed,8098.0,3,10,owner,3,0.39,bachelor,4318.0,0.59,0.1,157,0.78,0.3,0.44,0,0,0,2,0,0,0.2650855,0,735,Near-Prime / Medium Risk
+26,High School,Student,3442.0,1,7,rent,15,0.44,highschool,1325.0,0.68,0.02,95,0.85,0.2,0.28,0,0,0,1,0,0,0.10787115,0,892,Prime / Low Risk
+22,Diploma,Employed,10334.0,2,43,none,2,0.55,cert,1556.0,0.47,0.04,304,0.96,0.17,0.29,0,0,0,2,1,0,0.03865536,0,961,Prime / Low Risk
+22,Bachelor's,Employed,8335.0,1,36,owner,3,0.6,bachelor,4332.0,0.48,0.1,179,0.79,0.35,0.41,0,0,0,2,1,0,0.23713149,0,763,Prime / Low Risk
+21,High School,Employed,9077.0,3,40,rent,18,0.61,highschool,2580.0,0.48,0.02,174,0.98,0.15,0.12,0,0,0,3,1,0,0.007828771,0,992,Prime / Low Risk
+26,Bachelor's,Employed,7604.0,1,37,rent,14,0.49,bachelor,3063.0,0.64,0.11,161,0.69,0.39,0.46,0,0,0,2,1,0,0.4411336,0,559,Sub-Prime / Fair
+23,High School,Employed,8066.0,3,9,rent,16,0.42,highschool,3207.0,0.67,0.09,178,0.92,0.24,0.01,0,1,0,3,0,0,0.02461254,0,975,Prime / Low Risk
+20,Master's,Self-Employed,5264.0,1,36,owner,0,0.93,master,1842.0,0.78,0.27,180,0.67,0.7000000000000001,0.55,0,0,0,1,2,1,0.90998554,1,90,High Risk / Poor
+20,Master's,Employed,6937.0,3,51,rent,7,0.78,master,3369.0,0.47,0.12,80,0.67,0.41,0.5,0,0,0,1,2,0,0.64611363,1,354,High Risk / Poor
+24,Bachelor's,Employed,9289.0,2,43,owner,3,0.47,bachelor,3035.0,0.53,0.05,214,0.9,0.16,0.26,0,0,0,3,0,0,0.061626304,0,938,Prime / Low Risk
+21,Bachelor's,Self-Employed,6108.0,3,6,owner,0,0.3,bachelor,3147.0,0.71,0.15,165,0.8,0.27,0.33,0,0,0,3,0,0,0.14473225,0,855,Prime / Low Risk
+22,Bachelor's,Employed,11609.0,2,47,owner,2,0.42,bachelor,8607.0,0.51,0.23,89,0.56,0.46,0.71,0,1,0,3,2,1,0.8652938,1,135,High Risk / Poor
+23,Diploma,Unemployed,2894.0,2,6,rent,19,0.59,cert,1705.0,0.67,0.16,69,0.71,0.44,0.35,0,0,0,3,0,1,0.297619,0,702,Near-Prime / Medium Risk
+21,Bachelor's,Unemployed,2399.0,3,3,rent,20,0.5,bachelor,787.0,0.62,0.1,30,0.74,0.45,0.39,0,0,0,1,0,0,0.4843155,0,516,High Risk / Poor
+24,Master's,Unemployed,3139.0,2,6,none,0,0.56,master,2116.0,0.51,0.17,40,0.75,0.37,0.39,0,0,0,1,0,0,0.5206988,1,479,High Risk / Poor
+22,Bachelor's,Employed,8098.0,3,20,rent,12,0.55,bachelor,3978.0,0.58,0.1,149,0.78,0.25,0.48,0,0,0,3,1,0,0.23419641,0,766,Prime / Low Risk
+25,Bachelor's,Student,3807.0,2,6,owner,3,0.4,bachelor,872.0,0.53,0.08,128,0.8,0.27,0.33,0,0,0,3,1,0,0.15910831,0,841,Prime / Low Risk
+21,High School,Employed,9893.0,1,28,owner,0,0.4,highschool,4056.0,0.6900000000000001,0.26,240,0.8300000000000001,0.19,0.5,0,0,0,1,2,0,0.3954282,0,605,Sub-Prime / Fair
+26,High School,Self-Employed,8239.0,1,36,owner,2,0.5,highschool,2767.0,0.56,0.14,168,0.82,0.26,0.3,0,0,1,3,1,0,0.09125124,0,909,Prime / Low Risk
+24,Bachelor's,Student,4260.0,2,12,rent,24,0.39,bachelor,1323.0,0.72,0.02,80,0.98,0.16,0.12,0,0,0,3,1,0,0.024062302,0,976,Prime / Low Risk
+23,High School,Employed,8222.0,3,47,rent,10,0.5,highschool,4382.0,0.64,0.09,166,0.71,0.41,0.44,0,0,0,2,0,1,0.3436456,0,656,Near-Prime / Medium Risk
+20,Bachelor's,Employed,6933.0,2,59,rent,6,0.54,bachelor,3464.0,0.58,0.15,93,0.56,0.52,0.65,0,0,0,2,2,1,0.9691609,1,31,High Risk / Poor
+21,Bachelor's,Employed,7075.0,3,18,rent,11,0.49,bachelor,4575.0,0.58,0.16,145,0.61,0.37,0.56,0,0,0,3,0,1,0.75657564,1,243,High Risk / Poor
+25,Bachelor's,Employed,6857.0,1,30,owner,2,0.69,bachelor,3306.0,0.56,0.06,111,0.84,0.3,0.33,0,0,0,3,0,0,0.13877675,0,861,Prime / Low Risk
+26,Bachelor's,Employed,10430.0,2,12,none,0,0.41,bachelor,3438.0,0.64,0.03,252,0.89,0.15,0.25,0,0,0,2,1,0,0.016140586,0,984,Prime / Low Risk
+26,Bachelor's,Employed,8697.0,2,37,rent,11,0.55,bachelor,2572.0,0.58,0.07,182,0.84,0.32,0.33,0,0,0,2,1,0,0.11183075,0,888,Prime / Low Risk
+26,High School,Employed,9186.0,2,54,rent,17,0.64,highschool,4796.0,0.64,0.1,116,0.87,0.2,0.37,0,0,0,3,0,0,0.089899555,0,910,Prime / Low Risk
+23,Bachelor's,Employed,6792.0,3,47,rent,10,0.46,bachelor,3734.0,0.66,0.08,138,0.79,0.33,0.35,0,0,0,1,0,1,0.26618403,0,734,Near-Prime / Medium Risk
+24,High School,Employed,9356.0,2,56,none,1,0.37,highschool,4264.0,0.58,0.07,178,0.71,0.37,0.6,0,0,1,2,2,0,0.5932113,1,407,High Risk / Poor
+20,Master's,Employed,8030.0,2,35,owner,4,0.57,master,3232.0,0.55,0.02,206,0.92,0.12,0.22,0,0,0,3,1,0,0.016257346,0,984,Prime / Low Risk
+20,High School,Employed,5863.0,2,24,rent,19,0.45,highschool,3198.0,0.54,0.16,82,0.66,0.38,0.49,0,0,0,2,0,1,0.70621157,1,294,High Risk / Poor
+25,Master's,Unemployed,4064.0,2,0,rent,4,0.38,master,1742.0,0.51,0.18,115,0.69,0.36,0.48,0,0,0,3,0,0,0.71130586,1,289,High Risk / Poor
+22,Bachelor's,Self-Employed,9705.0,3,45,none,1,0.57,bachelor,4572.0,0.59,0.23,207,0.62,0.36,0.58,0,0,0,1,1,0,0.81571585,1,184,High Risk / Poor
+25,Master's,Unemployed,2972.0,2,0,none,4,0.51,master,1170.0,0.54,0.19,93,0.59,0.51,0.6,0,0,0,1,3,1,0.9254653,1,75,High Risk / Poor
+24,High School,Employed,10655.0,2,15,rent,18,0.47,highschool,5655.0,0.62,0.09,186,0.8,0.29,0.36,0,0,0,2,0,0,0.1833085,0,817,Prime / Low Risk
+23,Bachelor's,Self-Employed,8716.0,2,13,rent,7,0.34,bachelor,3960.0,0.55,0.19,123,0.9,0.21,0.18,0,0,0,2,1,0,0.048800375,0,951,Prime / Low Risk
+21,Diploma,Unemployed,3374.0,2,6,none,2,0.41,cert,1733.0,0.67,0.18,33,0.66,0.4,0.46,0,0,0,2,0,0,0.51462203,1,485,High Risk / Poor
+20,Master's,Self-Employed,8012.0,3,32,rent,22,0.41,master,1962.0,0.49,0.14,149,0.8,0.27,0.29,0,0,0,1,1,0,0.11000868,0,890,Prime / Low Risk
+24,PhD,Employed,8293.0,1,57,rent,18,0.48,phd,3138.0,0.45,0.07,195,0.85,0.24,0.35,0,0,0,2,1,0,0.08014401,0,920,Prime / Low Risk
+23,Diploma,Employed,10327.0,2,10,rent,21,0.62,cert,2543.0,0.52,0.05,254,0.95,0.16,0.1,0,0,0,2,1,0,0.0194543,0,981,Prime / Low Risk
+26,Bachelor's,Self-Employed,14275.0,3,39,rent,8,0.34,bachelor,6533.0,0.58,0.21,160,0.63,0.4,0.5,0,0,0,3,1,1,0.5694184,1,431,High Risk / Poor
+24,High School,Unemployed,2869.0,1,3,rent,13,0.35,highschool,2311.0,0.68,0.22,49,0.68,0.51,0.44,0,0,0,0,2,1,0.62434334,1,376,High Risk / Poor
+24,PhD,Student,4395.0,2,9,rent,12,0.4,phd,2252.0,0.68,0.15,59,0.61,0.41,0.52,0,0,0,1,0,1,0.8242103,1,176,High Risk / Poor
+20,Bachelor's,Employed,9671.0,3,53,owner,1,0.45,bachelor,5462.0,0.66,0.14,167,0.68,0.42,0.36,0,0,1,3,0,1,0.32876003,0,671,Near-Prime / Medium Risk
+23,Bachelor's,Self-Employed,9205.0,1,25,rent,4,0.74,bachelor,2914.0,0.5,0.21,207,0.69,0.34,0.47,0,0,0,1,1,0,0.54672563,1,453,High Risk / Poor
+21,Diploma,Employed,9302.0,1,32,owner,3,0.78,cert,4532.0,0.6,0.13,248,0.75,0.3,0.44,0,0,0,3,0,0,0.48391375,0,516,High Risk / Poor
+20,Bachelor's,Employed,10289.0,2,55,owner,3,0.6,bachelor,3369.0,0.61,0.04,273,0.92,0.15,0.14,0,0,0,3,0,0,0.0072641186,0,993,Prime / Low Risk
+23,Bachelor's,Unemployed,4236.0,2,1,rent,15,0.56,bachelor,1137.0,0.64,0.11,119,0.83,0.37,0.3,0,0,0,2,0,0,0.20759451,0,792,Prime / Low Risk
+22,Master's,Unemployed,2275.0,2,6,rent,7,0.83,master,610.0,0.6,0.11,64,0.72,0.38,0.27,0,0,0,3,0,0,0.3246705,0,675,Near-Prime / Medium Risk
+20,Bachelor's,Self-Employed,11168.0,1,45,owner,3,0.48,bachelor,4645.0,0.34,0.19,243,0.71,0.35,0.44,0,0,0,1,0,1,0.477279,0,523,High Risk / Poor
+26,Master's,Student,4134.0,1,1,rent,15,0.55,master,2294.0,0.64,0.06,62,0.8,0.33,0.32,0,0,0,0,0,0,0.28081074,0,719,Near-Prime / Medium Risk
+20,High School,Employed,5645.0,3,39,owner,1,0.72,highschool,2987.0,0.72,0.02,82,0.85,0.24,0.21,0,0,0,1,1,1,0.04906752,0,951,Prime / Low Risk
+21,Bachelor's,Employed,10026.0,1,21,owner,3,0.5,bachelor,3968.0,0.4,0.12,180,0.7,0.34,0.5,0,0,1,1,1,1,0.56587064,1,434,High Risk / Poor
+20,Bachelor's,Student,2928.0,3,9,owner,2,0.68,bachelor,1378.0,0.71,0.07,28,0.83,0.28,0.35,0,0,0,2,0,0,0.13741021,0,863,Prime / Low Risk
+26,High School,Employed,10048.0,1,32,rent,19,0.41,highschool,4085.0,0.55,0.11,207,0.7,0.4,0.52,0,0,0,2,1,0,0.5856673,1,414,High Risk / Poor
+26,Bachelor's,Employed,7710.0,3,33,owner,3,0.42,bachelor,1341.0,0.5,0.03,194,1.0,0.22,0.14,0,0,1,3,1,0,0.012547053,0,987,Prime / Low Risk
+26,Master's,Self-Employed,13100.0,3,60,rent,22,0.51,master,2989.0,0.67,0.16,318,0.79,0.23,0.35,0,0,0,3,0,1,0.11626364,0,884,Prime / Low Risk
+26,Diploma,Employed,9303.0,1,39,rent,20,0.3,cert,631.0,0.73,0.09,261,0.89,0.24,0.21,0,0,0,2,0,0,0.03380379,0,966,Prime / Low Risk
+21,Diploma,Student,5173.0,3,2,none,0,0.54,cert,3362.0,0.6900000000000001,0.28,240,0.8300000000000001,0.42,0.23,0,0,0,1,1,1,0.43391877,0,566,Sub-Prime / Fair
+20,Bachelor's,Employed,10308.0,1,28,owner,2,0.6,bachelor,4313.0,0.48,0.04,186,0.88,0.27,0.32,0,0,0,3,1,0,0.05404738,0,946,Prime / Low Risk
+20,Bachelor's,Student,1437.0,3,2,rent,5,0.6,bachelor,578.0,0.74,0.07,26,0.91,0.28,0.22,0,0,0,2,0,0,0.09183132,0,908,Prime / Low Risk
+23,Bachelor's,Employed,10551.0,3,38,rent,14,0.51,bachelor,3617.0,0.52,0.1,211,0.85,0.26,0.38,0,0,0,2,0,0,0.18442933,0,816,Prime / Low Risk
+23,Bachelor's,Self-Employed,8022.0,1,32,owner,3,0.68,bachelor,2695.0,0.56,0.12,216,0.84,0.25,0.29,0,0,0,3,0,0,0.09706837,0,903,Prime / Low Risk
+24,Bachelor's,Self-Employed,8985.0,2,59,rent,13,0.57,bachelor,3022.0,0.49,0.14,191,0.86,0.27,0.25,0,0,0,3,2,1,0.08413476,0,916,Prime / Low Risk
+24,Diploma,Self-Employed,10369.0,2,41,owner,0,0.37,cert,3784.0,0.57,0.17,183,0.77,0.24,0.4,0,0,0,3,1,0,0.21758874,0,782,Prime / Low Risk
+26,Bachelor's,Unemployed,3387.0,3,2,rent,8,0.3,bachelor,1591.0,0.52,0.18,77,0.58,0.5,0.61,0,0,0,1,3,1,0.9315139,1,68,High Risk / Poor
+22,Diploma,Unemployed,2819.0,1,0,rent,9,0.5,cert,736.0,0.7,0.08,102,0.92,0.29,0.2,0,0,0,3,1,0,0.045561273,0,954,Prime / Low Risk
+26,Bachelor's,Self-Employed,7914.0,1,49,rent,16,0.45,bachelor,2258.0,0.66,0.15,162,0.81,0.2,0.32,0,0,0,2,2,0,0.110478535,0,890,Prime / Low Risk
+22,High School,Student,4450.0,1,6,rent,4,0.71,highschool,1956.0,0.69,0.04,98,0.81,0.26,0.33,0,0,0,3,0,0,0.10722826,0,893,Prime / Low Risk
+21,Bachelor's,Employed,6719.0,2,54,rent,7,0.46,bachelor,4761.0,0.47,0.13,82,0.69,0.35,0.5,0,0,0,1,0,0,0.67132795,1,329,High Risk / Poor
+21,Bachelor's,Self-Employed,8379.0,3,30,owner,1,0.48,bachelor,1062.0,0.54,0.15,240,0.87,0.19,0.22,0,0,0,2,0,0,0.048139058,0,952,Prime / Low Risk
+20,Bachelor's,Self-Employed,7529.0,2,33,rent,12,0.36,bachelor,4465.0,0.7,0.18,98,0.59,0.42,0.55,0,0,0,2,0,0,0.8232743,1,177,High Risk / Poor
+26,Bachelor's,Student,4163.0,1,8,rent,15,0.53,bachelor,2388.0,0.43,0.05,18,0.87,0.25,0.16,0,0,0,0,2,0,0.043112747,0,957,Prime / Low Risk
+24,High School,Self-Employed,11254.0,1,27,owner,3,0.3,highschool,4747.0,0.52,0.18,211,0.79,0.18,0.39,0,0,0,3,1,0,0.15820843,0,842,Prime / Low Risk
+24,Bachelor's,Employed,11516.0,3,11,none,0,0.5700000000000001,bachelor,2533.0,0.68,0.25,30,0.77,0.39,0.71,0,0,0,0,1,1,0.51401275,1,486,High Risk / Poor
+21,Bachelor's,Self-Employed,9054.0,2,31,owner,2,0.38,bachelor,2727.0,0.5,0.21,181,0.59,0.42,0.62,0,0,1,2,2,0,0.8479234,1,152,High Risk / Poor
+21,Bachelor's,Self-Employed,5928.0,2,3,rent,9,0.45,bachelor,907.0,0.63,0.11,230,0.87,0.15,0.2,0,0,0,3,1,0,0.022959173,0,977,Prime / Low Risk
+24,Bachelor's,Unemployed,2022.0,1,6,rent,11,0.34,bachelor,872.0,0.47,0.16,60,0.76,0.35,0.46,0,0,0,1,1,0,0.38520297,0,615,Sub-Prime / Fair
+21,Bachelor's,Employed,7608.0,3,47,owner,3,0.5,bachelor,3746.0,0.55,0.11,103,0.79,0.33,0.3,0,0,0,3,0,0,0.25689355,0,743,Near-Prime / Medium Risk
+21,Master's,Student,3583.0,1,7,none,4,0.46,master,1509.0,0.59,0.08,39,0.79,0.35,0.45,0,0,1,1,0,1,0.30491632,0,695,Near-Prime / Medium Risk
+21,Bachelor's,Employed,6482.0,1,13,owner,1,0.7,bachelor,3113.0,0.59,0.08,162,0.83,0.29,0.45,0,0,0,3,1,0,0.14475589,0,855,Prime / Low Risk
+20,Bachelor's,Unemployed,1999.0,1,3,rent,16,0.52,bachelor,452.0,0.82,0.16,22,0.58,0.53,0.56,0,0,0,1,1,1,0.8998877,1,100,High Risk / Poor
+22,High School,Self-Employed,12375.0,2,20,owner,3,0.3,highschool,3713.0,0.53,0.2,171,0.72,0.24,0.5,0,0,0,2,1,0,0.36792308,0,632,Sub-Prime / Fair
+23,Bachelor's,Employed,10711.0,2,6,none,0,0.46,bachelor,1190.0,0.48,0.03,360,0.93,0.14,0.21,0,0,0,3,1,0,0.016657071,0,983,Prime / Low Risk
+24,Bachelor's,Unemployed,1654.0,1,1,rent,22,0.49,bachelor,1410.0,0.65,0.19,21,0.58,0.5,0.71,0,0,1,2,2,1,0.89699316,1,103,High Risk / Poor
+21,Bachelor's,Employed,6530.0,2,14,rent,15,0.73,bachelor,2749.0,0.66,0.07,154,0.91,0.22,0.21,0,0,0,3,1,0,0.022639206,0,977,Prime / Low Risk
+26,High School,Employed,8035.0,2,34,rent,11,0.51,highschool,3216.0,0.69,0.09,191,0.82,0.22,0.24,0,0,0,1,0,0,0.13919002,0,861,Prime / Low Risk
+22,Bachelor's,Employed,7802.0,3,60,rent,21,0.45,bachelor,3475.0,0.6,0.09,169,0.81,0.25,0.27,0,0,0,3,0,0,0.13274305,0,867,Prime / Low Risk
+21,Diploma,Student,2695.0,3,34,none,0,0.42,cert,565.0,0.34,0.09,0,0.97,0.71,0.32,0,0,0,3,3,0,0.23163036,0,768,Prime / Low Risk
+22,Bachelor's,Employed,8698.0,3,46,rent,14,0.35,bachelor,3246.0,0.5,0.07,202,0.97,0.17,0.18,0,0,0,3,2,0,0.01967582,0,980,Prime / Low Risk
+24,Diploma,Employed,7681.0,2,51,owner,0,0.49,cert,3906.0,0.47,0.11,177,0.74,0.34,0.37,0,0,0,2,1,0,0.41786093,0,582,Sub-Prime / Fair
+22,Diploma,Student,2817.0,1,60,rent,16,0.68,cert,1746.0,0.79,0.23,360,0.66,0.11,0.77,0,0,0,2,0,1,0.57628715,1,424,High Risk / Poor
+21,Bachelor's,Employed,10628.0,1,18,owner,1,0.8,bachelor,1050.0,0.49,0.05,347,0.98,0.19,0.19,0,0,0,3,0,0,0.01927267,0,981,Prime / Low Risk
+23,Master's,Self-Employed,12530.0,2,41,none,2,0.3,master,6026.0,0.7,0.13,125,0.79,0.22,0.29,0,0,0,2,2,0,0.1061666,0,894,Prime / Low Risk
+26,Master's,Employed,5772.0,2,8,rent,10,0.96,master,2712.0,0.55,0.09,90,0.6900000000000001,0.56,0.01,0,0,0,3,2,0,0.4625529,0,537,High Risk / Poor
+25,High School,Employed,6939.0,2,2,owner,0,0.65,highschool,5620.0,0.78,0.14,240,0.96,0.06,0.12,0,0,1,2,3,0,0.027552186,0,972,Prime / Low Risk
+21,Bachelor's,Employed,7118.0,1,56,owner,4,0.38,bachelor,2713.0,0.55,0.09,190,0.79,0.26,0.26,0,0,0,3,1,0,0.112907976,0,887,Prime / Low Risk
+25,High School,Employed,7171.0,2,31,rent,14,0.3,highschool,2997.0,0.53,0.09,134,0.74,0.31,0.35,0,0,0,2,1,0,0.1910095,0,809,Prime / Low Risk
+22,Master's,Unemployed,2367.0,2,4,rent,16,0.74,master,742.0,0.66,0.17,68,0.69,0.41,0.48,0,0,0,2,0,0,0.577563,1,422,High Risk / Poor
+24,Diploma,Employed,8163.0,1,58,rent,6,0.43,cert,3385.0,0.35,0.1,161,0.71,0.39,0.52,0,0,0,2,1,1,0.5857258,1,414,High Risk / Poor
+22,High School,Employed,2307.0,1,21,owner,0,0.63,none,1338.0,0.44,0.13,120,0.9,0.14,0.11,0,0,0,1,1,0,0.012410295,0,988,Prime / Low Risk
+23,Bachelor's,Employed,9260.0,2,41,rent,8,0.64,bachelor,2284.0,0.48,0.05,193,0.87,0.3,0.24,0,0,0,2,1,0,0.045306474,0,955,Prime / Low Risk
+23,Master's,Unemployed,2516.0,1,0,rent,8,0.71,master,1676.0,0.66,0.13,0,0.67,0.5,0.36,0,0,0,2,2,1,0.66372806,1,336,High Risk / Poor
+26,Bachelor's,Employed,9538.0,2,46,rent,13,0.63,bachelor,2493.0,0.85,0.02,249,1.0,0.16,0.16,0,0,0,3,1,0,0.026467187,0,974,Prime / Low Risk
+26,Bachelor's,Student,2515.0,3,12,none,4,0.3,bachelor,2132.0,0.78,0.19,53,0.72,0.38,0.44,0,0,0,2,0,1,0.6855029,1,314,High Risk / Poor
+22,Bachelor's,Student,5232.0,3,7,rent,10,0.55,bachelor,2683.0,0.53,0.19,34,0.68,0.42,0.5,0,0,0,1,0,1,0.6918101,1,308,High Risk / Poor
+24,Master's,Self-Employed,9367.0,3,30,none,4,0.3,master,2698.0,0.51,0.12,214,0.91,0.24,0.15,0,0,0,3,1,0,0.027893657,0,972,Prime / Low Risk
+25,Master's,Employed,8535.0,2,43,rent,6,0.65,master,3762.0,0.55,0.08,147,0.8,0.23,0.47,0,0,0,3,0,0,0.2016897,0,798,Prime / Low Risk
+22,Diploma,Student,3338.0,2,2,rent,24,0.44,cert,1302.0,0.46,0.02,105,0.88,0.33,0.44,0,0,0,2,1,0,0.18887383,0,811,Prime / Low Risk
+26,Diploma,Employed,7391.0,3,7,rent,24,0.66,cert,2215.0,0.71,0.09,175,0.78,0.31,0.43,0,0,0,2,1,1,0.2643818,0,736,Near-Prime / Medium Risk
+24,High School,Self-Employed,12081.0,1,28,rent,23,0.47,highschool,4935.0,0.43,0.21,127,0.76,0.32,0.45,0,0,0,3,0,1,0.3278734,0,672,Near-Prime / Medium Risk
+22,Bachelor's,Employed,8271.0,2,26,rent,6,0.65,bachelor,2792.0,0.65,0.06,209,0.91,0.25,0.1,0,0,0,2,0,0,0.019048288,0,981,Prime / Low Risk
+22,Diploma,Self-Employed,6977.0,2,47,owner,3,0.3,cert,1939.0,0.37,0.08,214,0.83,0.26,0.18,0,0,0,3,1,0,0.026154982,0,974,Prime / Low Risk
+21,Bachelor's,Unemployed,2174.0,2,3,rent,7,0.49,bachelor,853.0,0.71,0.14,99,0.74,0.43,0.49,0,0,1,3,0,1,0.6114824,1,389,High Risk / Poor
+23,High School,Employed,9266.0,2,25,owner,3,0.48,highschool,5267.0,0.62,0.15,141,0.56,0.52,0.68,0,0,1,2,2,1,0.9635916,1,36,High Risk / Poor
+24,Master's,Employed,9038.0,1,13,owner,2,0.6,master,3324.0,0.45,0.11,196,0.88,0.23,0.3,0,0,0,2,0,0,0.09085642,0,909,Prime / Low Risk
+26,High School,Employed,8906.0,2,40,rent,4,0.4,highschool,2239.0,0.42,0.11,203,0.82,0.29,0.31,0,0,0,3,0,0,0.15301733,0,847,Prime / Low Risk
+24,Bachelor's,Employed,10118.0,2,57,rent,11,0.72,bachelor,4347.0,0.59,0.02,121,0.84,0.26,0.35,0,0,0,1,0,0,0.1305431,0,869,Prime / Low Risk
+26,Bachelor's,Unemployed,3541.0,2,2,rent,12,0.61,bachelor,2349.0,0.5,0.21,75,0.61,0.56,0.55,0,0,0,0,2,1,0.9365087,1,63,High Risk / Poor
+25,Master's,Student,4207.0,2,5,rent,22,0.4,master,532.0,0.67,0.04,106,0.9,0.23,0.15,0,0,0,3,0,0,0.0327799,0,967,Prime / Low Risk
+21,Master's,Employed,5913.0,3,16,rent,9,0.5,master,2759.0,0.65,0.08,79,0.83,0.19,0.26,0,0,0,1,0,0,0.094908185,0,905,Prime / Low Risk
+26,Bachelor's,Employed,6975.0,3,46,rent,18,0.53,bachelor,3165.0,0.57,0.07,144,0.82,0.24,0.4,0,0,0,2,0,0,0.1573301,0,843,Prime / Low Risk
+25,Bachelor's,Employed,7277.0,2,6,rent,22,0.45,bachelor,3329.0,0.56,0.13,122,0.74,0.41,0.51,0,0,0,3,1,0,0.5495382,1,450,High Risk / Poor
+22,Master's,Self-Employed,8847.0,2,32,rent,6,0.44,master,2261.0,0.56,0.1,184,0.86,0.27,0.22,0,0,0,3,0,0,0.039524958,0,960,Prime / Low Risk
+23,Bachelor's,Student,6508.0,2,4,rent,23,0.46,bachelor,3847.0,0.53,0.13,109,0.76,0.34,0.38,0,1,0,1,0,0,0.5205348,1,479,High Risk / Poor
+21,Bachelor's,Student,3917.0,3,6,rent,10,0.4,bachelor,1816.0,0.67,0.11,85,0.85,0.14,0.3,0,0,0,0,0,0,0.045960408,0,954,Prime / Low Risk
+20,Bachelor's,Unemployed,2798.0,1,1,rent,10,0.63,bachelor,1246.0,0.74,0.1,105,0.73,0.52,0.43,1,0,0,2,2,0,0.5353128,1,465,High Risk / Poor
+24,Master's,Employed,9097.0,2,40,owner,3,0.67,master,2232.0,0.49,0.08,221,0.82,0.27,0.29,0,0,0,2,1,1,0.14913234,0,851,Prime / Low Risk
+25,Bachelor's,Employed,9715.0,1,49,owner,0,0.76,bachelor,3640.0,0.56,0.05,278,0.9,0.27,0.16,0,0,0,3,0,0,0.02312667,0,977,Prime / Low Risk
+26,Master's,Unemployed,2297.0,2,2,none,1,0.4,master,995.0,0.69,0.21,64,0.65,0.48,0.5,0,0,0,2,1,1,0.78004444,1,220,High Risk / Poor
+21,Master's,Self-Employed,6029.0,2,20,rent,6,0.66,master,2091.0,0.54,0.11,144,0.91,0.15,0.18,0,0,0,3,0,0,0.011271131,0,989,Prime / Low Risk
+25,Master's,Self-Employed,10078.0,3,9,rent,19,0.36,master,4535.0,0.78,0.13,170,0.81,0.34,0.32,0,0,0,2,2,0,0.17659901,0,823,Prime / Low Risk
+25,Bachelor's,Employed,9813.0,3,54,rent,11,0.33,bachelor,1213.0,0.67,0.03,309,0.95,0.16,0.09,0,0,0,3,0,0,0.014686622,0,985,Prime / Low Risk
+23,Bachelor's,Employed,8165.0,3,18,rent,22,0.43,bachelor,3697.0,0.52,0.09,169,0.78,0.24,0.39,0,0,0,3,1,0,0.18128362,0,819,Prime / Low Risk
+26,Diploma,Self-Employed,10439.0,2,3,owner,1,0.37,cert,1771.0,0.64,0.15,249,0.72,0.31,0.38,0,0,0,3,0,0,0.50351274,1,496,High Risk / Poor
+22,Master's,Employed,4648.0,2,9,rent,7,0.52,master,3235.0,0.6,0.18,64,0.73,0.32,0.45,0,0,0,3,0,0,0.5051303,1,495,High Risk / Poor
+23,Diploma,Self-Employed,11036.0,3,52,none,2,0.3,cert,3991.0,0.54,0.16,126,0.76,0.23,0.39,0,0,0,3,1,0,0.2635136,0,736,Near-Prime / Medium Risk
+21,Bachelor's,Employed,6285.0,3,14,rent,20,0.4,bachelor,1690.0,0.78,0.05,159,0.83,0.2,0.4,0,0,0,3,0,0,0.12952323,0,870,Prime / Low Risk
+23,Master's,Employed,7326.0,2,37,none,4,0.53,master,3354.0,0.55,0.13,152,0.8,0.26,0.42,0,0,0,3,0,0,0.27351454,0,726,Near-Prime / Medium Risk
+22,Master's,Employed,8964.0,3,51,rent,17,0.7,master,3871.0,0.51,0.08,202,0.86,0.25,0.27,0,0,0,1,1,0,0.056560718,0,943,Prime / Low Risk
+25,High School,Employed,11846.0,2,37,rent,22,0.38,highschool,3762.0,0.55,0.04,256,0.89,0.23,0.14,0,0,0,3,0,0,0.015948813,0,984,Prime / Low Risk
+20,Bachelor's,Self-Employed,10459.0,1,27,owner,3,0.47,bachelor,4192.0,0.36,0.14,186,0.83,0.23,0.35,0,0,0,3,1,1,0.09484842,0,905,Prime / Low Risk
+26,High School,Employed,10571.0,2,52,rent,17,0.55,highschool,3622.0,0.51,0.04,234,0.92,0.2,0.26,0,0,0,3,0,0,0.051383983,0,949,Prime / Low Risk
+26,High School,Employed,8684.0,2,16,rent,5,0.51,highschool,3709.0,0.52,0.02,213,0.94,0.16,0.3,0,0,0,3,1,0,0.07371603,0,926,Prime / Low Risk
+25,Bachelor's,Self-Employed,9553.0,3,32,rent,13,0.48,bachelor,5075.0,0.68,0.12,149,0.83,0.28,0.26,0,0,0,2,1,0,0.09315786,0,907,Prime / Low Risk
+24,Bachelor's,Employed,10129.0,2,51,rent,10,0.6,bachelor,4187.0,0.44,0.1,178,0.83,0.26,0.32,0,0,0,1,0,0,0.13033731,0,870,Prime / Low Risk
+25,High School,Employed,6440.0,2,23,rent,17,0.98,highschool,1867.0,0.31,0.28,30,0.98,0.7000000000000001,0.12,0,0,0,2,3,0,0.12000043,0,880,Prime / Low Risk
+26,Bachelor's,Student,3270.0,1,1,rent,23,0.4,bachelor,1586.0,0.8,0.07,0,0.81,0.35,0.46,0,0,0,1,1,0,0.28991583,0,710,Near-Prime / Medium Risk
+24,Bachelor's,Employed,8656.0,2,34,none,2,0.32,bachelor,3758.0,0.48,0.04,203,0.99,0.17,0.13,0,0,0,3,1,0,0.01726087,0,983,Prime / Low Risk
+23,Diploma,Student,3588.0,3,53,rent,18,0.6900000000000001,cert,825.0,0.5,0.28,0,0.95,0.2,0.2,0,0,0,3,1,0,0.054560766,0,945,Prime / Low Risk
+20,High School,Employed,7383.0,2,7,none,0,0.68,highschool,2614.0,0.62,0.08,153,0.71,0.35,0.48,0,0,0,3,0,0,0.55725706,1,443,High Risk / Poor
+24,Master's,Employed,10033.0,2,59,rent,22,0.42,master,4315.0,0.52,0.11,225,0.87,0.21,0.24,0,0,0,3,0,0,0.116832614,0,883,Prime / Low Risk
+26,Diploma,Employed,10303.0,2,35,rent,13,0.57,cert,4739.0,0.56,0.07,175,0.97,0.08,0.18,0,0,0,3,1,0,0.0069472482,0,993,Prime / Low Risk
+24,Master's,Employed,6993.0,1,14,owner,0,0.52,master,5244.0,0.38,0.1,180,0.86,0.15,0.56,0,0,0,1,3,0,0.123582296,0,876,Prime / Low Risk
+21,Master's,Student,3814.0,2,5,rent,20,0.49,master,1525.0,0.61,0.05,63,0.91,0.21,0.25,0,0,0,2,1,0,0.04951127,0,950,Prime / Low Risk
+21,Master's,Student,3431.0,2,11,rent,19,0.48,master,1591.0,0.53,0.11,105,0.76,0.31,0.38,0,0,0,3,0,0,0.3373367,0,663,Near-Prime / Medium Risk
+21,Master's,Unemployed,2969.0,2,0,owner,4,0.42,master,503.0,0.69,0.13,85,0.79,0.45,0.4,0,0,1,1,0,0,0.4279282,0,572,Sub-Prime / Fair
+22,Diploma,Employed,10588.0,1,56,rent,18,0.78,cert,3271.0,0.62,0.09,238,0.83,0.27,0.25,0,0,0,3,0,0,0.1027643,0,897,Prime / Low Risk
+22,Bachelor's,Self-Employed,10861.0,1,51,owner,4,0.36,bachelor,1139.0,0.49,0.11,276,1.0,0.13,0.0,0,0,0,3,0,0,0.0067254542,0,993,Prime / Low Risk
+22,Master's,Employed,5985.0,3,50,owner,4,0.45,master,2856.0,0.64,0.03,133,0.94,0.14,0.19,0,0,0,3,0,0,0.007041099,0,993,Prime / Low Risk
+23,High School,Self-Employed,7680.0,3,45,rent,24,0.49,highschool,3838.0,0.54,0.16,120,0.71,0.29,0.42,0,0,0,2,0,0,0.38583747,0,614,Sub-Prime / Fair
+25,Bachelor's,Student,2483.0,3,0,rent,15,0.45,bachelor,987.0,0.63,0.1,65,0.79,0.33,0.54,0,0,0,2,0,1,0.34800282,0,652,Near-Prime / Medium Risk
+21,PhD,Self-Employed,6333.0,3,6,rent,23,0.5,phd,3878.0,0.68,0.25,33,0.56,0.46,0.65,0,0,0,2,2,1,0.8384353,1,162,High Risk / Poor
+25,Master's,Employed,8369.0,2,21,rent,17,0.65,master,2746.0,0.47,0.04,160,0.9,0.19,0.25,0,0,0,3,0,0,0.058503002,0,941,Prime / Low Risk
+22,Diploma,Student,4987.0,2,6,none,1,0.5,cert,2195.0,0.59,0.07,77,0.75,0.34,0.45,0,0,0,2,0,1,0.40283537,0,597,Sub-Prime / Fair
+24,Bachelor's,Employed,8724.0,2,51,rent,11,0.46,bachelor,3265.0,0.5,0.03,179,0.87,0.22,0.34,0,0,0,2,0,0,0.067660995,0,932,Prime / Low Risk
+23,High School,Student,4631.0,2,2,rent,13,0.63,highschool,2584.0,0.84,0.16,14,0.68,0.41,0.51,0,0,0,2,1,0,0.6682181,1,332,High Risk / Poor
+20,PhD,Self-Employed,7358.0,1,20,rent,10,0.51,phd,664.0,0.6,0.11,160,0.93,0.19,0.13,0,0,0,3,1,0,0.024514912,0,975,Prime / Low Risk
+23,Bachelor's,Self-Employed,10506.0,2,48,owner,3,0.57,bachelor,2195.0,0.48,0.14,244,0.87,0.26,0.15,0,0,0,3,0,0,0.029496523,0,971,Prime / Low Risk
+26,Bachelor's,Self-Employed,11150.0,1,38,rent,12,0.65,bachelor,2496.0,0.42,0.1,241,0.89,0.19,0.23,0,0,0,3,0,0,0.040248744,0,960,Prime / Low Risk
+22,PhD,Employed,8311.0,2,11,owner,2,0.36,phd,3231.0,0.51,0.05,223,0.85,0.16,0.26,0,0,0,3,1,0,0.094559,0,905,Prime / Low Risk
+26,Bachelor's,Student,4495.0,1,11,owner,4,0.57,bachelor,2655.0,0.56,0.19,19,0.6,0.5,0.52,0,0,0,1,1,1,0.9115714,1,88,High Risk / Poor
+26,Bachelor's,Employed,7374.0,1,14,rent,18,0.57,bachelor,2039.0,0.44,0.05,246,0.86,0.23,0.35,0,0,0,2,0,0,0.094020784,0,906,Prime / Low Risk
+20,Bachelor's,Student,1200.0,1,1,rent,16,0.38,bachelor,838.0,0.59,0.16,63,0.7,0.39,0.57,0,0,0,0,0,1,0.6455131,1,354,High Risk / Poor
+20,Bachelor's,Unemployed,2620.0,3,3,rent,13,0.38,bachelor,735.0,0.61,0.11,96,0.84,0.33,0.22,0,0,0,3,0,0,0.12542213,0,875,Prime / Low Risk
+21,Bachelor's,Employed,6085.0,1,32,owner,3,0.51,bachelor,3224.0,0.56,0.16,117,0.77,0.33,0.35,0,0,0,2,0,0,0.37783664,0,622,Sub-Prime / Fair
+22,High School,Employed,5877.0,1,17,rent,10,0.95,highschool,4525.0,0.46,0.1,360,0.81,0.51,0.6900000000000001,0,0,0,3,3,0,0.4871916,0,513,High Risk / Poor
+22,Bachelor's,Employed,4720.0,3,13,rent,18,0.72,bachelor,1321.0,0.58,0.05,140,0.88,0.3,0.22,0,0,0,3,0,0,0.032201353,0,968,Prime / Low Risk
+22,Bachelor's,Employed,7760.0,2,44,rent,24,0.47,bachelor,1938.0,0.48,0.03,129,0.91,0.24,0.18,0,0,0,3,0,0,0.020181077,0,980,Prime / Low Risk
+21,Bachelor's,Student,4162.0,3,0,rent,14,0.65,bachelor,1493.0,0.57,0.05,95,0.88,0.2,0.26,0,0,0,2,1,0,0.08372584,0,916,Prime / Low Risk
+26,High School,Self-Employed,10968.0,2,12,owner,3,0.53,highschool,3419.0,0.53,0.11,238,0.85,0.16,0.33,0,0,0,3,0,0,0.08747785,0,913,Prime / Low Risk
+22,Bachelor's,Employed,7189.0,3,60,rent,5,0.72,bachelor,3150.0,0.72,0.08,232,0.81,0.22,0.35,0,0,0,3,1,0,0.14832447,0,852,Prime / Low Risk
+20,Bachelor's,Employed,8838.0,2,52,owner,0,0.52,bachelor,3531.0,0.48,0.13,217,0.82,0.17,0.37,0,0,0,3,1,0,0.29045102,0,710,Near-Prime / Medium Risk
+26,Bachelor's,Student,2979.0,2,7,rent,21,0.37,bachelor,1359.0,0.67,0.08,54,0.83,0.33,0.33,0,0,0,0,0,0,0.11052507,0,889,Prime / Low Risk
+22,Bachelor's,Self-Employed,11270.0,1,4,rent,12,0.65,bachelor,3919.0,0.54,0.19,193,0.64,0.39,0.5,0,0,1,2,0,1,0.5493188,1,451,High Risk / Poor
+22,PhD,Employed,9656.0,2,19,owner,2,0.47,phd,4530.0,0.57,0.13,129,0.62,0.45,0.54,0,0,0,2,0,1,0.8399088,1,160,High Risk / Poor
+25,Bachelor's,Employed,7426.0,1,49,owner,2,0.38,bachelor,2277.0,0.79,0.02,209,0.95,0.12,0.33,0,0,0,2,0,0,0.033993766,0,966,Prime / Low Risk
+20,Bachelor's,Student,2274.0,2,11,rent,4,0.63,bachelor,1322.0,0.6,0.18,49,0.61,0.39,0.55,0,0,0,2,0,0,0.8220145,1,178,High Risk / Poor
+22,Bachelor's,Employed,6754.0,2,51,rent,5,0.54,bachelor,2450.0,0.75,0.07,142,0.76,0.3,0.36,0,0,0,3,1,0,0.3329438,0,667,Near-Prime / Medium Risk
+22,High School,Self-Employed,9624.0,2,25,rent,15,0.55,highschool,2539.0,0.43,0.15,238,0.77,0.34,0.49,0,0,0,2,1,1,0.51316005,1,487,High Risk / Poor
+26,Diploma,Student,4742.0,2,7,rent,22,0.56,cert,1391.0,0.64,0.08,135,0.82,0.32,0.29,0,0,0,2,1,0,0.1903339,0,810,Prime / Low Risk
+26,Bachelor's,Employed,10110.0,2,57,none,4,0.63,bachelor,3458.0,0.3,0.05,216,0.92,0.23,0.29,0,0,0,3,0,0,0.03907465,0,961,Prime / Low Risk
+21,Bachelor's,Student,3889.0,1,12,rent,16,0.68,bachelor,1895.0,0.72,0.1,116,0.82,0.3,0.34,0,0,0,3,0,0,0.15745036,0,843,Prime / Low Risk
+23,Bachelor's,Self-Employed,6425.0,3,9,rent,23,0.37,bachelor,2651.0,0.6,0.13,114,0.83,0.31,0.31,0,0,0,2,1,0,0.09667173,0,903,Prime / Low Risk
+23,Diploma,Self-Employed,11325.0,1,52,owner,2,0.73,cert,3661.0,0.58,0.12,273,0.84,0.22,0.16,0,0,0,2,1,0,0.0170778,0,983,Prime / Low Risk
+22,Bachelor's,Student,4803.0,1,6,rent,6,0.5,bachelor,2964.0,0.65,0.12,97,0.64,0.42,0.61,0,0,0,3,1,1,0.6754241,1,325,High Risk / Poor
+20,Diploma,Employed,5166.0,2,6,rent,13,0.42,cert,2238.0,0.79,0.05,113,0.77,0.44,0.41,0,0,0,2,1,1,0.3500872,0,650,Near-Prime / Medium Risk
+22,Master's,Self-Employed,6791.0,3,14,none,1,0.35,master,2676.0,0.61,0.15,113,0.81,0.26,0.42,0,0,0,2,0,0,0.2734655,0,727,Near-Prime / Medium Risk
+23,Bachelor's,Unemployed,2463.0,1,3,rent,9,0.37,bachelor,2155.0,0.72,0.28,72,0.56,0.71,0.8,0,1,0,0,3,1,0.94887275,1,51,High Risk / Poor
+20,Bachelor's,Unemployed,1839.0,1,4,rent,14,0.64,bachelor,1002.0,0.83,0.18,34,0.7,0.47,0.41,0,0,0,1,0,1,0.5156365,1,484,High Risk / Poor
+25,Bachelor's,Employed,8647.0,1,16,rent,19,0.44,bachelor,516.0,0.43,0.02,252,1.0,0.05,0.0,0,0,0,3,1,0,0.018162386,0,982,Prime / Low Risk
+24,High School,Employed,8962.0,1,46,rent,16,0.66,highschool,6408.0,0.7,0.16,85,0.78,0.26,0.33,0,0,0,2,0,0,0.14428154,0,856,Prime / Low Risk
+23,High School,Student,2631.0,2,12,rent,20,0.42,highschool,1802.0,0.82,0.15,0,0.61,0.54,0.63,0,0,0,1,2,1,0.92936724,1,71,High Risk / Poor
+22,High School,Self-Employed,6624.0,2,55,owner,4,0.36,highschool,1555.0,0.53,0.16,151,0.86,0.18,0.18,0,0,0,1,1,0,0.0174443,0,983,Prime / Low Risk
+26,Bachelor's,Employed,9269.0,2,27,rent,4,0.52,bachelor,2930.0,0.64,0.06,211,0.83,0.32,0.33,0,0,1,3,1,0,0.12728631,0,873,Prime / Low Risk
+21,Bachelor's,Student,3941.0,2,10,owner,0,0.61,bachelor,1991.0,0.44,0.09,29,0.71,0.37,0.53,0,0,0,1,0,1,0.66462463,1,335,High Risk / Poor
+20,Master's,Unemployed,2878.0,2,5,rent,21,0.53,master,1313.0,0.63,0.12,51,0.71,0.51,0.54,0,0,0,2,1,1,0.59853673,1,401,High Risk / Poor
+21,Diploma,Employed,8261.0,3,21,rent,23,0.55,cert,4001.0,0.72,0.11,190,0.83,0.16,0.26,0,0,0,3,0,0,0.12620316,0,874,Prime / Low Risk
+25,High School,Unemployed,3240.0,1,5,rent,19,0.53,highschool,1091.0,0.59,0.11,97,0.78,0.39,0.3,0,0,0,3,0,0,0.17267007,0,827,Prime / Low Risk
+25,Master's,Employed,7561.0,3,20,rent,17,0.62,master,2523.0,0.59,0.05,170,0.9,0.23,0.23,0,0,0,3,0,0,0.032815564,0,967,Prime / Low Risk
+24,Bachelor's,Student,4664.0,1,9,none,3,0.49,bachelor,1790.0,0.63,0.08,127,0.8,0.19,0.21,0,0,0,3,1,0,0.07613765,0,924,Prime / Low Risk
+23,Bachelor's,Employed,8601.0,2,17,rent,22,0.3,bachelor,2633.0,0.44,0.08,224,0.82,0.24,0.36,0,0,0,3,0,1,0.19436277,0,806,Prime / Low Risk
+21,High School,Employed,9212.0,2,47,owner,1,0.4,highschool,3323.0,0.6,0.04,294,0.77,0.27,0.34,0,0,0,2,0,0,0.0786645,0,921,Prime / Low Risk
+23,Bachelor's,Employed,6753.0,2,8,rent,7,0.41,bachelor,2803.0,0.46,0.07,157,0.84,0.32,0.38,0,0,0,3,0,0,0.16265562,0,837,Prime / Low Risk
+20,Master's,Student,1996.0,1,7,rent,10,0.54,master,928.0,0.71,0.07,37,0.72,0.3,0.32,0,0,0,2,0,0,0.30332735,0,697,Near-Prime / Medium Risk
+23,Diploma,Unemployed,2532.0,2,2,rent,13,0.31,cert,649.0,0.54,0.12,79,0.63,0.53,0.58,0,0,0,1,1,1,0.84589815,1,154,High Risk / Poor
+26,Bachelor's,Self-Employed,9458.0,3,20,rent,23,0.51,bachelor,4271.0,0.42,0.17,121,0.6,0.39,0.66,0,0,1,3,1,1,0.8221334,1,178,High Risk / Poor
+20,Bachelor's,Student,3332.0,3,12,rent,19,0.31,bachelor,782.0,0.85,0.07,113,0.92,0.11,0.23,0,0,0,3,1,0,0.030113816,0,970,Prime / Low Risk
+26,Diploma,Employed,11503.0,2,26,rent,21,0.8,cert,4601.0,0.71,0.15,240,0.66,0.73,0.63,0,0,0,3,3,1,0.8756289,1,124,High Risk / Poor
+21,Bachelor's,Employed,8590.0,3,36,rent,11,0.65,bachelor,2945.0,0.54,0.08,228,0.82,0.19,0.33,0,0,0,3,0,0,0.14679183,0,853,Prime / Low Risk
+23,Bachelor's,Employed,7437.0,1,38,rent,11,0.44,bachelor,3990.0,0.51,0.06,166,0.77,0.37,0.49,0,0,0,3,0,1,0.3060547,0,694,Near-Prime / Medium Risk
+22,Bachelor's,Employed,11123.0,1,36,owner,1,0.7,bachelor,4187.0,0.47,0.1,224,0.95,0.2,0.26,0,0,0,3,0,0,0.06375997,0,936,Prime / Low Risk
+20,Bachelor's,Employed,5686.0,3,29,rent,6,0.54,bachelor,3578.0,0.8,0.17,175,0.75,0.27,0.42,0,0,0,3,1,0,0.45140707,0,549,High Risk / Poor
+26,Bachelor's,Employed,8889.0,2,57,owner,3,0.43,bachelor,2461.0,0.61,0.06,198,0.8,0.32,0.31,0,0,0,3,0,0,0.14737724,0,853,Prime / Low Risk
+25,Bachelor's,Student,3219.0,2,3,rent,6,0.47,bachelor,947.0,0.72,0.04,96,0.84,0.31,0.22,0,0,0,3,2,0,0.093789965,0,906,Prime / Low Risk
+21,Bachelor's,Employed,6554.0,3,25,owner,4,0.55,bachelor,2300.0,0.64,0.1,150,0.81,0.33,0.19,0,0,0,2,0,0,0.13989678,0,860,Prime / Low Risk
+26,Bachelor's,Student,5022.0,2,4,rent,17,0.57,bachelor,2845.0,0.6,0.16,87,0.77,0.3,0.45,0,0,0,0,0,0,0.30240554,0,698,Near-Prime / Medium Risk
+25,Bachelor's,Employed,10020.0,3,16,rent,18,0.3,bachelor,4573.0,0.67,0.1,195,0.81,0.33,0.36,0,0,0,3,0,1,0.1729914,0,827,Prime / Low Risk
+23,PhD,Student,2724.0,2,10,none,2,0.57,phd,1538.0,0.72,0.08,67,0.81,0.34,0.3,0,0,0,2,0,1,0.21525364,0,785,Prime / Low Risk
+22,Master's,Self-Employed,7052.0,1,8,rent,18,0.5,master,3914.0,0.59,0.2,102,0.65,0.26,0.52,0,0,0,2,0,1,0.6041934,1,396,High Risk / Poor
+24,Master's,Employed,8091.0,3,35,rent,19,0.5,master,3627.0,0.53,0.06,211,0.67,0.39,0.47,0,0,0,3,1,1,0.48931792,0,511,High Risk / Poor
+24,Bachelor's,Employed,6947.0,2,59,rent,18,0.77,bachelor,3856.0,0.53,0.1,151,0.83,0.26,0.29,0,0,0,2,0,0,0.123188406,0,877,Prime / Low Risk
+25,Bachelor's,Student,2804.0,3,5,none,4,0.51,bachelor,1747.0,0.62,0.12,38,0.68,0.38,0.42,0,0,0,0,1,0,0.52573365,1,474,High Risk / Poor
+26,Diploma,Employed,6617.0,1,33,none,1,0.77,cert,2195.0,0.6,0.05,170,0.81,0.22,0.34,0,0,0,3,0,0,0.09460969,0,905,Prime / Low Risk
+20,Bachelor's,Employed,7683.0,1,43,rent,9,0.58,bachelor,2165.0,0.73,0.06,241,0.81,0.29,0.51,0,0,0,3,0,0,0.46156144,0,538,High Risk / Poor
+21,Bachelor's,Employed,8966.0,2,36,owner,3,0.55,bachelor,4149.0,0.61,0.1,187,0.88,0.21,0.17,0,0,0,3,1,0,0.03230615,0,968,Prime / Low Risk
+23,High School,Unemployed,3005.0,2,1,rent,20,0.58,highschool,1928.0,0.78,0.22,48,0.66,0.42,0.49,0,0,0,1,2,1,0.5902146,1,410,High Risk / Poor
+26,High School,Student,4347.0,3,2,none,4,0.63,highschool,2203.0,0.49,0.06,40,0.8,0.32,0.37,0,0,0,2,0,0,0.30006805,0,700,Near-Prime / Medium Risk
+20,Master's,Self-Employed,12521.0,2,12,none,1,0.55,master,3226.0,0.49,0.15,228,0.88,0.24,0.23,0,0,0,3,1,0,0.077173375,0,923,Prime / Low Risk
+21,Bachelor's,Self-Employed,12255.0,3,37,none,1,0.66,bachelor,3652.0,0.65,0.14,230,0.76,0.38,0.44,0,0,0,3,1,1,0.34950355,0,650,Near-Prime / Medium Risk
+26,High School,Employed,7166.0,1,8,owner,2,0.82,highschool,2251.0,0.5,0.09,167,0.8,0.22,0.27,0,0,0,3,0,1,0.15428963,0,846,Prime / Low Risk
+21,Diploma,Self-Employed,10181.0,3,55,rent,12,0.5,cert,5778.0,0.4,0.23,88,0.63,0.37,0.54,0,0,0,2,0,1,0.67582184,1,324,High Risk / Poor
+21,High School,Employed,6704.0,2,29,rent,21,0.48,highschool,1663.0,0.7,0.07,113,0.89,0.31,0.37,0,0,0,1,0,0,0.14779876,0,852,Prime / Low Risk
+25,Diploma,Student,3245.0,1,5,rent,8,0.47,cert,2100.0,0.71,0.1,48,0.68,0.35,0.47,0,0,0,1,0,0,0.47226655,0,528,High Risk / Poor
+24,Diploma,Employed,6926.0,2,56,rent,6,0.82,cert,2715.0,0.57,0.07,176,0.87,0.21,0.1,0,0,0,2,1,0,0.014405903,0,986,Prime / Low Risk
+23,Diploma,Self-Employed,8292.0,2,34,none,1,0.61,cert,2614.0,0.74,0.14,129,0.76,0.24,0.31,0,0,0,2,1,0,0.19941787,0,801,Prime / Low Risk
+24,High School,Self-Employed,9179.0,2,4,owner,0,0.37,highschool,5056.0,0.58,0.22,63,0.71,0.38,0.55,1,0,0,1,1,0,0.6678129,1,332,High Risk / Poor
+23,Bachelor's,Employed,9254.0,2,9,owner,2,0.45,bachelor,2659.0,0.65,0.04,283,0.84,0.21,0.25,0,0,0,2,0,0,0.069428995,0,931,Prime / Low Risk
+25,Bachelor's,Student,6054.0,3,9,owner,2,0.44,bachelor,2760.0,0.5,0.11,166,0.81,0.17,0.21,0,0,0,3,1,0,0.053910803,0,946,Prime / Low Risk
+21,High School,Self-Employed,8510.0,2,9,none,2,0.43,highschool,2878.0,0.72,0.12,168,0.91,0.2,0.21,0,0,0,3,0,0,0.023507442,0,976,Prime / Low Risk
+24,Diploma,Self-Employed,8214.0,1,8,rent,22,0.58,cert,3917.0,0.6,0.22,79,0.57,0.41,0.61,0,0,0,1,1,1,0.7661212,1,234,High Risk / Poor
+24,Diploma,Employed,7989.0,1,36,rent,4,0.46,cert,4581.0,0.57,0.19,88,0.56,0.54,0.8,0,0,1,2,2,1,0.9555719,1,44,High Risk / Poor
+24,Master's,Employed,9256.0,2,50,none,1,0.44,master,5229.0,0.61,0.14,144,0.65,0.29,0.59,0,0,0,2,1,1,0.6804805,1,320,High Risk / Poor
+20,Bachelor's,Employed,8956.0,3,34,rent,5,0.63,bachelor,3362.0,0.31,0.05,220,0.9,0.18,0.2,0,0,0,3,0,0,0.032397408,0,968,Prime / Low Risk
+20,Diploma,Self-Employed,9604.0,2,23,rent,23,0.31,cert,1090.0,0.61,0.13,261,0.9,0.12,0.26,0,0,0,3,0,0,0.034901906,0,965,Prime / Low Risk
+23,Bachelor's,Student,3749.0,2,8,rent,12,0.49,bachelor,1244.0,0.62,0.08,128,0.81,0.27,0.26,0,0,0,3,1,0,0.1792885,0,821,Prime / Low Risk
+23,Bachelor's,Employed,12944.0,2,10,rent,5,0.68,bachelor,3665.0,0.51,0.09,317,0.79,0.3,0.21,0,0,0,3,1,0,0.0741777,0,926,Prime / Low Risk
+21,High School,Employed,8813.0,2,48,none,3,0.67,highschool,2691.0,0.68,0.05,213,0.87,0.3,0.31,0,0,0,3,0,0,0.047231063,0,953,Prime / Low Risk
+21,High School,Self-Employed,7833.0,1,11,rent,4,0.6,highschool,2373.0,0.44,0.18,184,0.65,0.38,0.59,0,0,0,3,1,1,0.7186141,1,281,High Risk / Poor
+24,High School,Employed,6493.0,1,36,rent,9,0.9,highschool,2687.0,0.48,0.05,173,0.87,0.24,0.25,0,0,0,2,1,0,0.036100764,0,964,Prime / Low Risk
+26,Bachelor's,Employed,9657.0,2,13,rent,22,0.5,bachelor,3336.0,0.49,0.1,262,0.75,0.29,0.44,0,1,0,2,3,1,0.3923472,0,608,Sub-Prime / Fair
+26,High School,Student,3895.0,2,8,rent,11,0.65,highschool,2142.0,0.72,0.1,58,0.76,0.29,0.32,0,0,0,1,0,0,0.2781537,0,722,Near-Prime / Medium Risk
+23,High School,Employed,9545.0,2,48,rent,15,0.75,highschool,2639.0,0.61,0.06,221,0.86,0.18,0.31,0,0,0,2,0,0,0.06520335,0,935,Prime / Low Risk
+20,Master's,Self-Employed,10222.0,2,9,none,4,0.74,master,5221.0,0.84,0.19,159,0.7,0.37,0.46,0,0,1,3,0,0,0.5864529,1,414,High Risk / Poor
+26,Bachelor's,Employed,8322.0,2,37,rent,17,0.62,bachelor,3303.0,0.53,0.08,154,0.84,0.29,0.3,0,0,0,2,0,0,0.10254299,0,897,Prime / Low Risk
+24,Bachelor's,Employed,10292.0,2,25,rent,5,0.49,bachelor,3993.0,0.49,0.06,188,0.75,0.32,0.39,0,0,0,2,0,0,0.3026628,0,697,Near-Prime / Medium Risk
+23,High School,Self-Employed,7440.0,3,7,rent,9,0.46,highschool,4154.0,0.44,0.23,117,0.59,0.36,0.51,0,0,0,3,2,1,0.8131495,1,187,High Risk / Poor
+20,High School,Employed,6596.0,2,55,rent,20,0.46,highschool,3298.0,0.58,0.16,76,0.57,0.55,0.61,0,0,0,2,1,1,0.92846704,1,72,High Risk / Poor
+26,Bachelor's,Employed,9186.0,2,35,rent,5,0.74,bachelor,2482.0,0.53,0.1,238,0.81,0.26,0.37,0,0,0,0,1,0,0.251226,0,749,Near-Prime / Medium Risk
+24,Bachelor's,Employed,7857.0,1,24,rent,18,0.52,bachelor,3247.0,0.71,0.11,225,0.75,0.34,0.32,0,0,0,2,0,1,0.41725433,0,583,Sub-Prime / Fair
+21,High School,Unemployed,3789.0,1,1,owner,1,0.39,highschool,1774.0,0.6,0.16,81,0.75,0.33,0.37,0,0,0,1,0,0,0.44980907,0,550,Sub-Prime / Fair
+21,Diploma,Self-Employed,8910.0,1,14,rent,16,0.71,cert,3095.0,0.64,0.18,137,0.67,0.4,0.52,0,0,0,1,0,0,0.6924602,1,308,High Risk / Poor
+26,Bachelor's,Self-Employed,4179.0,1,11,rent,18,0.6900000000000001,bachelor,3301.0,0.44,0.25,15,0.68,0.32,0.13,0,0,0,1,1,0,0.40212595,0,598,Sub-Prime / Fair
+25,Bachelor's,Self-Employed,6538.0,1,31,owner,0,0.38,bachelor,2419.0,0.43,0.18,15,0.59,0.39,0.06,0,0,0,3,1,0,0.40915304,0,591,Sub-Prime / Fair
+20,Diploma,Unemployed,3128.0,2,0,rent,10,0.56,cert,2818.0,0.68,0.23,7,0.56,0.48,0.63,0,0,0,2,2,0,0.9290275,1,71,High Risk / Poor
+24,Bachelor's,Employed,9828.0,3,23,rent,6,0.89,bachelor,2497.0,0.5,0.1,249,0.8,0.35,0.27,0,0,0,3,1,0,0.27328694,0,727,Near-Prime / Medium Risk
+22,Master's,Employed,1582.0,1,35,none,0,0.4,master,949.0,0.52,0.17,15,0.6900000000000001,0.5700000000000001,0.72,0,0,0,1,1,1,0.8917863,1,108,High Risk / Poor
+21,Master's,Employed,6613.0,2,9,rent,5,0.49,master,2773.0,0.67,0.03,166,0.75,0.37,0.4,0,0,0,1,0,1,0.37563193,0,624,Sub-Prime / Fair
+21,Bachelor's,Employed,8382.0,2,16,none,2,0.51,bachelor,3400.0,0.69,0.03,182,0.69,0.32,0.4,0,0,0,2,0,0,0.25834888,0,742,Near-Prime / Medium Risk
+20,Bachelor's,Employed,7266.0,1,56,rent,9,0.43,bachelor,2076.0,0.48,0.04,178,0.89,0.21,0.3,0,0,0,3,1,0,0.06484606,0,935,Prime / Low Risk
+22,Bachelor's,Employed,5685.0,2,12,none,2,0.63,bachelor,1282.0,0.51,0.06,175,0.76,0.3,0.5,0,0,0,3,0,0,0.33146003,0,669,Near-Prime / Medium Risk
+25,High School,Employed,9416.0,2,36,owner,1,0.74,highschool,4617.0,0.52,0.07,157,0.82,0.31,0.36,0,0,0,3,1,0,0.17672223,0,823,Prime / Low Risk
+23,Diploma,Self-Employed,6967.0,2,48,rent,16,0.32,cert,2775.0,0.52,0.18,86,0.66,0.46,0.41,0,0,0,2,0,0,0.60611355,1,394,High Risk / Poor
+21,High School,Employed,7693.0,3,6,none,0,0.32,highschool,2704.0,0.59,0.04,178,0.98,0.1,0.09,0,0,0,2,1,0,0.007773306,0,992,Prime / Low Risk
+22,Bachelor's,Unemployed,2885.0,1,5,rent,11,0.49,bachelor,2269.0,0.79,0.3,0,0.56,0.55,0.62,0,0,0,2,3,1,0.8984825,1,102,High Risk / Poor
+25,High School,Student,5468.0,3,6,rent,7,0.58,highschool,1544.0,0.56,0.04,235,0.91,0.19,0.01,0,0,0,2,0,0,0.01790317,0,982,Prime / Low Risk
+21,Bachelor's,Student,4726.0,1,10,rent,8,0.55,bachelor,2125.0,0.7,0.13,84,0.78,0.22,0.31,0,0,0,2,0,0,0.17479204,0,825,Prime / Low Risk
+24,Diploma,Employed,2007.0,3,21,none,0,0.99,cert,1003.0,0.66,0.19,120,0.62,0.12,0.16,0,0,0,2,2,0,0.07517763,0,925,Prime / Low Risk
+25,Master's,Employed,9019.0,1,56,owner,4,0.72,master,3174.0,0.35,0.07,239,0.86,0.26,0.3,0,0,1,1,0,0,0.056164287,0,944,Prime / Low Risk
+26,Bachelor's,Employed,7643.0,3,38,rent,22,0.45,bachelor,2625.0,0.62,0.04,188,0.93,0.15,0.04,0,0,0,2,0,0,0.0058572614,0,994,Prime / Low Risk
+21,Bachelor's,Student,3817.0,1,11,none,2,0.59,bachelor,1168.0,0.76,0.02,160,0.77,0.29,0.48,0,0,0,3,0,0,0.36303678,0,637,Sub-Prime / Fair
+24,Master's,Student,5942.0,1,2,rent,16,0.45,master,2245.0,0.5,0.06,101,0.79,0.26,0.28,0,0,0,3,0,0,0.1992239,0,801,Prime / Low Risk
+24,Bachelor's,Employed,7218.0,2,14,rent,8,0.41,bachelor,1934.0,0.48,0.04,196,0.94,0.16,0.27,0,0,0,3,0,0,0.062261824,0,938,Prime / Low Risk
+23,Diploma,Student,2620.0,2,0,rent,6,0.35,cert,716.0,0.8,0.11,56,0.72,0.36,0.4,0,0,0,1,0,0,0.5600732,1,440,High Risk / Poor
+24,Bachelor's,Self-Employed,5368.0,2,36,none,0,0.3,bachelor,4079.0,0.84,0.18,240,0.93,0.21,0.24,0,0,0,1,3,0,0.061082277,0,939,Prime / Low Risk
+20,Bachelor's,Self-Employed,9405.0,3,25,none,1,0.48,bachelor,4509.0,0.76,0.16,186,0.74,0.33,0.4,0,0,0,3,0,1,0.444237,0,556,Sub-Prime / Fair
+26,Bachelor's,Self-Employed,7993.0,2,51,owner,2,0.61,bachelor,5375.0,0.67,0.22,15,0.63,0.45,0.6,0,0,0,1,2,1,0.78485525,1,215,High Risk / Poor
+21,Bachelor's,Employed,7235.0,2,7,rent,10,0.48,bachelor,3930.0,0.72,0.04,133,0.9,0.17,0.28,0,0,0,2,0,0,0.070316985,0,930,Prime / Low Risk
+26,Master's,Self-Employed,10752.0,1,3,none,2,0.44,master,3601.0,0.63,0.16,196,0.69,0.4,0.49,0,0,0,3,0,1,0.73477083,1,265,High Risk / Poor
+25,Bachelor's,Student,5053.0,2,1,rent,14,0.42,bachelor,1730.0,0.85,0.09,95,0.77,0.3,0.44,0,0,0,3,2,0,0.3376715,0,662,Near-Prime / Medium Risk
+24,Diploma,Employed,7788.0,3,27,rent,7,0.46,cert,4795.0,0.6,0.11,88,0.69,0.4,0.59,0,0,0,1,1,1,0.5683991,1,432,High Risk / Poor
+20,High School,Self-Employed,11428.0,2,12,owner,0,0.68,highschool,3651.0,0.61,0.2,214,0.62,0.31,0.57,0,0,0,2,1,1,0.7189589,1,281,High Risk / Poor
+20,High School,Student,4150.0,3,6,rent,24,0.47,highschool,1989.0,0.55,0.13,69,0.56,0.5,0.58,0,0,0,3,1,1,0.9069342,1,93,High Risk / Poor
+25,Bachelor's,Employed,10179.0,3,47,rent,9,0.74,bachelor,2849.0,0.75,0.03,226,0.96,0.14,0.0,0,0,0,3,1,0,0.0055351043,0,994,Prime / Low Risk
+24,Master's,Student,4102.0,2,0,rent,23,0.69,master,1471.0,0.44,0.08,72,0.72,0.32,0.42,0,0,0,1,0,1,0.37176722,0,628,Sub-Prime / Fair
+23,Master's,Self-Employed,7606.0,2,14,none,2,0.49,master,2920.0,0.34,0.14,89,0.77,0.25,0.47,0,0,0,2,1,1,0.2010574,0,799,Prime / Low Risk
+26,Diploma,Employed,9747.0,1,55,none,4,0.55,cert,3825.0,0.64,0.05,219,0.8,0.33,0.34,0,0,0,2,1,1,0.13908213,0,861,Prime / Low Risk
+25,Bachelor's,Student,3529.0,3,6,none,0,0.49,bachelor,2377.0,0.63,0.16,0,0.64,0.38,0.6,0,0,0,2,0,1,0.7530936,1,247,High Risk / Poor
+20,Diploma,Employed,7181.0,2,27,rent,11,0.54,cert,2615.0,0.62,0.09,143,0.74,0.39,0.4,0,0,0,3,0,0,0.547682,1,452,High Risk / Poor
+26,Bachelor's,Student,2964.0,1,2,none,3,0.48,bachelor,2034.0,0.47,0.18,80,0.6,0.53,0.55,0,0,0,2,1,1,0.92088777,1,79,High Risk / Poor
+23,Master's,Student,2813.0,2,0,rent,10,0.48,master,1369.0,0.58,0.05,73,0.9,0.21,0.31,0,0,0,2,1,0,0.100929566,0,899,Prime / Low Risk
+25,Bachelor's,Unemployed,3375.0,3,1,none,4,0.72,bachelor,1369.0,0.62,0.21,72,0.67,0.41,0.37,0,0,0,1,0,1,0.5635782,1,436,High Risk / Poor
+23,Bachelor's,Employed,9072.0,2,55,none,4,0.51,bachelor,4694.0,0.69,0.09,114,0.81,0.23,0.32,0,0,0,2,0,0,0.15656011,0,843,Prime / Low Risk
+25,Diploma,Self-Employed,8117.0,2,53,owner,1,0.57,cert,2024.0,0.59,0.13,217,0.92,0.15,0.26,0,0,0,3,0,0,0.027446643,0,973,Prime / Low Risk
+24,Diploma,Unemployed,3347.0,2,0,rent,22,0.51,cert,2469.0,0.69,0.19,108,0.64,0.49,0.32,0,0,0,3,1,0,0.6417814,1,358,High Risk / Poor
+26,Diploma,Employed,8245.0,3,19,rent,4,0.63,cert,4490.0,0.61,0.12,123,0.81,0.22,0.43,0,0,0,3,0,0,0.23497003,0,765,Prime / Low Risk
+26,Bachelor's,Self-Employed,8361.0,3,11,owner,4,0.44,bachelor,2284.0,0.62,0.08,173,0.95,0.18,0.15,0,0,0,3,0,0,0.022446284,0,978,Prime / Low Risk
+25,Master's,Unemployed,2744.0,1,4,owner,2,0.46,master,1584.0,0.7,0.16,67,0.6,0.54,0.52,0,0,0,2,1,1,0.89067245,1,109,High Risk / Poor
+20,Bachelor's,Employed,5211.0,2,12,rent,21,0.65,bachelor,3205.0,0.67,0.09,99,0.66,0.51,0.32,0,0,0,2,1,0,0.54772294,1,452,High Risk / Poor
+21,Bachelor's,Student,4402.0,2,10,rent,20,0.6,bachelor,1709.0,0.71,0.12,143,0.78,0.29,0.38,0,0,0,2,1,0,0.25044793,0,750,Prime / Low Risk
+23,Bachelor's,Employed,9302.0,2,20,owner,1,0.68,bachelor,2589.0,0.57,0.06,244,0.88,0.28,0.21,0,0,0,3,1,0,0.06541693,0,935,Prime / Low Risk
+21,High School,Employed,7950.0,2,40,owner,3,0.46,highschool,3744.0,0.63,0.06,96,0.81,0.27,0.43,0,0,0,1,1,1,0.22327325,0,777,Prime / Low Risk
+20,Bachelor's,Self-Employed,9387.0,3,51,rent,10,0.53,bachelor,4137.0,0.65,0.15,171,0.75,0.28,0.5,0,0,0,3,0,1,0.4307982,0,569,Sub-Prime / Fair
+25,High School,Student,4011.0,2,12,owner,2,0.36,highschool,1850.0,0.5,0.1,88,0.59,0.46,0.54,0,0,0,2,0,1,0.8115894,1,188,High Risk / Poor
+24,Bachelor's,Employed,7699.0,2,27,none,0,0.47,bachelor,3134.0,0.66,0.1,207,0.86,0.25,0.37,0,0,0,2,0,0,0.13945942,0,861,Prime / Low Risk
+20,Bachelor's,Student,4199.0,2,0,rent,18,0.62,bachelor,2526.0,0.65,0.12,34,0.69,0.35,0.4,0,0,0,2,0,1,0.49392727,0,506,High Risk / Poor
+23,High School,Employed,11633.0,1,5,none,0,0.51,none,9539.0,0.5,0.07,15,0.5700000000000001,0.21,0.23,0,0,0,2,3,0,0.1109121,0,889,Prime / Low Risk
+22,Bachelor's,Unemployed,2621.0,1,1,rent,13,0.71,bachelor,1472.0,0.67,0.1,72,0.82,0.31,0.28,0,0,0,2,1,0,0.22863148,0,771,Prime / Low Risk
+20,Bachelor's,Employed,10433.0,2,29,rent,4,0.52,bachelor,3583.0,0.46,0.06,248,0.75,0.36,0.43,0,0,0,2,0,0,0.53848344,1,462,High Risk / Poor
+26,Diploma,Employed,10404.0,2,53,owner,4,0.6,cert,4263.0,0.47,0.07,256,0.7,0.35,0.46,0,0,0,3,1,0,0.30471143,0,695,Near-Prime / Medium Risk
+20,Diploma,Unemployed,1200.0,1,4,none,4,0.41,cert,848.0,0.71,0.19,16,0.71,0.51,0.33,0,0,0,0,1,1,0.6215794,1,378,High Risk / Poor
+24,Diploma,Self-Employed,6111.0,1,3,owner,3,0.65,cert,3119.0,0.42,0.23,140,0.73,0.34,0.53,0,0,0,3,1,1,0.76367027,1,236,High Risk / Poor
+24,Bachelor's,Self-Employed,7186.0,3,11,owner,1,0.56,bachelor,2668.0,0.68,0.17,172,0.74,0.36,0.48,0,0,0,3,1,1,0.5395308,1,460,High Risk / Poor
+20,Bachelor's,Student,3569.0,3,5,none,3,0.54,bachelor,1316.0,0.72,0.06,96,0.76,0.21,0.4,0,0,0,3,0,0,0.3000312,0,700,Near-Prime / Medium Risk
+23,High School,Employed,9323.0,2,15,owner,3,0.54,highschool,3801.0,0.43,0.09,195,0.78,0.23,0.3,0,0,0,3,0,0,0.15862109,0,841,Prime / Low Risk
+20,PhD,Employed,5554.0,2,48,none,0,0.86,phd,3776.0,0.63,0.24,240,0.75,0.54,0.06,0,0,0,1,1,1,0.54577625,1,454,High Risk / Poor
+23,High School,Employed,10724.0,3,20,owner,0,0.31,highschool,9651.0,0.34,0.08,60,0.61,0.29,0.06,0,0,0,2,0,0,0.12707514,0,873,Prime / Low Risk
+26,Bachelor's,Student,2196.0,1,5,rent,22,0.35,bachelor,936.0,0.61,0.03,73,0.82,0.4,0.36,0,0,0,3,0,0,0.18265809,0,817,Prime / Low Risk
+22,Diploma,Employed,8694.0,3,57,owner,0,0.49,cert,3955.0,0.69,0.05,173,0.93,0.21,0.19,0,0,0,2,0,0,0.015820418,0,984,Prime / Low Risk
+21,Bachelor's,Student,3041.0,2,7,rent,9,0.46,bachelor,501.0,0.7,0.1,86,0.7,0.38,0.41,0,0,0,2,0,1,0.48210868,0,518,High Risk / Poor
+22,Bachelor's,Student,4477.0,2,7,rent,11,0.3,bachelor,1812.0,0.47,0.08,96,0.75,0.23,0.38,0,0,0,3,1,0,0.29615647,0,704,Near-Prime / Medium Risk
+21,Diploma,Employed,7447.0,2,10,owner,4,0.66,cert,2848.0,0.63,0.09,161,0.81,0.26,0.34,0,0,0,2,0,0,0.21615408,0,784,Prime / Low Risk
+21,Master's,Employed,8645.0,1,11,none,4,0.39,master,1811.0,0.68,0.06,254,0.96,0.23,0.17,0,0,0,3,0,0,0.024044292,0,976,Prime / Low Risk
+21,Bachelor's,Employed,9118.0,1,50,none,0,0.72,bachelor,4650.0,0.67,0.16,30,0.85,0.25,0.53,0,0,0,1,2,1,0.29949924,0,701,Near-Prime / Medium Risk
+26,Bachelor's,Employed,6863.0,1,45,owner,1,0.51,bachelor,3150.0,0.51,0.08,232,0.92,0.14,0.3,0,0,0,3,1,0,0.02833716,0,972,Prime / Low Risk
+22,PhD,Employed,9090.0,3,41,none,2,0.6,phd,4020.0,0.78,0.1,196,0.86,0.16,0.25,0,0,0,2,0,0,0.06156734,0,938,Prime / Low Risk
+25,Bachelor's,Employed,5750.0,2,46,owner,0,0.76,bachelor,4772.0,0.52,0.23,360,0.87,0.45,0.15,0,0,0,3,2,1,0.13426135,0,866,Prime / Low Risk
+25,Bachelor's,Employed,8515.0,2,7,rent,8,0.72,bachelor,4666.0,0.57,0.18,135,0.61,0.39,0.54,0,0,1,2,0,0,0.82796454,1,172,High Risk / Poor
+23,Diploma,Employed,5078.0,2,41,rent,3,0.4,cert,3199.0,0.36,0.14,60,0.6000000000000001,0.1,0.46,0,0,0,1,0,0,0.2112648,0,789,Prime / Low Risk
+21,Bachelor's,Unemployed,2340.0,1,0,rent,18,0.66,bachelor,1557.0,0.79,0.1,52,0.72,0.44,0.46,0,0,0,1,1,1,0.43083486,0,569,Sub-Prime / Fair
+26,Master's,Employed,7808.0,3,10,rent,17,0.44,master,2878.0,0.55,0.1,176,0.86,0.22,0.15,0,0,0,3,1,0,0.02356608,0,976,Prime / Low Risk
+20,High School,Unemployed,2726.0,3,3,rent,11,0.35,highschool,1602.0,0.83,0.2,51,0.56,0.52,0.68,0,1,0,1,3,1,0.9406736,1,59,High Risk / Poor
+24,High School,Employed,7399.0,2,20,rent,9,0.75,highschool,2283.0,0.69,0.05,209,0.95,0.12,0.19,0,0,0,3,0,0,0.008430008,0,992,Prime / Low Risk
+21,Diploma,Employed,9839.0,2,39,rent,21,0.73,cert,3315.0,0.77,0.05,218,1.0,0.14,0.14,0,0,0,3,0,0,0.007777997,0,992,Prime / Low Risk
+20,Bachelor's,Employed,4647.0,2,8,rent,19,0.64,bachelor,1783.0,0.73,0.02,110,1.0,0.14,0.01,0,0,0,2,0,0,0.010046728,0,990,Prime / Low Risk
+26,PhD,Employed,6479.0,3,1,none,0,0.71,phd,4600.0,0.84,0.05,0,0.93,0.23,0.41,0,0,0,3,2,1,0.1419609,0,858,Prime / Low Risk
+22,Bachelor's,Self-Employed,8459.0,3,24,owner,0,0.52,bachelor,3866.0,0.62,0.13,185,0.66,0.26,0.46,0,0,0,2,2,0,0.3620589,0,638,Sub-Prime / Fair
+21,Master's,Self-Employed,7642.0,2,3,rent,23,0.3,master,4482.0,0.58,0.17,182,0.71,0.27,0.36,0,0,0,2,0,1,0.33034334,0,670,Near-Prime / Medium Risk
+26,High School,Employed,9355.0,1,57,rent,20,0.34,highschool,3829.0,0.51,0.16,203,0.74,0.31,0.36,0,0,0,3,1,1,0.27133557,0,729,Near-Prime / Medium Risk
+26,Bachelor's,Self-Employed,8607.0,3,59,rent,4,0.4,bachelor,3793.0,0.71,0.14,151,0.72,0.32,0.47,0,0,0,2,2,0,0.3904009,0,610,Sub-Prime / Fair
+26,Master's,Employed,8918.0,2,35,none,4,0.62,master,2966.0,0.58,0.12,175,0.78,0.31,0.39,0,0,0,3,0,0,0.28597477,0,714,Near-Prime / Medium Risk
+24,Bachelor's,Employed,12115.0,2,60,rent,5,0.61,bachelor,6708.0,0.66,0.22,123,0.57,0.49,0.75,0,1,0,3,1,1,0.96565765,1,34,High Risk / Poor
+24,Diploma,Student,3874.0,2,30,none,0,0.64,cert,1355.0,0.64,0.07,90,0.61,0.55,0.51,0,0,0,0,2,1,0.8686967,1,131,High Risk / Poor
+20,Diploma,Employed,8855.0,3,56,rent,10,0.65,cert,2743.0,0.48,0.07,228,0.86,0.23,0.39,0,0,0,3,1,0,0.14155428,0,858,Prime / Low Risk
+24,Master's,Student,4213.0,3,2,rent,20,0.43,master,1623.0,0.52,0.05,106,0.82,0.28,0.27,0,0,0,2,0,0,0.18570091,0,814,Prime / Low Risk
+21,Master's,Student,3634.0,3,4,none,0,0.74,master,1770.0,0.67,0.09,76,0.77,0.33,0.28,0,0,0,1,1,0,0.38561305,0,614,Sub-Prime / Fair
+22,High School,Self-Employed,8584.0,3,22,rent,11,0.49,highschool,1817.0,0.59,0.08,178,0.97,0.16,0.11,0,0,0,3,2,0,0.011863194,0,988,Prime / Low Risk
+24,Diploma,Self-Employed,7714.0,2,46,rent,8,0.42,cert,1838.0,0.5,0.16,164,0.92,0.22,0.19,0,0,0,3,0,0,0.018939124,0,981,Prime / Low Risk
+20,Bachelor's,Student,2285.0,3,4,none,3,0.52,bachelor,1034.0,0.72,0.08,4,0.73,0.35,0.47,0,0,0,1,1,0,0.46941575,0,531,High Risk / Poor
+20,Bachelor's,Employed,6288.0,3,41,rent,18,0.46,bachelor,2017.0,0.72,0.02,217,1.0,0.16,0.13,0,0,0,3,0,0,0.024654338,0,975,Prime / Low Risk
+23,Bachelor's,Employed,7009.0,2,35,rent,18,0.46,bachelor,2240.0,0.53,0.05,163,0.93,0.19,0.36,0,0,0,3,1,0,0.06449346,0,936,Prime / Low Risk
+26,Master's,Unemployed,4068.0,3,2,none,0,0.3,master,1996.0,0.48,0.17,72,0.63,0.39,0.54,0,0,0,2,1,0,0.7385438,1,261,High Risk / Poor
+24,Bachelor's,Employed,11780.0,1,45,rent,16,0.53,bachelor,3864.0,0.57,0.07,263,0.85,0.34,0.36,0,0,0,2,1,1,0.08171566,0,918,Prime / Low Risk
+26,Bachelor's,Self-Employed,7925.0,1,31,owner,1,0.48,bachelor,3708.0,0.57,0.15,130,0.85,0.18,0.19,0,0,0,2,1,0,0.03824418,0,962,Prime / Low Risk
+23,Diploma,Unemployed,1951.0,1,3,owner,4,0.3,cert,1005.0,0.56,0.16,8,0.68,0.45,0.6,0,0,0,1,1,1,0.67761767,1,322,High Risk / Poor
+23,Master's,Employed,9399.0,3,25,none,0,0.56,master,4313.0,0.64,0.11,205,0.84,0.3,0.29,0,0,0,2,1,1,0.15944085,0,841,Prime / Low Risk
+23,Bachelor's,Employed,7854.0,2,41,owner,3,0.58,bachelor,1959.0,0.71,0.05,195,0.89,0.27,0.31,0,0,0,2,1,0,0.05052556,0,949,Prime / Low Risk
+21,PhD,Unemployed,2952.0,2,0,rent,14,0.67,phd,1735.0,0.6,0.25,61,0.68,0.5,0.47,0,0,0,1,3,1,0.62865525,1,371,High Risk / Poor
+21,Bachelor's,Student,3499.0,3,10,rent,8,0.73,bachelor,2109.0,0.55,0.14,65,0.72,0.28,0.33,0,0,0,3,0,0,0.27622047,0,724,Near-Prime / Medium Risk
+23,Master's,Employed,7578.0,2,18,owner,0,0.7,master,1914.0,0.63,0.07,216,0.84,0.24,0.31,0,0,0,3,0,0,0.1057797,0,894,Prime / Low Risk
+26,High School,Self-Employed,5462.0,2,54,none,0,0.85,highschool,3004.0,0.34,0.25,0,0.79,0.55,0.77,0,0,0,1,3,1,0.8686882,1,131,High Risk / Poor
+21,Bachelor's,Employed,5435.0,1,14,rent,19,0.55,bachelor,2566.0,0.61,0.07,121,0.87,0.22,0.26,0,0,1,1,0,0,0.08134679,0,919,Prime / Low Risk
+26,High School,Employed,4865.0,2,10,rent,16,0.61,none,3405.0,0.5700000000000001,0.27,180,0.91,0.37,0.41,0,0,0,2,0,0,0.2666432,0,733,Near-Prime / Medium Risk
+20,Diploma,Employed,9551.0,3,45,none,0,0.56,cert,5062.0,0.39,0.08,120,0.89,0.06,0.22,0,0,0,1,0,0,0.019867783,0,980,Prime / Low Risk
+20,Diploma,Self-Employed,5659.0,1,36,rent,6,0.72,cert,3031.0,0.73,0.2,15,0.71,0.34,0.42,1,0,0,1,1,1,0.6833096,1,317,High Risk / Poor
+26,High School,Student,2904.0,3,10,none,1,0.57,highschool,926.0,0.68,0.05,71,0.69,0.46,0.43,0,0,0,1,1,1,0.4633873,0,537,High Risk / Poor
+20,Diploma,Employed,7771.0,3,12,rent,4,0.7,cert,3733.0,0.53,0.16,123,0.71,0.41,0.51,0,0,0,3,1,1,0.63615245,1,364,High Risk / Poor
+23,Bachelor's,Employed,6199.0,3,45,rent,18,0.66,bachelor,3858.0,0.58,0.22,47,0.56,0.49,0.62,0,0,0,2,2,0,0.939812,1,60,High Risk / Poor
+23,Master's,Employed,8767.0,2,15,rent,17,0.37,master,4674.0,0.64,0.12,187,0.73,0.38,0.53,0,0,0,3,0,0,0.5970282,1,403,High Risk / Poor
+26,Bachelor's,Self-Employed,11730.0,1,13,rent,16,0.72,bachelor,4158.0,0.51,0.13,240,0.87,0.22,0.34,0,0,0,3,0,0,0.061735567,0,938,Prime / Low Risk
+25,Bachelor's,Employed,8996.0,3,11,rent,19,0.64,bachelor,7376.0,0.54,0.24,360,0.88,0.32,0.25,0,0,0,0,0,1,0.1609681,0,839,Prime / Low Risk
+24,Bachelor's,Self-Employed,8820.0,2,39,rent,11,0.3,bachelor,2852.0,0.41,0.19,181,0.7,0.33,0.39,0,0,0,2,1,1,0.46221456,0,538,High Risk / Poor
+21,Bachelor's,Unemployed,3673.0,1,6,none,4,0.47,bachelor,2038.0,0.57,0.16,113,0.65,0.46,0.68,0,0,0,3,1,1,0.7951867,1,205,High Risk / Poor
+20,Master's,Employed,9159.0,2,13,owner,2,0.78,master,2890.0,0.78,0.08,236,0.78,0.35,0.3,0,0,0,3,0,0,0.40596518,0,594,Sub-Prime / Fair
+20,Master's,Unemployed,1970.0,1,6,rent,19,0.7,master,429.0,0.77,0.12,86,0.85,0.32,0.27,0,0,0,2,0,0,0.1313903,0,869,Prime / Low Risk
+23,Bachelor's,Employed,6284.0,1,35,owner,3,0.47,bachelor,2674.0,0.75,0.09,187,0.8,0.37,0.33,0,0,0,3,1,0,0.17824684,0,822,Prime / Low Risk
+24,Master's,Unemployed,2785.0,1,4,rent,16,0.57,master,751.0,0.66,0.1,125,0.85,0.3,0.24,0,0,0,3,1,0,0.107479386,0,893,Prime / Low Risk
+20,Bachelor's,Employed,10486.0,1,49,owner,1,0.71,bachelor,2551.0,0.64,0.1,282,0.79,0.27,0.31,0,0,0,3,0,0,0.14638849,0,854,Prime / Low Risk
+26,Master's,Unemployed,2620.0,2,0,owner,1,0.49,master,1374.0,0.65,0.21,64,0.75,0.38,0.37,0,0,0,1,1,0,0.561664,1,438,High Risk / Poor
+20,Bachelor's,Employed,7495.0,2,11,rent,9,0.44,bachelor,3517.0,0.65,0.05,200,0.79,0.27,0.44,0,0,0,2,1,0,0.20779459,0,792,Prime / Low Risk
+26,Bachelor's,Employed,7002.0,3,34,rent,8,0.75,bachelor,1331.0,0.56,0.1,194,0.88,0.28,0.4,0,0,0,3,0,0,0.16042547,0,840,Prime / Low Risk
+26,Bachelor's,Self-Employed,9060.0,3,37,owner,3,0.49,bachelor,3626.0,0.46,0.14,159,0.82,0.25,0.28,0,0,0,2,1,0,0.14033224,0,860,Prime / Low Risk
+21,Master's,Student,4190.0,1,5,none,3,0.53,master,990.0,0.54,0.06,84,0.83,0.26,0.42,0,0,0,1,0,0,0.18505934,0,815,Prime / Low Risk
+22,Bachelor's,Employed,5793.0,2,14,owner,1,0.53,bachelor,2159.0,0.74,0.05,148,0.96,0.17,0.1,0,0,0,3,0,0,0.018245362,0,982,Prime / Low Risk
+24,Master's,Unemployed,3260.0,2,5,rent,10,0.68,master,2498.0,0.62,0.29,19,0.56,0.47,0.59,0,0,0,2,1,1,0.90671057,1,93,High Risk / Poor
+20,Bachelor's,Student,4467.0,3,12,rent,6,0.41,bachelor,1739.0,0.54,0.07,83,0.9,0.12,0.23,0,0,0,3,0,0,0.021005366,0,979,Prime / Low Risk
+25,Master's,Unemployed,3778.0,2,5,none,3,0.61,master,947.0,0.58,0.1,117,0.76,0.33,0.37,0,0,0,3,0,0,0.4039362,0,596,Sub-Prime / Fair
+24,PhD,Student,2561.0,2,4,none,2,0.55,phd,1231.0,0.79,0.1,70,0.62,0.39,0.64,0,0,0,2,1,1,0.81443834,1,186,High Risk / Poor
+26,High School,Employed,7874.0,3,35,rent,10,0.55,highschool,3422.0,0.56,0.11,161,0.73,0.29,0.48,0,0,0,2,0,0,0.47794122,0,522,High Risk / Poor
+25,High School,Employed,8504.0,1,56,owner,3,0.63,highschool,3654.0,0.66,0.13,154,0.75,0.35,0.4,0,0,0,3,1,0,0.40429255,0,596,Sub-Prime / Fair
+26,Bachelor's,Self-Employed,6547.0,3,57,owner,4,0.3,bachelor,3317.0,0.68,0.17,98,0.69,0.32,0.44,0,0,0,2,2,0,0.4349061,0,565,Sub-Prime / Fair
+22,Bachelor's,Employed,7226.0,1,9,rent,17,0.36,bachelor,2619.0,0.71,0.08,225,0.87,0.26,0.27,0,0,0,3,0,1,0.086071864,0,914,Prime / Low Risk
+22,Bachelor's,Student,3661.0,2,6,rent,7,0.39,bachelor,2150.0,0.53,0.07,64,0.84,0.35,0.27,0,0,0,2,1,0,0.115771264,0,884,Prime / Low Risk
+25,Bachelor's,Student,4437.0,2,11,rent,24,0.4,bachelor,1619.0,0.69,0.05,141,0.83,0.25,0.24,0,0,0,3,0,0,0.10720023,0,893,Prime / Low Risk
+22,High School,Student,3740.0,2,39,rent,21,0.8300000000000001,none,2393.0,0.8,0.2,60,0.9,0.07,0.29,0,0,0,3,1,0,0.05935631,0,941,Prime / Low Risk
+22,Diploma,Self-Employed,7434.0,3,46,none,0,0.31,cert,3008.0,0.57,0.2,123,0.66,0.32,0.48,0,0,0,2,0,1,0.6360921,1,364,High Risk / Poor
+24,Bachelor's,Self-Employed,8221.0,1,57,rent,5,0.68,bachelor,3916.0,0.62,0.21,109,0.67,0.34,0.37,0,0,0,3,1,1,0.5666745,1,433,High Risk / Poor
+24,Bachelor's,Employed,9889.0,2,31,rent,18,0.49,bachelor,2934.0,0.49,0.05,245,0.76,0.38,0.42,0,0,0,2,0,1,0.47686157,0,523,High Risk / Poor
+21,Master's,Employed,6891.0,2,21,rent,9,0.58,master,1329.0,0.6,0.02,241,1.0,0.07,0.05,0,0,0,3,0,0,0.010553511,0,989,Prime / Low Risk
+25,Bachelor's,Self-Employed,8178.0,2,26,rent,10,0.49,bachelor,2361.0,0.59,0.1,183,0.87,0.15,0.01,0,0,0,2,0,0,0.007980494,0,992,Prime / Low Risk
+26,Bachelor's,Student,4068.0,3,8,rent,4,0.41,bachelor,1130.0,0.54,0.02,125,0.89,0.19,0.2,0,0,0,3,1,0,0.0410181,0,959,Prime / Low Risk
+22,Bachelor's,Employed,5967.0,3,9,rent,6,0.76,bachelor,2773.0,0.53,0.08,95,0.76,0.27,0.42,0,0,0,3,0,0,0.30932283,0,691,Near-Prime / Medium Risk
+21,High School,Employed,7764.0,2,24,rent,11,0.61,highschool,3219.0,0.51,0.07,198,0.8,0.32,0.26,0,0,0,3,0,0,0.17165998,0,828,Prime / Low Risk
+22,Master's,Employed,10147.0,3,18,owner,4,0.59,master,4563.0,0.45,0.11,186,0.61,0.52,0.42,0,0,0,1,2,0,0.821743,1,178,High Risk / Poor
+26,Bachelor's,Employed,6798.0,2,56,rent,22,0.56,bachelor,2269.0,0.67,0.04,203,0.89,0.35,0.21,0,0,0,2,0,0,0.029024843,0,971,Prime / Low Risk
+21,Master's,Employed,9838.0,3,57,none,1,0.55,master,4424.0,0.59,0.11,201,0.73,0.32,0.41,0,0,0,3,0,0,0.38154942,0,618,Sub-Prime / Fair
+20,Diploma,Unemployed,2305.0,2,4,rent,14,0.46,cert,1095.0,0.75,0.2,77,0.63,0.58,0.51,0,0,0,0,2,0,0.7674382,1,233,High Risk / Poor
+20,Master's,Student,2795.0,2,3,rent,5,0.36,master,529.0,0.66,0.04,70,0.94,0.17,0.23,0,0,0,3,1,0,0.056145094,0,944,Prime / Low Risk
+25,Master's,Student,5108.0,1,0,rent,5,0.73,master,2990.0,0.54,0.05,47,0.8,0.23,0.26,0,0,0,2,1,1,0.192364,0,808,Prime / Low Risk
+21,Bachelor's,Employed,7219.0,2,25,rent,20,0.53,bachelor,2756.0,0.53,0.07,160,0.96,0.13,0.15,0,0,0,3,1,0,0.008270084,0,992,Prime / Low Risk
+20,Master's,Employed,10279.0,1,27,owner,0,0.65,master,3597.0,0.45,0.1,360,0.73,0.21,0.59,0,0,0,2,2,1,0.5086813,1,491,High Risk / Poor
+24,Bachelor's,Student,2018.0,3,7,rent,8,0.46,bachelor,300.0,0.85,0.02,41,0.92,0.22,0.2,0,0,0,3,0,0,0.057763163,0,942,Prime / Low Risk
+21,Bachelor's,Employed,9356.0,2,19,none,1,0.52,bachelor,4901.0,0.59,0.07,126,0.81,0.3,0.44,0,0,0,2,2,1,0.20050447,0,799,Prime / Low Risk
+20,Bachelor's,Self-Employed,5931.0,2,6,rent,23,0.36,bachelor,2163.0,0.65,0.13,88,0.78,0.31,0.32,0,0,0,2,0,0,0.16821681,0,832,Prime / Low Risk
+26,High School,Student,3714.0,2,0,rent,11,0.65,highschool,1740.0,0.77,0.05,30,0.86,0.22,0.25,0,0,0,0,1,0,0.108032815,0,892,Prime / Low Risk
+23,Diploma,Self-Employed,9419.0,1,38,owner,4,0.47,cert,3860.0,0.57,0.14,237,0.78,0.29,0.34,0,0,0,3,1,0,0.19397107,0,806,Prime / Low Risk
+21,Diploma,Student,3744.0,1,6,owner,4,0.34,cert,2255.0,0.63,0.12,28,0.66,0.47,0.48,0,0,0,2,1,0,0.70690995,1,293,High Risk / Poor
+24,Diploma,Unemployed,3151.0,2,2,none,0,0.49,cert,1570.0,0.66,0.19,74,0.64,0.6,0.49,0,0,0,1,1,1,0.7918707,1,208,High Risk / Poor
+26,Bachelor's,Self-Employed,10667.0,1,52,owner,0,0.55,bachelor,4884.0,0.51,0.17,220,0.68,0.29,0.34,0,0,0,3,0,1,0.37474123,0,625,Sub-Prime / Fair
+21,Bachelor's,Employed,5503.0,2,18,rent,23,0.58,bachelor,2696.0,0.74,0.11,36,0.7,0.4,0.57,0,0,0,2,0,1,0.6457055,1,354,High Risk / Poor
+21,High School,Self-Employed,9075.0,3,17,none,2,0.45,highschool,4792.0,0.57,0.16,180,0.83,0.27,0.33,1,0,0,2,1,0,0.086112745,0,914,Prime / Low Risk
+26,Master's,Student,4701.0,1,2,none,1,0.52,master,3591.0,0.78,0.15,35,0.66,0.36,0.47,0,0,0,1,0,1,0.6732208,1,327,High Risk / Poor
+23,Bachelor's,Self-Employed,7446.0,1,9,rent,5,0.4,bachelor,2253.0,0.53,0.16,176,0.78,0.21,0.29,0,0,0,2,0,0,0.16432346,0,836,Prime / Low Risk
+23,Bachelor's,Self-Employed,5581.0,2,9,rent,22,0.36,bachelor,1038.0,0.61,0.15,97,0.82,0.15,0.29,0,0,0,2,0,0,0.060893778,0,939,Prime / Low Risk
+25,Master's,Employed,9745.0,2,41,rent,8,0.45,master,3493.0,0.46,0.1,296,0.87,0.23,0.25,0,0,0,2,1,0,0.065062515,0,935,Prime / Low Risk
+20,Diploma,Employed,9879.0,3,42,none,0,0.97,cert,3951.0,0.72,0.05,60,0.77,0.21,0.75,0,0,0,3,0,0,0.24259087,0,757,Prime / Low Risk
+22,Bachelor's,Employed,7838.0,1,19,rent,13,0.34,bachelor,1922.0,0.49,0.02,261,0.92,0.17,0.26,0,0,0,3,0,0,0.07105009,0,929,Prime / Low Risk
+21,Bachelor's,Self-Employed,8233.0,2,40,rent,10,0.48,bachelor,3733.0,0.55,0.13,135,0.77,0.33,0.38,0,0,0,3,1,0,0.42056137,0,579,Sub-Prime / Fair
+24,Bachelor's,Employed,8783.0,2,34,owner,0,0.66,bachelor,4585.0,0.74,0.07,105,0.69,0.39,0.47,0,1,0,3,1,1,0.48778567,0,512,High Risk / Poor
+26,High School,Unemployed,1200.0,2,3,rent,13,0.3,highschool,300.0,0.75,0.04,76,0.84,0.29,0.18,0,0,0,0,0,0,0.0679448,0,932,Prime / Low Risk
+22,Diploma,Employed,11219.0,2,54,none,1,0.71,cert,4096.0,0.6,0.08,220,0.74,0.43,0.43,0,0,0,2,0,0,0.25694886,0,743,Near-Prime / Medium Risk
+24,Bachelor's,Self-Employed,10660.0,3,35,none,0,0.64,bachelor,6289.0,0.44,0.11,90,0.9,0.33,0.11,0,0,0,1,0,0,0.054261032,0,946,Prime / Low Risk
+22,Master's,Employed,9814.0,2,11,owner,4,0.79,master,2798.0,0.47,0.11,215,0.72,0.37,0.47,1,0,0,2,0,0,0.5552439,1,445,High Risk / Poor
+21,Bachelor's,Employed,8352.0,1,7,owner,1,0.64,bachelor,5736.0,0.53,0.17,105,0.67,0.44,0.39,0,0,0,3,0,0,0.5006953,1,499,High Risk / Poor
+25,Bachelor's,Employed,6852.0,3,7,none,0,0.83,bachelor,2763.0,0.58,0.08,197,0.95,0.13,0.31,0,0,0,3,0,0,0.026577922,0,973,Prime / Low Risk
+26,Master's,Self-Employed,6045.0,3,39,rent,18,0.32,master,2139.0,0.53,0.18,181,0.74,0.29,0.39,0,0,0,3,1,1,0.3403442,0,660,Near-Prime / Medium Risk
+22,High School,Employed,6764.0,2,34,owner,1,0.5,highschool,4298.0,0.67,0.17,91,0.7,0.39,0.53,0,0,0,2,1,1,0.726573,1,273,High Risk / Poor
+21,Master's,Unemployed,3642.0,3,4,none,4,0.69,master,2273.0,0.72,0.16,82,0.64,0.48,0.51,0,0,0,2,1,1,0.8090374,1,191,High Risk / Poor
+20,Bachelor's,Student,1929.0,3,0,owner,2,0.34,bachelor,545.0,0.49,0.06,34,0.84,0.24,0.22,0,0,0,1,0,0,0.121146835,0,879,Prime / Low Risk
+21,Master's,Self-Employed,6835.0,3,24,rent,20,0.32,master,2816.0,0.49,0.19,64,0.6,0.47,0.52,0,0,0,1,0,1,0.7877057,1,212,High Risk / Poor
+23,Master's,Self-Employed,8995.0,2,43,rent,17,0.42,master,3510.0,0.4,0.16,150,0.81,0.22,0.33,0,0,0,2,1,1,0.11973128,0,880,Prime / Low Risk
+22,Master's,Employed,7018.0,2,22,rent,8,0.74,master,2635.0,0.64,0.05,181,0.86,0.18,0.43,0,0,0,2,1,0,0.07371442,0,926,Prime / Low Risk
+20,Bachelor's,Student,3048.0,2,7,rent,16,0.5,bachelor,1373.0,0.53,0.11,46,0.79,0.34,0.36,0,0,0,1,0,0,0.2480712,0,752,Prime / Low Risk
+21,Bachelor's,Unemployed,2246.0,3,4,rent,18,0.56,bachelor,855.0,0.85,0.13,116,0.82,0.31,0.4,0,1,0,2,1,1,0.33696127,0,663,Near-Prime / Medium Risk
+20,Bachelor's,Self-Employed,8601.0,2,35,owner,0,0.3,bachelor,3382.0,0.54,0.15,185,0.7,0.29,0.45,0,0,0,3,1,0,0.4248292,0,575,Sub-Prime / Fair
+23,Bachelor's,Employed,11000.0,2,51,owner,0,0.68,bachelor,1960.0,0.79,0.05,353,0.85,0.22,0.36,0,0,0,3,0,1,0.04072934,0,959,Prime / Low Risk
+21,Diploma,Employed,8461.0,2,46,owner,4,0.41,cert,2013.0,0.79,0.07,230,0.87,0.19,0.31,0,0,0,2,0,0,0.075595975,0,924,Prime / Low Risk
+22,Bachelor's,Employed,5597.0,1,46,owner,4,0.52,bachelor,2821.0,0.49,0.13,122,0.78,0.32,0.26,0,0,0,2,0,1,0.30902365,0,691,Near-Prime / Medium Risk
+24,High School,Employed,7388.0,2,54,rent,8,0.86,highschool,4224.0,0.69,0.13,131,0.67,0.4,0.53,0,0,0,2,1,1,0.7418369,1,258,High Risk / Poor
+21,Bachelor's,Self-Employed,10639.0,3,45,rent,4,0.34,bachelor,2967.0,0.54,0.16,190,0.89,0.14,0.41,0,0,0,3,1,0,0.042029798,0,958,Prime / Low Risk
+24,Bachelor's,Employed,9225.0,3,32,owner,0,0.49,bachelor,3319.0,0.51,0.07,174,0.87,0.32,0.24,0,0,0,2,0,0,0.07990729,0,920,Prime / Low Risk
+24,PhD,Employed,5764.0,1,57,none,0,0.33,phd,1844.0,0.5700000000000001,0.11,180,0.61,0.27,0.42,0,0,0,3,2,1,0.4031993,0,597,Sub-Prime / Fair
+20,Bachelor's,Student,4628.0,2,0,rent,9,0.59,bachelor,2280.0,0.54,0.11,76,0.69,0.39,0.4,0,0,0,1,0,1,0.6001571,1,400,High Risk / Poor
+21,Bachelor's,Unemployed,1894.0,2,4,rent,23,0.33,bachelor,1286.0,0.61,0.23,61,0.56,0.65,0.75,0,0,0,1,3,1,0.9175544,1,82,High Risk / Poor
+26,Bachelor's,Employed,9091.0,3,23,owner,0,0.62,bachelor,3732.0,0.53,0.08,253,0.84,0.24,0.28,0,0,0,2,0,0,0.084022805,0,916,Prime / Low Risk
+21,Master's,Employed,8143.0,2,50,rent,13,0.3,master,3518.0,0.7,0.08,201,0.9,0.2,0.2,0,0,0,2,0,0,0.020938449,0,979,Prime / Low Risk
+22,Master's,Self-Employed,6909.0,2,32,none,0,0.45,master,2265.0,0.62,0.13,171,0.72,0.31,0.52,0,0,0,3,0,1,0.5794804,1,421,High Risk / Poor
+25,Bachelor's,Employed,7139.0,2,33,rent,15,0.62,bachelor,2784.0,0.4,0.09,152,0.81,0.33,0.43,0,0,0,3,1,1,0.16883996,0,831,Prime / Low Risk
+24,Bachelor's,Employed,6880.0,3,17,rent,13,0.33,bachelor,2594.0,0.51,0.11,131,0.73,0.35,0.38,0,0,0,2,0,0,0.39616337,0,604,Sub-Prime / Fair
+23,Master's,Employed,7714.0,3,50,rent,17,0.47,master,2964.0,0.66,0.08,161,0.79,0.25,0.3,0,0,0,2,1,1,0.104921326,0,895,Prime / Low Risk
+20,Master's,Self-Employed,9433.0,3,55,rent,12,0.41,master,3920.0,0.56,0.08,176,0.86,0.28,0.35,0,0,0,3,0,0,0.07267395,0,927,Prime / Low Risk
+24,Bachelor's,Employed,8842.0,2,30,rent,13,0.57,bachelor,3072.0,0.64,0.08,221,0.8,0.33,0.39,0,0,0,3,0,0,0.28289515,0,717,Near-Prime / Medium Risk
+20,Bachelor's,Employed,6541.0,2,46,rent,18,0.52,bachelor,2876.0,0.47,0.11,142,0.67,0.36,0.53,0,0,0,3,0,1,0.65318173,1,347,High Risk / Poor
+22,Bachelor's,Student,2862.0,2,7,rent,13,0.42,bachelor,539.0,0.69,0.03,69,0.94,0.16,0.24,0,0,0,3,0,0,0.0651351,0,935,Prime / Low Risk
+25,High School,Employed,2563.0,1,57,rent,2,0.8300000000000001,highschool,1025.0,0.37,0.21,60,0.7000000000000001,0.34,0.17,0,0,0,0,3,0,0.26504168,0,735,Near-Prime / Medium Risk
+23,Bachelor's,Employed,8477.0,2,40,rent,11,0.73,bachelor,5598.0,0.67,0.22,66,0.62,0.45,0.72,0,0,1,3,2,1,0.87837523,1,122,High Risk / Poor
+25,Bachelor's,Student,2351.0,2,0,rent,19,0.41,bachelor,1895.0,0.79,0.08,55,0.85,0.18,0.24,0,0,0,2,1,0,0.10642124,0,894,Prime / Low Risk
+24,Master's,Employed,8149.0,3,34,owner,1,0.43,master,3792.0,0.59,0.12,123,0.71,0.38,0.52,0,0,0,3,2,1,0.6200306,1,380,High Risk / Poor
+22,Bachelor's,Student,4057.0,1,4,owner,0,0.39,bachelor,2501.0,0.71,0.12,73,0.69,0.44,0.49,1,0,0,1,1,1,0.61129624,1,389,High Risk / Poor
+20,Bachelor's,Self-Employed,8267.0,1,25,none,2,0.44,bachelor,2701.0,0.69,0.15,182,0.79,0.26,0.28,0,0,0,1,1,0,0.14579342,0,854,Prime / Low Risk
+23,Master's,Employed,8785.0,1,54,rent,7,0.42,master,4033.0,0.55,0.07,183,0.78,0.28,0.37,0,0,0,3,0,0,0.2113695,0,789,Prime / Low Risk
+25,Bachelor's,Student,4485.0,3,3,rent,23,0.5,bachelor,1489.0,0.61,0.02,155,0.8,0.33,0.32,0,0,0,3,0,1,0.24532737,0,755,Prime / Low Risk
+25,High School,Employed,10943.0,3,50,owner,0,0.37,highschool,4228.0,0.64,0.04,243,0.85,0.23,0.27,0,0,0,3,0,0,0.04328055,0,957,Prime / Low Risk
+22,Diploma,Employed,9206.0,2,27,owner,3,0.37,cert,4342.0,0.42,0.1,194,0.71,0.29,0.45,0,0,0,1,0,1,0.39231044,0,608,Sub-Prime / Fair
+22,Bachelor's,Employed,8532.0,1,21,owner,3,0.71,bachelor,3303.0,0.57,0.09,220,0.75,0.37,0.57,0,0,0,2,2,1,0.5689915,1,431,High Risk / Poor
+23,Master's,Employed,7829.0,3,59,rent,4,0.51,master,2667.0,0.69,0.02,223,0.95,0.23,0.21,0,0,0,3,2,0,0.027489275,0,973,Prime / Low Risk
+25,Master's,Unemployed,2487.0,1,4,owner,0,0.49,master,1445.0,0.79,0.23,50,0.56,0.46,0.56,0,0,0,3,1,1,0.8827356,1,117,High Risk / Poor
+26,Bachelor's,Self-Employed,9439.0,2,48,rent,20,0.31,bachelor,3569.0,0.48,0.17,153,0.67,0.36,0.49,0,0,0,3,0,1,0.59076035,1,409,High Risk / Poor
+26,High School,Employed,8808.0,2,24,rent,20,0.48,highschool,4774.0,0.41,0.15,131,0.77,0.34,0.29,0,0,0,1,0,0,0.2534098,0,747,Near-Prime / Medium Risk
+22,Diploma,Employed,8207.0,2,14,rent,16,0.51,cert,1385.0,0.69,0.05,244,0.78,0.3,0.44,0,0,0,2,0,0,0.27340147,0,727,Near-Prime / Medium Risk
+26,Diploma,Self-Employed,9084.0,2,51,owner,1,0.56,cert,3874.0,0.62,0.14,185,0.77,0.29,0.33,0,0,0,1,1,0,0.23695144,0,763,Prime / Low Risk
+21,High School,Self-Employed,10052.0,3,5,rent,22,0.62,highschool,4058.0,0.6,0.15,200,0.79,0.23,0.39,0,0,0,3,0,0,0.21856517,0,781,Prime / Low Risk
+21,Bachelor's,Employed,10117.0,1,28,owner,2,0.59,bachelor,2122.0,0.45,0.02,240,0.95,0.16,0.39,0,0,0,3,1,0,0.15236479,0,848,Prime / Low Risk
+20,Diploma,Self-Employed,8162.0,1,15,rent,7,0.4,cert,2900.0,0.61,0.2,154,0.69,0.4,0.6,0,0,0,2,1,1,0.6722008,1,328,High Risk / Poor
+21,Master's,Self-Employed,5711.0,1,56,owner,3,0.66,master,2081.0,0.71,0.2,118,0.66,0.35,0.38,0,0,0,3,1,1,0.6195249,1,380,High Risk / Poor
+24,High School,Employed,2349.0,3,60,rent,20,0.77,none,1879.0,0.48,0.26,120,0.67,0.53,0.37,0,0,0,1,0,0,0.8036423,1,196,High Risk / Poor
+23,Bachelor's,Employed,8279.0,2,32,rent,4,0.67,bachelor,4537.0,0.63,0.09,127,0.77,0.27,0.33,0,0,0,3,0,0,0.22794828,0,772,Prime / Low Risk
+24,Bachelor's,Employed,9911.0,1,55,owner,4,0.67,bachelor,3811.0,0.66,0.11,172,0.77,0.3,0.42,0,0,0,1,1,0,0.28341478,0,717,Near-Prime / Medium Risk
+23,Bachelor's,Employed,9038.0,2,8,rent,23,0.69,bachelor,2832.0,0.58,0.03,214,0.88,0.29,0.25,0,0,0,3,0,0,0.05321436,0,947,Prime / Low Risk
+20,High School,Student,4401.0,2,6,rent,17,0.72,highschool,2124.0,0.67,0.1,138,0.85,0.18,0.29,0,0,0,3,0,0,0.08602617,0,914,Prime / Low Risk
+25,Master's,Self-Employed,6290.0,2,48,rent,4,0.71,master,3066.0,0.61,0.19,64,0.82,0.26,0.29,0,0,0,1,0,0,0.19473048,0,805,Prime / Low Risk
+26,Bachelor's,Employed,8699.0,3,15,rent,15,0.44,bachelor,5051.0,0.58,0.14,119,0.68,0.3,0.53,0,0,0,2,1,1,0.43522096,0,565,Sub-Prime / Fair
+22,Bachelor's,Student,4709.0,3,7,rent,4,0.55,bachelor,2258.0,0.65,0.05,113,0.77,0.25,0.34,0,0,0,3,0,0,0.14195593,0,858,Prime / Low Risk
+25,High School,Student,3318.0,2,53,none,0,0.4,none,1459.0,0.42,0.15,90,0.91,0.51,0.75,0,0,0,0,0,1,0.66303146,1,337,High Risk / Poor
+21,Bachelor's,Self-Employed,5219.0,2,26,rent,20,0.3,bachelor,3416.0,0.72,0.28,0,0.56,0.51,0.73,0,0,0,1,3,1,0.9388809,1,61,High Risk / Poor
+26,Bachelor's,Employed,11081.0,2,15,owner,0,0.66,bachelor,4126.0,0.55,0.07,216,0.84,0.22,0.34,0,0,0,3,1,0,0.06733964,0,933,Prime / Low Risk
+26,Master's,Student,3088.0,2,5,rent,10,0.49,master,2073.0,0.68,0.15,47,0.56,0.5,0.59,0,0,0,2,0,1,0.9309043,1,69,High Risk / Poor
+22,Bachelor's,Employed,9164.0,2,40,none,1,0.42,bachelor,4240.0,0.48,0.14,138,0.61,0.43,0.54,0,0,0,1,0,1,0.8343393,1,166,High Risk / Poor
+23,Diploma,Employed,10550.0,3,54,owner,2,0.62,cert,2456.0,0.64,0.03,272,1.0,0.09,0.19,0,0,0,3,0,0,0.004484411,0,996,Prime / Low Risk
+26,PhD,Employed,6440.0,1,56,none,0,0.58,phd,1674.0,0.6000000000000001,0.13,30,0.78,0.43,0.17,0,0,0,1,0,0,0.22458974,0,775,Prime / Low Risk
+20,Diploma,Employed,4506.0,1,12,none,0,0.61,cert,1757.0,0.44,0.28,180,0.91,0.65,0.08,0,0,0,1,1,0,0.21754242,0,782,Prime / Low Risk
+22,High School,Employed,6828.0,2,34,owner,4,0.8,highschool,2971.0,0.61,0.12,145,0.78,0.35,0.3,0,0,0,1,0,0,0.30385718,0,696,Near-Prime / Medium Risk
+25,Bachelor's,Self-Employed,8279.0,3,7,rent,22,0.7,bachelor,3973.0,0.58,0.18,141,0.66,0.32,0.52,0,0,0,1,1,0,0.6453633,1,355,High Risk / Poor
+23,Bachelor's,Student,3089.0,1,12,rent,16,0.62,bachelor,1771.0,0.75,0.09,68,0.72,0.33,0.34,0,0,0,1,0,0,0.27081153,0,729,Near-Prime / Medium Risk
+20,Master's,Self-Employed,7206.0,3,60,rent,11,0.53,master,2973.0,0.71,0.15,165,0.73,0.36,0.49,0,0,0,3,1,0,0.5863352,1,414,High Risk / Poor
+24,High School,Unemployed,2598.0,3,2,rent,19,0.54,highschool,662.0,0.66,0.16,70,0.77,0.32,0.37,0,0,0,0,0,0,0.31471404,0,685,Near-Prime / Medium Risk
+23,Bachelor's,Employed,7165.0,2,49,rent,17,0.43,bachelor,3634.0,0.71,0.02,179,0.8,0.32,0.39,0,0,0,1,1,0,0.24476255,0,755,Prime / Low Risk
+23,Master's,Self-Employed,8511.0,3,45,none,4,0.54,master,4501.0,0.67,0.17,117,0.69,0.26,0.4,0,0,0,3,0,1,0.3944228,0,606,Sub-Prime / Fair
+20,Diploma,Employed,4882.0,1,34,rent,15,0.8200000000000001,cert,1415.0,0.41,0.14,180,0.62,0.45,0.25,0,0,0,1,0,1,0.5781014,1,422,High Risk / Poor
+25,Bachelor's,Self-Employed,9455.0,3,18,owner,2,0.46,bachelor,2335.0,0.52,0.14,223,0.9,0.18,0.25,0,0,0,3,1,0,0.11038032,0,890,Prime / Low Risk
+26,Bachelor's,Self-Employed,11247.0,2,46,owner,0,0.55,bachelor,2188.0,0.45,0.19,301,0.82,0.26,0.19,0,0,0,2,0,0,0.03911809,0,961,Prime / Low Risk
+24,High School,Self-Employed,9894.0,3,55,none,0,0.53,highschool,3166.0,0.58,0.21,237,0.69,0.41,0.61,0,0,1,3,2,1,0.66860175,1,331,High Risk / Poor
+23,Bachelor's,Student,3940.0,2,8,none,3,0.59,bachelor,1591.0,0.58,0.07,46,0.82,0.28,0.32,0,0,0,2,0,0,0.15478772,0,845,Prime / Low Risk
+21,Diploma,Unemployed,2807.0,1,6,none,4,0.3,cert,1368.0,0.54,0.09,85,0.86,0.29,0.34,0,0,0,3,0,0,0.079985924,0,920,Prime / Low Risk
+22,Diploma,Student,4546.0,1,3,rent,7,0.37,cert,1490.0,0.69,0.06,156,0.87,0.21,0.29,0,0,0,2,1,0,0.12142095,0,879,Prime / Low Risk
+20,Bachelor's,Self-Employed,8209.0,3,35,rent,20,0.48,bachelor,3353.0,0.45,0.14,150,0.76,0.3,0.31,0,0,0,2,2,0,0.21651427,0,783,Prime / Low Risk
+24,Diploma,Employed,10650.0,2,39,none,4,0.44,cert,5449.0,0.65,0.13,122,0.81,0.36,0.32,0,0,0,2,1,0,0.23135175,0,769,Prime / Low Risk
+24,Bachelor's,Unemployed,1954.0,3,1,rent,13,0.7,bachelor,631.0,0.76,0.14,66,0.83,0.39,0.29,0,0,0,2,0,0,0.19561325,0,804,Prime / Low Risk
+23,PhD,Self-Employed,7328.0,2,53,rent,4,0.36,phd,3517.0,0.33,0.1,30,0.56,0.33,0.36,0,0,0,1,0,0,0.5956798,1,404,High Risk / Poor
+25,Master's,Employed,10010.0,2,32,owner,1,0.49,master,3089.0,0.58,0.08,245,0.82,0.19,0.31,0,0,0,2,0,0,0.13416117,0,866,Prime / Low Risk
+26,Bachelor's,Employed,8868.0,3,19,none,2,0.54,bachelor,3580.0,0.5,0.05,217,0.87,0.21,0.35,0,0,0,3,0,0,0.076728955,0,923,Prime / Low Risk
+21,Diploma,Student,4019.0,1,9,rent,21,0.55,cert,1785.0,0.65,0.06,84,0.75,0.31,0.42,0,0,0,2,0,0,0.28491515,0,715,Near-Prime / Medium Risk
+24,Bachelor's,Student,4697.0,2,0,rent,7,0.47,bachelor,1996.0,0.6,0.08,124,0.85,0.21,0.12,0,0,0,3,0,0,0.07638001,0,924,Prime / Low Risk
+22,Master's,Unemployed,1910.0,2,0,none,4,0.6,master,455.0,0.67,0.17,76,0.65,0.42,0.42,0,0,0,1,0,1,0.5280489,1,472,High Risk / Poor
+22,Bachelor's,Unemployed,3048.0,3,5,rent,8,0.6,bachelor,1059.0,0.68,0.13,145,0.8,0.39,0.33,0,0,0,3,1,0,0.1599549,0,840,Prime / Low Risk
+24,Master's,Employed,10337.0,2,29,owner,3,0.53,master,3579.0,0.6,0.09,246,0.76,0.35,0.29,0,0,0,2,1,0,0.46221888,0,538,High Risk / Poor
+24,Bachelor's,Employed,7589.0,2,11,owner,4,0.42,bachelor,3341.0,0.47,0.07,122,0.8,0.25,0.25,0,0,0,2,0,0,0.1535608,0,846,Prime / Low Risk
+23,Bachelor's,Employed,9212.0,3,9,owner,4,0.53,bachelor,3213.0,0.53,0.1,268,0.83,0.29,0.27,0,0,0,2,1,0,0.12622961,0,874,Prime / Low Risk
+21,High School,Employed,8370.0,1,11,owner,0,0.6900000000000001,none,3013.0,0.44,0.28,90,0.67,0.1,0.3,0,0,0,0,3,0,0.1726051,0,827,Prime / Low Risk
+25,Master's,Employed,8257.0,3,36,rent,9,0.53,master,1285.0,0.52,0.02,244,0.92,0.05,0.2,0,0,0,3,1,0,0.014750801,0,985,Prime / Low Risk
+23,Bachelor's,Student,1955.0,1,6,none,4,0.76,bachelor,300.0,0.69,0.03,137,0.87,0.32,0.39,0,0,0,3,0,0,0.17009571,0,830,Prime / Low Risk
+22,High School,Employed,6419.0,3,32,owner,2,0.63,highschool,3701.0,0.55,0.16,164,0.64,0.43,0.62,0,0,0,2,1,1,0.7326925,1,267,High Risk / Poor
+21,Master's,Self-Employed,10299.0,1,32,rent,16,0.52,master,4731.0,0.59,0.11,171,0.91,0.23,0.25,0,0,0,3,0,0,0.07399575,0,926,Prime / Low Risk
+21,Diploma,Employed,8318.0,3,33,owner,3,0.56,cert,2894.0,0.61,0.04,221,0.88,0.25,0.23,0,0,1,2,1,0,0.03526141,0,965,Prime / Low Risk
+22,Master's,Employed,7981.0,3,21,owner,3,0.48,master,4159.0,0.58,0.11,153,0.8,0.29,0.37,0,0,0,2,1,0,0.22709653,0,773,Prime / Low Risk
+26,Bachelor's,Self-Employed,7068.0,2,23,rent,5,0.3,bachelor,1733.0,0.67,0.16,169,0.77,0.3,0.4,0,0,0,3,1,0,0.2950638,0,705,Near-Prime / Medium Risk
+26,Bachelor's,Unemployed,2012.0,1,3,rent,8,0.51,bachelor,963.0,0.7,0.11,70,0.72,0.41,0.37,0,0,0,2,0,0,0.46781924,0,532,High Risk / Poor
+24,Master's,Employed,6713.0,3,15,owner,0,0.4,master,3152.0,0.68,0.1,186,0.74,0.29,0.42,0,0,0,3,1,1,0.4159047,0,584,Sub-Prime / Fair
+26,Diploma,Employed,9570.0,2,39,owner,0,0.6,cert,5214.0,0.59,0.11,150,0.65,0.45,0.46,0,0,0,2,0,0,0.54385304,1,456,High Risk / Poor
+21,High School,Employed,1906.0,3,41,owner,0,0.91,none,1143.0,0.74,0.22,240,0.84,0.5,0.07,0,0,0,1,3,0,0.10270926,0,897,Prime / Low Risk
+23,Bachelor's,Employed,7141.0,2,59,rent,18,0.54,bachelor,3564.0,0.54,0.15,125,0.67,0.38,0.58,0,0,0,3,1,1,0.80137885,1,199,High Risk / Poor
+25,Bachelor's,Employed,10817.0,1,35,owner,1,0.51,bachelor,3364.0,0.58,0.08,241,0.84,0.21,0.29,0,0,0,1,2,0,0.082433596,0,918,Prime / Low Risk
+26,Bachelor's,Student,3903.0,2,9,rent,17,0.59,bachelor,1216.0,0.64,0.08,120,0.82,0.3,0.21,0,0,0,2,0,1,0.09266991,0,907,Prime / Low Risk
+23,Bachelor's,Self-Employed,7135.0,2,45,rent,6,0.5,bachelor,4805.0,0.62,0.28,72,0.6,0.39,0.65,0,0,1,3,2,1,0.86437577,1,136,High Risk / Poor
+26,Master's,Self-Employed,6985.0,3,8,rent,19,0.45,master,1698.0,0.6,0.14,178,0.82,0.24,0.21,0,0,0,3,1,0,0.041384447,0,959,Prime / Low Risk
+22,Bachelor's,Employed,8220.0,1,28,rent,20,0.57,bachelor,4020.0,0.49,0.08,164,0.78,0.34,0.32,0,0,0,3,0,1,0.18804874,0,812,Prime / Low Risk
+22,Master's,Employed,6382.0,2,39,rent,5,0.32,master,2999.0,0.48,0.14,90,0.67,0.71,0.72,0,0,0,1,3,1,0.92884684,1,71,High Risk / Poor
+23,Master's,Self-Employed,10860.0,1,27,rent,7,0.54,master,3610.0,0.54,0.13,201,0.82,0.27,0.4,0,0,0,3,0,0,0.27695277,0,723,Near-Prime / Medium Risk
+26,Bachelor's,Employed,7322.0,2,16,rent,24,0.47,bachelor,2215.0,0.75,0.09,205,0.87,0.24,0.33,0,0,0,2,1,0,0.07473202,0,925,Prime / Low Risk
+21,High School,Student,3979.0,2,8,rent,18,0.48,highschool,1545.0,0.57,0.14,78,0.79,0.27,0.3,0,0,0,2,1,0,0.12240571,0,878,Prime / Low Risk
+22,Bachelor's,Employed,7591.0,3,46,rent,6,0.39,bachelor,2654.0,0.69,0.08,181,0.86,0.25,0.34,0,0,0,3,0,0,0.057482224,0,943,Prime / Low Risk
+23,Master's,Self-Employed,6483.0,2,9,rent,24,0.67,master,2485.0,0.51,0.15,96,0.81,0.2,0.53,0,0,0,3,0,0,0.329698,0,670,Near-Prime / Medium Risk
+23,Diploma,Employed,2460.0,2,26,rent,15,0.45,cert,787.0,0.3,0.13,180,0.68,0.54,0.58,0,0,0,1,2,1,0.7876351,1,212,High Risk / Poor
+24,Bachelor's,Student,4201.0,2,5,rent,13,0.57,bachelor,1782.0,0.71,0.07,174,0.81,0.33,0.35,0,0,0,3,0,0,0.17426707,0,826,Prime / Low Risk
+23,Master's,Self-Employed,7537.0,1,14,owner,0,0.62,master,3874.0,0.6,0.19,163,0.69,0.37,0.42,0,0,0,3,0,1,0.5435206,1,456,High Risk / Poor
+22,Diploma,Unemployed,1540.0,2,3,none,2,0.62,cert,498.0,0.76,0.2,54,0.61,0.51,0.67,0,0,0,1,2,1,0.9215425,1,78,High Risk / Poor
+25,High School,Unemployed,3541.0,2,3,rent,15,0.3,highschool,743.0,0.4,0.13,165,0.9,0.29,0.13,0,0,0,2,0,0,0.02640667,0,974,Prime / Low Risk
+22,Bachelor's,Student,3711.0,3,8,none,4,0.45,bachelor,1587.0,0.66,0.11,73,0.7,0.34,0.38,0,0,0,1,0,0,0.51983523,1,480,High Risk / Poor
+23,Bachelor's,Student,2101.0,2,2,none,0,0.87,bachelor,1634.0,0.68,0.15,14,0.74,0.49,0.43,0,0,0,2,0,0,0.7132423,1,287,High Risk / Poor
+23,Master's,Employed,7643.0,3,44,owner,2,0.72,master,2361.0,0.69,0.02,164,0.98,0.18,0.13,0,0,0,3,1,0,0.01476627,0,985,Prime / Low Risk
+20,High School,Unemployed,1200.0,3,2,rent,8,0.3,highschool,1215.0,0.82,0.23,54,0.56,0.6,0.76,0,0,0,1,2,1,0.94735783,1,53,High Risk / Poor
+22,Bachelor's,Employed,8652.0,3,38,owner,2,0.47,bachelor,3722.0,0.71,0.07,252,0.82,0.26,0.35,0,0,0,3,1,1,0.088854685,0,911,Prime / Low Risk
+25,Master's,Student,3528.0,1,4,rent,21,0.31,master,2963.0,0.41,0.27,30,0.85,0.07,0.12,0,0,0,2,1,0,0.035589658,0,964,Prime / Low Risk
+22,Master's,Employed,8164.0,2,29,rent,11,0.57,master,3427.0,0.66,0.11,179,0.76,0.3,0.38,0,0,0,3,1,1,0.38375086,0,616,Sub-Prime / Fair
+23,Diploma,Student,5786.0,1,10,rent,11,0.48,cert,2968.0,0.63,0.08,45,0.74,0.41,0.31,0,0,0,2,0,1,0.32315946,0,677,Near-Prime / Medium Risk
+26,Diploma,Student,2609.0,2,8,none,2,0.49,cert,1167.0,0.78,0.08,54,0.78,0.29,0.28,0,0,0,3,1,0,0.18395838,0,816,Prime / Low Risk
+24,Bachelor's,Self-Employed,10661.0,2,48,none,0,0.35,bachelor,4675.0,0.64,0.14,187,0.75,0.32,0.4,0,0,0,1,0,0,0.3549426,0,645,Sub-Prime / Fair
+23,Bachelor's,Employed,11056.0,2,25,rent,5,0.46,bachelor,4198.0,0.66,0.04,273,0.76,0.2,0.32,0,0,0,3,0,1,0.070205644,0,930,Prime / Low Risk
+22,Master's,Employed,2021.0,2,12,owner,0,0.64,master,1212.0,0.76,0.2,240,0.8300000000000001,0.46,0.04,0,0,0,3,0,0,0.15345684,0,847,Prime / Low Risk
+23,High School,Employed,8752.0,1,8,owner,1,0.42,highschool,1858.0,0.62,0.07,218,0.81,0.35,0.38,0,0,0,2,0,0,0.25535578,0,745,Near-Prime / Medium Risk
+21,Bachelor's,Self-Employed,9497.0,3,28,none,2,0.48,bachelor,3046.0,0.69,0.1,209,0.9,0.22,0.31,0,0,0,3,1,0,0.080734074,0,919,Prime / Low Risk
+21,Bachelor's,Employed,8525.0,1,38,rent,18,0.66,bachelor,2597.0,0.74,0.06,213,0.92,0.18,0.12,0,0,0,3,0,0,0.016750937,0,983,Prime / Low Risk
+23,Bachelor's,Employed,7811.0,2,56,owner,1,0.6,bachelor,3560.0,0.69,0.08,105,0.83,0.27,0.28,0,0,0,2,2,0,0.08433432,0,916,Prime / Low Risk
+24,Master's,Employed,8181.0,3,42,rent,17,0.61,master,1196.0,0.48,0.02,278,0.97,0.14,0.1,0,0,0,3,0,0,0.009081673,0,991,Prime / Low Risk
+22,Master's,Employed,6642.0,3,48,rent,9,0.49,master,2377.0,0.59,0.04,159,0.85,0.24,0.26,0,0,0,2,0,0,0.092413455,0,908,Prime / Low Risk
+25,Master's,Student,3202.0,2,1,rent,21,0.41,master,1432.0,0.7,0.07,79,0.8,0.3,0.29,0,0,0,1,0,0,0.1766118,0,823,Prime / Low Risk
+23,Bachelor's,Employed,8114.0,3,35,rent,6,0.47,bachelor,3430.0,0.55,0.12,167,0.73,0.44,0.49,0,0,0,2,0,1,0.46901026,0,531,High Risk / Poor
+23,Diploma,Self-Employed,11435.0,2,42,owner,4,0.36,cert,3595.0,0.45,0.15,236,0.76,0.27,0.47,0,0,0,3,0,0,0.26370326,0,736,Near-Prime / Medium Risk
+24,Bachelor's,Employed,7436.0,3,13,rent,22,0.5,bachelor,2724.0,0.49,0.11,180,0.86,0.18,0.27,0,0,0,3,0,0,0.07455918,0,925,Prime / Low Risk
+20,High School,Unemployed,1631.0,2,0,rent,24,0.43,highschool,487.0,0.78,0.12,72,0.8,0.38,0.36,0,0,0,2,1,1,0.24094854,0,759,Prime / Low Risk
+26,Bachelor's,Employed,7313.0,3,51,none,1,0.46,bachelor,2149.0,0.69,0.08,215,0.83,0.31,0.31,0,0,0,2,1,0,0.120314665,0,880,Prime / Low Risk
+26,Diploma,Self-Employed,9265.0,3,23,rent,11,0.4,cert,1981.0,0.42,0.17,200,0.76,0.33,0.39,0,0,0,2,0,1,0.33005312,0,670,Near-Prime / Medium Risk
+21,Bachelor's,Student,2899.0,3,3,rent,10,0.3,bachelor,1214.0,0.64,0.13,97,0.69,0.36,0.44,0,0,0,2,0,1,0.55022496,1,450,High Risk / Poor
+21,Bachelor's,Student,2911.0,2,7,rent,22,0.47,bachelor,1630.0,0.68,0.07,89,0.88,0.26,0.25,0,0,0,1,0,0,0.066106394,0,934,Prime / Low Risk
+20,High School,Employed,11125.0,3,32,none,0,0.8200000000000001,highschool,7676.0,0.31,0.03,15,0.6900000000000001,0.5700000000000001,0.61,0,0,0,2,1,1,0.51620615,1,484,High Risk / Poor
+22,High School,Employed,7811.0,2,20,rent,6,0.71,highschool,2534.0,0.71,0.11,200,0.81,0.2,0.33,0,0,0,2,1,0,0.14219218,0,858,Prime / Low Risk
+22,Bachelor's,Self-Employed,9037.0,3,16,owner,3,0.49,bachelor,3770.0,0.51,0.14,221,0.74,0.39,0.45,0,0,0,3,0,0,0.46383488,0,536,High Risk / Poor
+26,Diploma,Unemployed,3400.0,2,6,rent,4,0.47,cert,1749.0,0.49,0.18,70,0.68,0.3,0.49,0,0,0,1,1,1,0.5180449,1,482,High Risk / Poor
+21,PhD,Student,4157.0,2,12,rent,5,0.51,phd,2353.0,0.71,0.17,56,0.63,0.42,0.57,0,0,0,2,0,1,0.7570715,1,243,High Risk / Poor
+26,Bachelor's,Self-Employed,6458.0,2,6,rent,23,0.57,bachelor,2378.0,0.55,0.14,113,0.8,0.3,0.47,0,0,0,2,0,0,0.2730165,0,727,Near-Prime / Medium Risk
+20,High School,Student,4115.0,2,9,rent,23,0.54,highschool,1243.0,0.69,0.05,126,0.85,0.29,0.32,0,0,0,3,0,0,0.1059547,0,894,Prime / Low Risk
+26,Bachelor's,Employed,11829.0,3,48,owner,3,0.58,bachelor,5413.0,0.6,0.11,232,0.77,0.31,0.39,0,0,0,1,1,1,0.2588789,0,741,Near-Prime / Medium Risk
+21,Bachelor's,Employed,8856.0,2,29,owner,2,0.62,bachelor,2617.0,0.41,0.05,220,0.92,0.21,0.19,0,0,0,3,0,0,0.020798191,0,979,Prime / Low Risk
+22,Bachelor's,Unemployed,3006.0,1,2,none,0,0.62,bachelor,2164.0,0.71,0.24,24,0.63,0.52,0.62,0,0,0,1,2,0,0.8816853,1,118,High Risk / Poor
+25,Diploma,Employed,8147.0,3,49,rent,9,0.88,cert,6354.0,0.72,0.02,240,1.0,0.72,0.6900000000000001,0,0,0,1,3,1,0.6052742,1,395,High Risk / Poor
+20,Diploma,Employed,6992.0,1,30,rent,6,0.3,cert,2431.0,0.64,0.13,155,0.8,0.26,0.32,0,0,0,3,1,0,0.15989424,0,840,Prime / Low Risk
+26,Diploma,Employed,7508.0,3,37,rent,13,0.78,cert,2491.0,0.64,0.04,169,0.86,0.32,0.33,0,0,0,3,0,0,0.06878478,0,931,Prime / Low Risk
+23,Bachelor's,Self-Employed,8346.0,3,5,rent,18,0.3,bachelor,2547.0,0.52,0.15,198,0.89,0.14,0.28,0,0,0,3,0,0,0.03667664,0,963,Prime / Low Risk
+21,High School,Self-Employed,7600.0,2,52,owner,0,0.4,highschool,4213.0,0.63,0.18,90,0.62,0.35,0.65,0,0,0,3,1,1,0.8570837,1,143,High Risk / Poor
+25,Master's,Student,4684.0,3,4,rent,5,0.3,master,2265.0,0.72,0.09,102,0.71,0.35,0.56,0,0,0,3,1,1,0.59577405,1,404,High Risk / Poor
+22,Master's,Employed,6844.0,2,29,rent,24,0.3,master,2608.0,0.83,0.05,198,0.84,0.27,0.46,0,0,0,2,0,1,0.12949373,0,871,Prime / Low Risk
+23,High School,Employed,2101.0,2,18,none,0,0.96,highschool,1092.0,0.47,0.11,120,0.94,0.63,0.0,0,0,1,3,3,0,0.09095471,0,909,Prime / Low Risk
+24,Bachelor's,Self-Employed,8493.0,2,36,rent,6,0.48,bachelor,5618.0,0.56,0.23,129,0.65,0.31,0.63,0,0,0,3,2,1,0.79998344,1,200,High Risk / Poor
+23,Bachelor's,Self-Employed,10837.0,2,35,rent,16,0.45,bachelor,6009.0,0.46,0.23,88,0.56,0.54,0.62,0,0,0,2,3,1,0.9425002,1,57,High Risk / Poor
+22,Diploma,Student,3388.0,3,8,rent,17,0.34,cert,1877.0,0.78,0.17,26,0.58,0.36,0.52,0,0,0,2,0,0,0.7460684,1,254,High Risk / Poor
+24,Bachelor's,Employed,8575.0,2,43,rent,16,0.62,bachelor,3675.0,0.48,0.11,154,0.82,0.32,0.22,0,0,0,3,1,1,0.14162546,0,858,Prime / Low Risk
+25,Master's,Student,2288.0,1,6,rent,7,0.81,master,1250.0,0.61,0.09,69,0.67,0.5,0.55,0,0,0,0,3,0,0.8330984,1,167,High Risk / Poor
+23,High School,Employed,9595.0,3,32,owner,2,0.52,highschool,4277.0,0.62,0.06,234,0.95,0.12,0.17,0,0,0,2,1,0,0.010615532,0,989,Prime / Low Risk
+23,Bachelor's,Employed,6546.0,1,15,rent,9,0.87,bachelor,1869.0,0.53,0.04,190,0.91,0.26,0.33,0,0,0,3,1,0,0.047587022,0,952,Prime / Low Risk
+26,Master's,Employed,11125.0,1,52,none,0,0.82,master,3737.0,0.65,0.06,266,0.81,0.31,0.3,0,0,0,3,0,0,0.08731226,0,913,Prime / Low Risk
+20,Diploma,Self-Employed,5950.0,3,49,owner,0,0.43,cert,2425.0,0.43,0.17,124,0.85,0.12,0.32,0,0,0,3,0,0,0.060360614,0,940,Prime / Low Risk
+25,Bachelor's,Employed,7884.0,2,21,rent,8,0.33,bachelor,3268.0,0.45,0.06,154,0.95,0.17,0.23,0,0,0,3,0,0,0.046942268,0,953,Prime / Low Risk
+22,Master's,Employed,8200.0,2,43,rent,4,0.53,master,921.0,0.7,0.02,212,0.96,0.22,0.11,0,0,0,3,0,0,0.02034192,0,980,Prime / Low Risk
+26,Diploma,Unemployed,2524.0,1,0,rent,5,0.58,cert,1596.0,0.39,0.11,77,0.77,0.4,0.29,0,0,0,0,0,0,0.42529818,0,575,Sub-Prime / Fair
+25,Bachelor's,Employed,10652.0,1,40,none,0,0.65,bachelor,1173.0,0.63,0.04,302,0.98,0.17,0.15,0,0,0,3,1,0,0.013334573,0,987,Prime / Low Risk
+22,Master's,Self-Employed,4322.0,3,15,none,0,0.75,master,2766.0,0.8,0.25,15,0.76,0.17,0.47,0,0,0,1,0,1,0.4682803,0,532,High Risk / Poor
+25,Master's,Employed,9525.0,1,16,rent,18,0.86,master,4170.0,0.59,0.1,174,0.78,0.31,0.53,0,0,0,2,0,0,0.33901715,0,661,Near-Prime / Medium Risk
+24,High School,Employed,7463.0,2,47,owner,0,0.66,none,6119.0,0.36,0.12,360,0.5700000000000001,0.31,0.52,0,0,0,1,2,1,0.6272909,1,373,High Risk / Poor
+23,High School,Student,4091.0,1,11,rent,17,0.7,highschool,935.0,0.53,0.03,103,0.98,0.2,0.08,0,0,0,3,2,0,0.017827068,0,982,Prime / Low Risk
+24,Bachelor's,Student,3954.0,2,7,none,3,0.65,bachelor,1643.0,0.66,0.04,65,0.87,0.21,0.28,0,0,0,2,0,0,0.07802711,0,922,Prime / Low Risk
+26,Bachelor's,Student,3944.0,1,0,none,4,0.53,bachelor,1574.0,0.64,0.09,36,0.8,0.28,0.26,0,0,0,1,0,0,0.31361735,0,686,Near-Prime / Medium Risk
+25,High School,Student,4122.0,2,12,none,3,0.55,highschool,1909.0,0.7,0.02,111,0.99,0.16,0.16,0,0,0,3,1,0,0.023825983,0,976,Prime / Low Risk
+25,Diploma,Self-Employed,10133.0,1,11,rent,8,0.42,cert,5358.0,0.55,0.23,111,0.69,0.3,0.39,0,0,0,3,0,0,0.51241374,1,488,High Risk / Poor
+26,Master's,Employed,9010.0,1,12,owner,1,0.49,master,4017.0,0.44,0.06,211,0.88,0.16,0.31,0,0,0,3,1,0,0.07286461,0,927,Prime / Low Risk
+23,Bachelor's,Self-Employed,7483.0,3,54,owner,3,0.54,bachelor,2555.0,0.47,0.11,175,0.92,0.13,0.28,0,0,0,3,0,0,0.0280482,0,972,Prime / Low Risk
+20,Diploma,Employed,6266.0,2,28,none,3,0.8,cert,1666.0,0.34,0.02,199,0.92,0.21,0.22,0,0,0,3,1,0,0.02780545,0,972,Prime / Low Risk
+21,Diploma,Self-Employed,9194.0,2,50,rent,5,0.34,cert,2265.0,0.54,0.1,186,0.87,0.19,0.18,0,0,0,3,0,0,0.021159878,0,979,Prime / Low Risk
+24,Bachelor's,Employed,7182.0,1,44,rent,7,0.67,bachelor,4263.0,0.69,0.18,121,0.67,0.43,0.66,0,0,0,2,0,1,0.8000367,1,200,High Risk / Poor
+20,Bachelor's,Employed,8660.0,3,21,none,3,0.6,bachelor,3750.0,0.57,0.11,127,0.67,0.4,0.56,0,0,0,3,1,1,0.6450203,1,355,High Risk / Poor
+24,Bachelor's,Employed,7772.0,2,55,rent,14,0.42,bachelor,2661.0,0.51,0.15,211,0.67,0.38,0.48,0,0,0,3,0,1,0.6976276,1,302,High Risk / Poor
+25,High School,Student,4024.0,2,8,owner,3,0.37,highschool,1847.0,0.73,0.13,37,0.81,0.31,0.45,0,0,0,1,0,1,0.2975849,0,702,Near-Prime / Medium Risk
+24,Bachelor's,Self-Employed,6219.0,3,13,rent,12,0.33,bachelor,1362.0,0.52,0.14,143,0.71,0.33,0.5,0,0,0,2,1,1,0.5688686,1,431,High Risk / Poor
+20,High School,Student,2832.0,1,6,rent,8,0.73,highschool,2502.0,0.51,0.19,0,0.56,0.56,0.63,0,0,0,1,2,1,0.95807636,1,42,High Risk / Poor
+25,Diploma,Employed,7757.0,2,31,none,2,0.81,cert,2159.0,0.62,0.1,224,0.78,0.31,0.5,0,0,0,2,0,0,0.46226686,0,538,High Risk / Poor
+25,Bachelor's,Employed,9190.0,3,47,rent,22,0.45,bachelor,3868.0,0.42,0.15,190,0.72,0.3,0.47,0,0,0,2,0,1,0.36968017,0,630,Sub-Prime / Fair
+23,Diploma,Student,2329.0,1,4,rent,8,0.44,cert,1115.0,0.74,0.18,28,0.56,0.49,0.78,0,0,0,3,1,1,0.9381603,1,62,High Risk / Poor
+25,Bachelor's,Student,2608.0,3,7,none,1,0.51,bachelor,1819.0,0.66,0.15,102,0.61,0.46,0.64,0,1,0,3,1,1,0.882011,1,118,High Risk / Poor
+21,Bachelor's,Student,3705.0,2,11,rent,9,0.34,bachelor,1575.0,0.67,0.04,33,0.94,0.25,0.15,0,0,0,2,0,0,0.035152234,0,965,Prime / Low Risk
+26,Master's,Employed,7502.0,1,15,rent,5,0.7,master,4058.0,0.62,0.12,139,0.72,0.4,0.45,0,0,0,3,0,1,0.47334042,0,527,High Risk / Poor
+26,Bachelor's,Employed,11780.0,3,16,owner,1,0.51,bachelor,4176.0,0.4,0.09,278,0.75,0.42,0.38,0,0,0,2,0,1,0.21967185,0,780,Prime / Low Risk
+21,Diploma,Student,2965.0,2,4,rent,17,0.3,cert,1109.0,0.65,0.07,102,0.83,0.32,0.41,0,0,0,2,2,0,0.16803429,0,832,Prime / Low Risk

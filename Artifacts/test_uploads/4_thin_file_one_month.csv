@@ -1,0 +1,6 @@
+transaction_id,user_id,date,amount,category,type,status
+TXN_0001,TEST,2024-01-01,38000.0,Salary,CREDIT,Completed
+TXN_0004,TEST,2024-01-08,7000.0,Food,DEBIT,Completed
+TXN_0005,TEST,2024-01-12,3000.0,Shopping,DEBIT,Completed
+TXN_0006,TEST,2024-01-15,2000.0,Transport,DEBIT,Completed
+TXN_0007,TEST,2024-01-27,3000.0,Savings,DEBIT,Completed

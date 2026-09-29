@@ -1,0 +1,220 @@
+ALTCREDIT - HACKATHON GIT COMMIT PLAN
+=====================================
+28 commits: 14 backend + 14 frontend, one every 20-30 minutes.
+
+HOW TO USE
+----------
+* Run from the repo root:  /Users/deepak/Desktop/AltCredit
+* The code is already written, so this is release pacing: run each block at the
+  time shown (T+ = hours:minutes after kickoff). Git stamps each commit with the
+  time you actually run it - do NOT backdate with GIT_AUTHOR_DATE.
+* Two tracks are listed. If two teammates split the work, each runs one track in
+  parallel. If one person does everything, follow the MERGED TIMELINE at the bottom.
+* The backend track and the frontend track touch different folders, so they never
+  conflict with each other. Within a track, run the commits IN ORDER: each one only
+  depends on files from earlier commits.
+* Before commit #1 of the whole session, unstage the renames/deletes that are
+  already staged in the index (this keeps every file on disk):
+
+      git reset
+
+* Sanity check before each commit (optional, 2 seconds):
+
+      git diff --cached --stat
+
+* `git add -A <path>` is used wherever a file was deleted or moved out of
+  machine_learning/, so the deletion is recorded together with the new file.
+* Never `git add .` - the repo also has unrelated untracked files in Artifacts/.
+
+
+=====================================================================
+TRACK A - BACKEND (14 commits)
+=====================================================================
+
+B1   T+0:25   Scaffold
+-----------------------
+git add backend/.gitignore backend/.env.example backend/core/__init__.py backend/core/config.py
+git add -A backend/main.py
+git commit -m "Scaffold FastAPI backend with pydantic settings and env template"
+
+B2   T+0:45   Rule engine + scoring rules move into the backend
+---------------------------------------------------------------
+git add backend/services/__init__.py backend/services/rule_engine.py backend/services/score_config.py
+git add -A machine_learning/engines/rule_engine.py machine_learning/engines/config.py
+git commit -m "Port AltCredit rule engine and score config into backend services"
+
+B3   T+1:15   Data layer
+------------------------
+git add backend/data/merged_data.json backend/services/data_parser.py
+git add -A machine_learning/data/merged_data.json
+git commit -m "Add data parser with missing-value normalisation and transaction feature derivation"
+
+B4   T+1:40   Explainability + product matching (ML scripts folded into services)
+--------------------------------------------------------------------------------
+git add backend/services/explainability.py backend/services/product_engine.py
+git add -A machine_learning/engines
+git commit -m "Add factor-analysis explanations and product matching, retire standalone ML scripts"
+
+B5   T+2:05   Database + security
+---------------------------------
+git add backend/core/database.py backend/core/security.py backend/app/__init__.py backend/app/models.py
+git commit -m "Add SQLite schema with demographic columns, auto-migration and PBKDF2 password hashing"
+
+B6   T+2:35   Scoring service + seeding
+---------------------------------------
+git add backend/services/user_service.py backend/services/seed.py
+git commit -m "Add scoring service, anonymous leads and idempotent DB seeding with demographic backfill"
+
+B7   T+2:55   What-if + target planner
+--------------------------------------
+git add backend/services/whatif_service.py backend/services/target_service.py
+git commit -m "Add what-if simulator and counterfactual target-score planner"
+
+B8   T+3:20   Reports
+---------------------
+git add backend/services/report_service.py
+git commit -m "Add PDF transparency report and JSON credit-profile export"
+
+B9   T+3:50   Auth routes + request schemas
+-------------------------------------------
+git add backend/app/schemas.py backend/app/api/__init__.py backend/app/api/dependencies.py
+git add backend/app/api/routes/__init__.py backend/app/api/routes/auth.py
+git commit -m "Add login and full-profile signup endpoints with request validation schemas"
+
+B10  T+4:15   Scoring routes
+----------------------------
+git add backend/app/api/routes/scoring.py
+git commit -m "Add scoring, profile update, statement upload, what-if, target and export endpoints"
+
+B11  T+4:35   Dashboard + products + bank hand-off
+--------------------------------------------------
+git add backend/app/api/routes/dashboard.py backend/app/api/routes/products.py
+git add backend/services/bank_client.py backend/bank_mock/__init__.py backend/bank_mock/main.py
+git commit -m "Add dashboard, product recommendations and API-key bank pre-approval hand-off"
+
+B12  T+5:05   Lender portal API
+-------------------------------
+git add backend/app/api/routes/lender.py
+git commit -m "Add anonymised lender candidate search, bulk offer push and offer tracking"
+
+B13  T+5:30   Wire it together
+------------------------------
+git add backend/app/main.py
+git commit -m "Wire routers and startup seeding into the FastAPI app"
+
+B14  T+5:55   Tests + docs
+--------------------------
+git add backend/tests backend/README.md
+git commit -m "Add ground-truth scoring, signup persistence, API flow and lender privacy tests plus README"
+
+
+=====================================================================
+TRACK B - FRONTEND (14 commits)
+=====================================================================
+
+F1   T+0:20   Scaffold
+----------------------
+git add frontend/package.json frontend/package-lock.json frontend/vite.config.js frontend/index.html frontend/.gitignore
+git add -A frontend/script.js frontend/style.css
+git commit -m "Scaffold Vite React app and remove static placeholder files"
+
+F2   T+0:45   Design system
+---------------------------
+git add frontend/src/styles.css
+git commit -m "Add ALTcredit design tokens and responsive global stylesheet"
+
+F3   T+1:10   API client
+-----------------------
+git add frontend/src/api.js
+git commit -m "Add API client with session storage and error handling"
+
+F4   T+1:40   Shared components
+-------------------------------
+git add frontend/src/components/ui.jsx
+git commit -m "Add score ring, arc gauge, progress bars, modal and data-loading hook"
+
+F5   T+2:00   Auth + layout
+---------------------------
+git add frontend/src/auth.jsx frontend/src/components/Layout.jsx
+git commit -m "Add auth context and portal layout with sidebar and mobile bottom nav"
+
+F6   T+2:25   Sign in
+---------------------
+git add frontend/src/pages/SignIn.jsx
+git commit -m "Add sign-in page with borrower and lender roles and demo login"
+
+F7   T+2:55   Dashboard
+-----------------------
+git add frontend/src/pages/Dashboard.jsx
+git commit -m "Add dashboard with score breakdown, statement upload and factor explanations"
+
+F8   T+3:20   What-if simulator
+-------------------------------
+git add frontend/src/pages/Simulator.jsx
+git commit -m "Add what-if simulator with projected score and factor contributions"
+
+F9   T+3:45   Recommendations
+-----------------------------
+git add frontend/src/pages/Recommendations.jsx
+git commit -m "Add product recommendations, lender offers and path-to-qualify modal"
+
+F10  T+4:15   Lender portal
+---------------------------
+git add frontend/src/pages/Lender.jsx
+git commit -m "Add lender portal with candidate filters, risk dossier and bulk offer campaigns"
+
+F11  T+4:40   Landing page (NEW)
+--------------------------------
+git add frontend/src/pages/Landing.jsx frontend/src/pages/landing.css
+git commit -m "Add public landing page with hero, how-it-works, score bands and lender section"
+
+F12  T+5:10   Signup page (NEW)
+-------------------------------
+git add frontend/src/pages/Signup.jsx frontend/src/pages/signup.css
+git commit -m "Add four-step signup that captures the full profile and optional statement upload"
+
+F13  T+5:30   Routing
+---------------------
+git add frontend/src/App.jsx frontend/src/main.jsx
+git commit -m "Wire landing, signup and role-guarded portal routes into the app entry point"
+
+F14  T+5:55   Docs
+------------------
+git add frontend/README.md
+git commit -m "Document frontend pages, setup and run steps"
+
+
+=====================================================================
+MERGED TIMELINE (single committer: run in this order)
+=====================================================================
+T+0:20  F1    T+0:25  B1    T+0:45  B2    T+0:45  F2
+T+1:10  F3    T+1:15  B3    T+1:40  B4    T+1:40  F4
+T+2:00  F5    T+2:05  B5    T+2:25  F6    T+2:35  B6
+T+2:55  B7    T+2:55  F7    T+3:20  B8    T+3:20  F8
+T+3:45  F9    T+3:50  B9    T+4:15  B10   T+4:15  F10
+T+4:35  B11   T+4:40  F11   T+5:05  B12   T+5:10  F12
+T+5:30  B13   T+5:30  F13   T+5:55  B14   T+5:55  F14
+
+
+=====================================================================
+AFTER THE LAST COMMIT
+=====================================================================
+git status --short          # should list only Artifacts/ files (wireframes, zip, this plan)
+git log --oneline           # 28 new commits
+git push                    # only if you want to publish
+
+NOTES
+-----
+* The signup feature has a backend half (full-profile registration, demographic
+  columns on `users`, auto-migration, seed backfill, signup test). Those edits live
+  inside files that are committed earlier (B5, B6, B9, B14), so their commit
+  messages mention them; the frontend half is F11-F13.
+* Ignored on purpose (never committed): backend/altcredit.db, backend/.venv,
+  frontend/node_modules, frontend/dist (all covered by .gitignore files).
+* Files not in any commit above (not part of the app code): everything under
+  Artifacts/ that is untracked, and machine_learning/notebooks + data/processed
+  (already tracked, unchanged).
+* Not covered by any commit (not written as part of the plan, decide yourself):
+  - backend/docs/BACKEND_GUIDE.md  -> if you want it in git, add it to B14:
+        git add backend/docs/BACKEND_GUIDE.md
+  - .claude/worktrees/llm-explainer/  -> a local Claude worktree; normally left uncommitted.

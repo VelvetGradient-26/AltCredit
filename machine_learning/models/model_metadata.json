@@ -1,0 +1,72 @@
+{
+    "dataset": "/Users/deepak/Desktop/AltCredit/machine_learning/data/processed/ml_training_dataset_model_A_realistic_balanced_5500.csv",
+    "records": 5500,
+    "features": [
+        "age",
+        "education_level",
+        "employment_status",
+        "monthly_income",
+        "city_tier",
+        "months_at_job",
+        "housing",
+        "rent_on_time_months",
+        "digital_payment_rate",
+        "education",
+        "monthly_spend",
+        "essential_pct",
+        "cashflow_volatility",
+        "savings_days",
+        "on_time_rate",
+        "dti",
+        "credit_util",
+        "delinq_90plus",
+        "delinq_60plus",
+        "delinq_30plus",
+        "positive_habits",
+        "risk_flags"
+    ],
+    "categorical_features": [
+        "education_level",
+        "employment_status",
+        "housing",
+        "education"
+    ],
+    "numerical_features": [
+        "age",
+        "monthly_income",
+        "city_tier",
+        "months_at_job",
+        "rent_on_time_months",
+        "digital_payment_rate",
+        "monthly_spend",
+        "essential_pct",
+        "cashflow_volatility",
+        "savings_days",
+        "on_time_rate",
+        "dti",
+        "credit_util",
+        "delinq_90plus",
+        "delinq_60plus",
+        "delinq_30plus",
+        "positive_habits",
+        "risk_flags"
+    ],
+    "target": "borrower_outcome",
+    "train_size": 4400,
+    "test_size": 1100,
+    "credit_score_formula": "1000 * (1 - probability_of_default)",
+    "risk_tiers": {
+        "750-1000": "Prime / Low Risk",
+        "650-749": "Near-Prime / Medium Risk",
+        "550-649": "Sub-Prime / Fair",
+        "0-549": "High Risk / Poor"
+    },
+    "excluded_features": [
+        "user_id",
+        "applicant_id",
+        "match_cost",
+        "risk_index",
+        "borrower_outcome",
+        "target_class"
+    ]
+}
